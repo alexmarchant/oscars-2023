@@ -1,11 +1,12 @@
 {
-  "name": "server",
+  "name": "@am-oscar-2023/server",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "ts-node ./src/index.ts"
   },
   "dependencies": {
+    "@am-oscar-2023/validation": "workspace:0.0.0",
     "@trpc/server": "^10.14.0",
     "@types/express": "~4.17.17",
     "cors": "~2.8.5",

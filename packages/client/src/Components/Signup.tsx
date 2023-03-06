@@ -3,8 +3,8 @@ import {
   GroupBox,
   TextInput,
   Button,
-  Anchor,
 } from 'react95'
+import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import CentererWindow from './CenteredWindow'
 
@@ -18,18 +18,28 @@ const LinkSeparator = styled.span`
   padding: 0 1em;
 `
 
-export default function Login() {
+export default function Signup() {
+  const [ username, setUsername ] = useState('')
   const [ email, setEmail ] = useState('')
   const [ password, setPassword ] = useState('')
   const [ passwordConfirmation, setPasswordConfirmation ] = useState('')
 
   return (
     <CentererWindow header="Signup">
-      <GroupBox label="Email address">
+      <GroupBox label="Email">
         <TextInput
           value={email}
           placeholder="bgates@msn.com"
           onChange={event => setEmail(event.target.value)}
+          fullWidth
+        />
+      </GroupBox>
+      <br/>
+      <GroupBox label="Username">
+        <TextInput
+          value={username}
+          placeholder="dollar_bill"
+          onChange={event => setUsername(event.target.value)}
           fullWidth
         />
       </GroupBox>
@@ -59,13 +69,13 @@ export default function Login() {
           Signup
         </Button>
         <div>
-          <Anchor href="/login">
+          <RouterAnchor to="/login">
             Login
-          </Anchor>
+          </RouterAnchor>
           <LinkSeparator>|</LinkSeparator>
-          <Anchor href="/forgot-password">
+          <RouterAnchor to="/forgot">
             Forgot password
-          </Anchor>
+          </RouterAnchor>
         </div>
       </ButtonRow>
     </CentererWindow>

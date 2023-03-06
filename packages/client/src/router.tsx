@@ -5,7 +5,8 @@ import {
 import Layout from './Components/Layout'
 import ErrorPage from './Components/ErrorPage'
 import Login from './Components/Login'
-import Signup from './Components/Login'
+import Signup from './Components/Signup'
+import ForgotPassword from './Components/ForgotPassword'
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: 'signup',
         element: <Signup />,
+      },
+      {
+        path: 'forgot',
+        element: <ForgotPassword />,
       },
     ],
   },
