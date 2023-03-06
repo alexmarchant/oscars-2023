@@ -1,0 +1,368 @@
+{
+  "categories": [
+    {
+      "name": "Best Picture",
+      "nominees": []
+    },
+    {
+      "name": "Director",
+      "nominees": []
+    },
+    {
+      "name": "Actor in a Leading Role",
+      "nominees": []
+    },
+    {
+      "name": "Actress in a Leading Role",
+      "nominees": []
+    },
+    {
+      "name": "Actor in a Supporting Role",
+      "nominees": []
+    },
+    {
+      "name": "Actress in a Supporting Role",
+      "nominees": []
+    },
+    {
+      "name": "Original Screenplay",
+      "nominees": [
+        {
+          "name": "The Banshees of Inisherin"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "The Fabelmans"
+        },
+        {
+          "name": "Tár"
+        },
+        {
+          "name": "Triangle of Sadness"
+        }
+      ]
+    },
+    {
+      "name": "Adapted Screenplay",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Glass Onion: A Knives Out Mystery"
+        },
+        {
+          "name": "Living"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        },
+        {
+          "name": "Women Talking"
+        }
+      ]
+    },
+    {
+      "name": "International Feature",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Argentina, 1985"
+        },
+        {
+          "name": "Close"
+        },
+        {
+          "name": "EO"
+        },
+        {
+          "name": "The Quiet Girl"
+        }
+      ]
+    },
+    {
+      "name": "Animated Feature",
+      "nominees": [
+        {
+          "name": "Guillermo del Toro’s Pinocchio"
+        },
+        {
+          "name": "Marcel the Shell With Shoes On"
+        },
+        {
+          "name": "Puss in Boots: The Last Wish"
+        },
+        {
+          "name": "The Sea Beast"
+        },
+        {
+          "name": "Turning Red"
+        }
+      ]
+    },
+    {
+      "name": "Sound",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Avatar: The Way of Water"
+        },
+        {
+          "name": "The Batman"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        }
+      ]
+    },
+    {
+      "name": "Visual Effects",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Avatar: The Way of Water"
+        },
+        {
+          "name": "The Batman"
+        },
+        {
+          "name": "Black Panther: Wakanda Forever"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        }
+      ]
+    },
+    {
+      "name": "Film Editing",
+      "nominees": [
+        {
+          "name": "The Banshees of Inisherin"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "Tár"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        }
+      ]
+    },
+    {
+      "name": "Short Film, Animated",
+      "nominees": [
+        {
+          "name": "The Boy, the Mole, the Fox and the Horse"
+        },
+        {
+          "name": "The Flying Sailor"
+        },
+        {
+          "name": "Ice Merchants"
+        },
+        {
+          "name": "My Year of Dicks"
+        },
+        {
+          "name": "An Ostrich Told Me the World Is Fake and I Think I Believe It"
+        }
+      ]
+    },
+    {
+      "name": "Short Film, Live Action",
+      "nominees": [
+        {
+          "name": "An Irish Goodbye"
+        },
+        {
+          "name": "Ivalu"
+        },
+        {
+          "name": "Le Pupille"
+        },
+        {
+          "name": "Night Ride"
+        },
+        {
+          "name": "The Red Suitcase"
+        }
+      ]
+    },
+    {
+      "name": "Documentary Short Subject",
+      "nominees": [
+        {
+          "name": "The Elephant Whisperers"
+        },
+        {
+          "name": "Haulout"
+        },
+        {
+          "name": "How Do You Measure a Year?"
+        },
+        {
+          "name": "The Martha Mitchell Effect"
+        },
+        {
+          "name": "Stranger at the Gate"
+        }
+      ]
+    },
+    {
+      "name": "Original Score",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Babylon"
+        },
+        {
+          "name": "The Banshees of Inisherin"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "The Fabelmans"
+        }
+      ]
+    },
+    {
+      "name": "Original Song",
+      "nominees": [
+        {
+          "name": "“Applause”"
+        },
+        {
+          "name": "“Hold My Hand”"
+        },
+        {
+          "name": "“Lift Me Up”"
+        },
+        {
+          "name": "“Naatu Naatu”"
+        },
+        {
+          "name": "“This Is a Life”"
+        }
+      ]
+    },
+    {
+      "name": "Production Design",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Avatar: The Way of Water"
+        },
+        {
+          "name": "Babylon"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "The Fabelmans"
+        }
+      ]
+    },
+    {
+      "name": "Cinematography",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Bardo, False Chronicle of a Handful of Truths"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Empire of Light"
+        },
+        {
+          "name": "Tár"
+        }
+      ]
+    },
+    {
+      "name": "Costume Design",
+      "nominees": [
+        {
+          "name": "Babylon"
+        },
+        {
+          "name": "Black Panther: Wakanda Forever"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "Mrs. Harris Goes to Paris"
+        }
+      ]
+    },
+    {
+      "name": "Makeup",
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "The Batman"
+        },
+        {
+          "name": "Black Panther: Wakanda Forever"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "The Whale"
+        }
+      ]
+    },
+    {
+      "name": "Documentary Feature",
+      "nominees": [
+        {
+          "name": "All That Breathes"
+        },
+        {
+          "name": "All the Beauty and the Bloodshed"
+        },
+        {
+          "name": "Fire of Love"
+        },
+        {
+          "name": "A House Made of Splinters"
+        },
+        {
+          "name": "Navalny"
+        }
+      ]
+    }
+  ]
+}

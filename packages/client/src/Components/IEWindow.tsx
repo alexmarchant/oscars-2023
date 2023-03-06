@@ -69,7 +69,7 @@ export default function IEWindow(props: React.PropsWithChildren<Props>) {
             &nbsp;
           </FooterFrame>
           <FooterFrame variant="well" style={{ flexGrow: 0, flexShrink: 0, width: 100 }}>
-            <Mshtml32547 variant="32x32_4" width="20" height="20" style={{ marginLeft: 7 }}/>
+            <Mshtml32547 variant="16x16_4" width="20" height="20" style={{ marginLeft: 7 }}/>
           </FooterFrame>
         </Footer>
       </StyledWindow>

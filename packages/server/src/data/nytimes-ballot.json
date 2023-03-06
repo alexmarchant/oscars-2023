@@ -1,0 +1,4959 @@
+{
+  "root": "quiz-1",
+  "entitiesById": {
+    "text-2": {
+      "id": "text-2",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-3": {
+      "id": "text-3",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-0": {
+      "id": "best-picture-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-2",
+        "text-3"
+      ]
+    },
+    "text-5": {
+      "id": "text-5",
+      "type": "text",
+      "data": {
+        "content": "Avatar: The Way of Water",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-6": {
+      "id": "text-6",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/14/movies/avatar-the-way-of-water-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-1": {
+      "id": "best-picture-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-5",
+        "text-6"
+      ]
+    },
+    "text-8": {
+      "id": "text-8",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-9": {
+      "id": "text-9",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-2": {
+      "id": "best-picture-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-8",
+        "text-9"
+      ]
+    },
+    "text-11": {
+      "id": "text-11",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-12": {
+      "id": "text-12",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-3": {
+      "id": "best-picture-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-11",
+        "text-12"
+      ]
+    },
+    "text-14": {
+      "id": "text-14",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-15": {
+      "id": "text-15",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-4": {
+      "id": "best-picture-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-14",
+        "text-15"
+      ]
+    },
+    "text-17": {
+      "id": "text-17",
+      "type": "text",
+      "data": {
+        "content": "The Fabelmans",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-18": {
+      "id": "text-18",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/10/movies/the-fabelmans-review-spielberg.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-5": {
+      "id": "best-picture-5",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-17",
+        "text-18"
+      ]
+    },
+    "text-20": {
+      "id": "text-20",
+      "type": "text",
+      "data": {
+        "content": "Tár",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-21": {
+      "id": "text-21",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/tar-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-6": {
+      "id": "best-picture-6",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-20",
+        "text-21"
+      ]
+    },
+    "text-23": {
+      "id": "text-23",
+      "type": "text",
+      "data": {
+        "content": "Top Gun: Maverick",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-24": {
+      "id": "text-24",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/05/26/movies/top-gun-maverick-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-7": {
+      "id": "best-picture-7",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-23",
+        "text-24"
+      ]
+    },
+    "text-26": {
+      "id": "text-26",
+      "type": "text",
+      "data": {
+        "content": "Triangle of Sadness",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-27": {
+      "id": "text-27",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/triangle-of-sadness-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-8": {
+      "id": "best-picture-8",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-26",
+        "text-27"
+      ]
+    },
+    "text-29": {
+      "id": "text-29",
+      "type": "text",
+      "data": {
+        "content": "Women Talking",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-30": {
+      "id": "text-30",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/22/movies/women-talking-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "best-picture-9": {
+      "id": "best-picture-9",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-29",
+        "text-30"
+      ]
+    },
+    "image-32": {
+      "id": "image-32",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748406",
+        "crop": "master495",
+        "nomineeId": "best-picture-0"
+      },
+      "entities": []
+    },
+    "image-33": {
+      "id": "image-33",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748402",
+        "crop": "master495",
+        "nomineeId": "best-picture-1"
+      },
+      "entities": []
+    },
+    "image-34": {
+      "id": "image-34",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748424",
+        "crop": "master495",
+        "nomineeId": "best-picture-2"
+      },
+      "entities": []
+    },
+    "image-35": {
+      "id": "image-35",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748401",
+        "crop": "master495",
+        "nomineeId": "best-picture-3"
+      },
+      "entities": []
+    },
+    "image-36": {
+      "id": "image-36",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748404",
+        "crop": "master495",
+        "nomineeId": "best-picture-4"
+      },
+      "entities": []
+    },
+    "image-37": {
+      "id": "image-37",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748403",
+        "crop": "master495",
+        "nomineeId": "best-picture-5"
+      },
+      "entities": []
+    },
+    "image-38": {
+      "id": "image-38",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748441",
+        "crop": "master495",
+        "nomineeId": "best-picture-6"
+      },
+      "entities": []
+    },
+    "image-39": {
+      "id": "image-39",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748408",
+        "crop": "master495",
+        "nomineeId": "best-picture-7"
+      },
+      "entities": []
+    },
+    "image-40": {
+      "id": "image-40",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748407",
+        "crop": "master495",
+        "nomineeId": "best-picture-8"
+      },
+      "entities": []
+    },
+    "image-41": {
+      "id": "image-41",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008748400",
+        "crop": "master495",
+        "nomineeId": "best-picture-9"
+      },
+      "entities": []
+    },
+    "image_rotator-42": {
+      "id": "image_rotator-42",
+      "type": "image_rotator",
+      "data": {
+        "className": "category-images"
+      },
+      "entities": [
+        "image-32",
+        "image-33",
+        "image-34",
+        "image-35",
+        "image-36",
+        "image-37",
+        "image-38",
+        "image-39",
+        "image-40",
+        "image-41"
+      ]
+    },
+    "stats-43": {
+      "id": "stats-43",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-44": {
+      "id": "text-44",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Best Picture"
+      },
+      "entities": []
+    },
+    "best-picture": {
+      "id": "best-picture",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "best-picture-0",
+        "best-picture-1",
+        "best-picture-2",
+        "best-picture-3",
+        "best-picture-4",
+        "best-picture-5",
+        "best-picture-6",
+        "best-picture-7",
+        "best-picture-8",
+        "best-picture-9",
+        "stats-43"
+      ]
+    },
+    "category-46": {
+      "id": "category-46",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-0"
+      },
+      "entities": [
+        "text-44",
+        "image_rotator-42",
+        "best-picture"
+      ]
+    },
+    "text-47": {
+      "id": "text-47",
+      "type": "text",
+      "data": {
+        "content": "Martin McDonagh",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-48": {
+      "id": "text-48",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-49": {
+      "id": "text-49",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "director-0": {
+      "id": "director-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-47",
+        "text-48",
+        "text-49"
+      ]
+    },
+    "text-51": {
+      "id": "text-51",
+      "type": "text",
+      "data": {
+        "content": "Daniel Kwan and Daniel Scheinert",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-52": {
+      "id": "text-52",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-53": {
+      "id": "text-53",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "director-1": {
+      "id": "director-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-51",
+        "text-52",
+        "text-53"
+      ]
+    },
+    "text-55": {
+      "id": "text-55",
+      "type": "text",
+      "data": {
+        "content": "Steven Spielberg",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-56": {
+      "id": "text-56",
+      "type": "text",
+      "data": {
+        "content": "The Fabelmans",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-57": {
+      "id": "text-57",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/10/movies/the-fabelmans-review-spielberg.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "director-2": {
+      "id": "director-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-55",
+        "text-56",
+        "text-57"
+      ]
+    },
+    "text-59": {
+      "id": "text-59",
+      "type": "text",
+      "data": {
+        "content": "Todd Field",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-60": {
+      "id": "text-60",
+      "type": "text",
+      "data": {
+        "content": "Tár",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-61": {
+      "id": "text-61",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/tar-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "director-3": {
+      "id": "director-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-59",
+        "text-60",
+        "text-61"
+      ]
+    },
+    "text-63": {
+      "id": "text-63",
+      "type": "text",
+      "data": {
+        "content": "Ruben Ostlund",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-64": {
+      "id": "text-64",
+      "type": "text",
+      "data": {
+        "content": "Triangle of Sadness",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-65": {
+      "id": "text-65",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/triangle-of-sadness-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "director-4": {
+      "id": "director-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-63",
+        "text-64",
+        "text-65"
+      ]
+    },
+    "image-67": {
+      "id": "image-67",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008749407",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "director-0"
+      },
+      "entities": []
+    },
+    "image-68": {
+      "id": "image-68",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008749403",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "director-1"
+      },
+      "entities": []
+    },
+    "image-69": {
+      "id": "image-69",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008749406",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "director-2"
+      },
+      "entities": []
+    },
+    "image-70": {
+      "id": "image-70",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008749404",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "director-3"
+      },
+      "entities": []
+    },
+    "image-71": {
+      "id": "image-71",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008749405",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "director-4"
+      },
+      "entities": []
+    },
+    "image_rotator-72": {
+      "id": "image_rotator-72",
+      "type": "image_rotator",
+      "data": {
+        "className": "category-images"
+      },
+      "entities": [
+        "image-67",
+        "image-68",
+        "image-69",
+        "image-70",
+        "image-71"
+      ]
+    },
+    "stats-73": {
+      "id": "stats-73",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-74": {
+      "id": "text-74",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Director"
+      },
+      "entities": []
+    },
+    "director": {
+      "id": "director",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "director-0",
+        "director-1",
+        "director-2",
+        "director-3",
+        "director-4",
+        "stats-73"
+      ]
+    },
+    "category-76": {
+      "id": "category-76",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-1"
+      },
+      "entities": [
+        "text-74",
+        "image_rotator-72",
+        "director"
+      ]
+    },
+    "text-77": {
+      "id": "text-77",
+      "type": "text",
+      "data": {
+        "content": "Austin Butler",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-78": {
+      "id": "text-78",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-79": {
+      "id": "text-79",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-leading-role-0": {
+      "id": "actor-in-a-leading-role-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-77",
+        "text-78",
+        "text-79"
+      ]
+    },
+    "text-81": {
+      "id": "text-81",
+      "type": "text",
+      "data": {
+        "content": "Colin Farrell",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-82": {
+      "id": "text-82",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-83": {
+      "id": "text-83",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-leading-role-1": {
+      "id": "actor-in-a-leading-role-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-81",
+        "text-82",
+        "text-83"
+      ]
+    },
+    "text-85": {
+      "id": "text-85",
+      "type": "text",
+      "data": {
+        "content": "Brendan Fraser",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-86": {
+      "id": "text-86",
+      "type": "text",
+      "data": {
+        "content": "The Whale",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-87": {
+      "id": "text-87",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/07/movies/the-whale-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-leading-role-2": {
+      "id": "actor-in-a-leading-role-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-85",
+        "text-86",
+        "text-87"
+      ]
+    },
+    "text-89": {
+      "id": "text-89",
+      "type": "text",
+      "data": {
+        "content": "Paul Mescal",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-90": {
+      "id": "text-90",
+      "type": "text",
+      "data": {
+        "content": "Aftersun",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-91": {
+      "id": "text-91",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/aftersun-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-leading-role-3": {
+      "id": "actor-in-a-leading-role-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-89",
+        "text-90",
+        "text-91"
+      ]
+    },
+    "text-93": {
+      "id": "text-93",
+      "type": "text",
+      "data": {
+        "content": "Bill Nighy",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-94": {
+      "id": "text-94",
+      "type": "text",
+      "data": {
+        "content": "Living",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-95": {
+      "id": "text-95",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/22/movies/living-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-leading-role-4": {
+      "id": "actor-in-a-leading-role-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-93",
+        "text-94",
+        "text-95"
+      ]
+    },
+    "image-97": {
+      "id": "image-97",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745426",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-leading-role-0"
+      },
+      "entities": []
+    },
+    "image-98": {
+      "id": "image-98",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745425",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-leading-role-1"
+      },
+      "entities": []
+    },
+    "image-99": {
+      "id": "image-99",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745429",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-leading-role-2"
+      },
+      "entities": []
+    },
+    "image-100": {
+      "id": "image-100",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745430",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-leading-role-3"
+      },
+      "entities": []
+    },
+    "image-101": {
+      "id": "image-101",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745423",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-leading-role-4"
+      },
+      "entities": []
+    },
+    "image_rotator-102": {
+      "id": "image_rotator-102",
+      "type": "image_rotator",
+      "data": {
+        "className": "category-images"
+      },
+      "entities": [
+        "image-97",
+        "image-98",
+        "image-99",
+        "image-100",
+        "image-101"
+      ]
+    },
+    "stats-103": {
+      "id": "stats-103",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-104": {
+      "id": "text-104",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Actor in a Leading Role"
+      },
+      "entities": []
+    },
+    "actor-in-a-leading-role": {
+      "id": "actor-in-a-leading-role",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "actor-in-a-leading-role-0",
+        "actor-in-a-leading-role-1",
+        "actor-in-a-leading-role-2",
+        "actor-in-a-leading-role-3",
+        "actor-in-a-leading-role-4",
+        "stats-103"
+      ]
+    },
+    "category-106": {
+      "id": "category-106",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-2"
+      },
+      "entities": [
+        "text-104",
+        "image_rotator-102",
+        "actor-in-a-leading-role"
+      ]
+    },
+    "text-107": {
+      "id": "text-107",
+      "type": "text",
+      "data": {
+        "content": "Cate Blanchett",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-108": {
+      "id": "text-108",
+      "type": "text",
+      "data": {
+        "content": "Tár",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-109": {
+      "id": "text-109",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/tar-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-leading-role-0": {
+      "id": "actress-in-a-leading-role-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-107",
+        "text-108",
+        "text-109"
+      ]
+    },
+    "text-111": {
+      "id": "text-111",
+      "type": "text",
+      "data": {
+        "content": "Ana de Armas",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-112": {
+      "id": "text-112",
+      "type": "text",
+      "data": {
+        "content": "Blonde",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-113": {
+      "id": "text-113",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/09/28/movies/blonde-review-marilyn-monroe.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-leading-role-1": {
+      "id": "actress-in-a-leading-role-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-111",
+        "text-112",
+        "text-113"
+      ]
+    },
+    "text-115": {
+      "id": "text-115",
+      "type": "text",
+      "data": {
+        "content": "Andrea Riseborough",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-116": {
+      "id": "text-116",
+      "type": "text",
+      "data": {
+        "content": "To Leslie",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-117": {
+      "id": "text-117",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/review-to-leslie.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-leading-role-2": {
+      "id": "actress-in-a-leading-role-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-115",
+        "text-116",
+        "text-117"
+      ]
+    },
+    "text-119": {
+      "id": "text-119",
+      "type": "text",
+      "data": {
+        "content": "Michelle Williams",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-120": {
+      "id": "text-120",
+      "type": "text",
+      "data": {
+        "content": "The Fabelmans",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-121": {
+      "id": "text-121",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/10/movies/the-fabelmans-review-spielberg.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-leading-role-3": {
+      "id": "actress-in-a-leading-role-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-119",
+        "text-120",
+        "text-121"
+      ]
+    },
+    "text-123": {
+      "id": "text-123",
+      "type": "text",
+      "data": {
+        "content": "Michelle Yeoh",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-124": {
+      "id": "text-124",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-125": {
+      "id": "text-125",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-leading-role-4": {
+      "id": "actress-in-a-leading-role-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-123",
+        "text-124",
+        "text-125"
+      ]
+    },
+    "image-127": {
+      "id": "image-127",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745392",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-leading-role-0"
+      },
+      "entities": []
+    },
+    "image-128": {
+      "id": "image-128",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745391",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-leading-role-1"
+      },
+      "entities": []
+    },
+    "image-129": {
+      "id": "image-129",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745393",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-leading-role-2"
+      },
+      "entities": []
+    },
+    "image-130": {
+      "id": "image-130",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745395",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-leading-role-3"
+      },
+      "entities": []
+    },
+    "image-131": {
+      "id": "image-131",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745396",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-leading-role-4"
+      },
+      "entities": []
+    },
+    "image_rotator-132": {
+      "id": "image_rotator-132",
+      "type": "image_rotator",
+      "data": {
+        "className": "category-images"
+      },
+      "entities": [
+        "image-127",
+        "image-128",
+        "image-129",
+        "image-130",
+        "image-131"
+      ]
+    },
+    "stats-133": {
+      "id": "stats-133",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-134": {
+      "id": "text-134",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Actress in a Leading Role"
+      },
+      "entities": []
+    },
+    "actress-in-a-leading-role": {
+      "id": "actress-in-a-leading-role",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "actress-in-a-leading-role-0",
+        "actress-in-a-leading-role-1",
+        "actress-in-a-leading-role-2",
+        "actress-in-a-leading-role-3",
+        "actress-in-a-leading-role-4",
+        "stats-133"
+      ]
+    },
+    "category-136": {
+      "id": "category-136",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-3"
+      },
+      "entities": [
+        "text-134",
+        "image_rotator-132",
+        "actress-in-a-leading-role"
+      ]
+    },
+    "text-137": {
+      "id": "text-137",
+      "type": "text",
+      "data": {
+        "content": "Brendan Gleeson",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-138": {
+      "id": "text-138",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-139": {
+      "id": "text-139",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-supporting-role-0": {
+      "id": "actor-in-a-supporting-role-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-137",
+        "text-138",
+        "text-139"
+      ]
+    },
+    "text-141": {
+      "id": "text-141",
+      "type": "text",
+      "data": {
+        "content": "Brian Tyree Henry",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-142": {
+      "id": "text-142",
+      "type": "text",
+      "data": {
+        "content": "Causeway",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-143": {
+      "id": "text-143",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/03/movies/causeway-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-supporting-role-1": {
+      "id": "actor-in-a-supporting-role-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-141",
+        "text-142",
+        "text-143"
+      ]
+    },
+    "text-145": {
+      "id": "text-145",
+      "type": "text",
+      "data": {
+        "content": "Judd Hirsch",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-146": {
+      "id": "text-146",
+      "type": "text",
+      "data": {
+        "content": "The Fabelmans",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-147": {
+      "id": "text-147",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/10/movies/the-fabelmans-review-spielberg.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-supporting-role-2": {
+      "id": "actor-in-a-supporting-role-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-145",
+        "text-146",
+        "text-147"
+      ]
+    },
+    "text-149": {
+      "id": "text-149",
+      "type": "text",
+      "data": {
+        "content": "Barry Keoghan",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-150": {
+      "id": "text-150",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-151": {
+      "id": "text-151",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-supporting-role-3": {
+      "id": "actor-in-a-supporting-role-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-149",
+        "text-150",
+        "text-151"
+      ]
+    },
+    "text-153": {
+      "id": "text-153",
+      "type": "text",
+      "data": {
+        "content": "Ke Huy Quan",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-154": {
+      "id": "text-154",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-155": {
+      "id": "text-155",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actor-in-a-supporting-role-4": {
+      "id": "actor-in-a-supporting-role-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-153",
+        "text-154",
+        "text-155"
+      ]
+    },
+    "image-157": {
+      "id": "image-157",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745319",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-supporting-role-0"
+      },
+      "entities": []
+    },
+    "image-158": {
+      "id": "image-158",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008749376",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-supporting-role-1"
+      },
+      "entities": []
+    },
+    "image-159": {
+      "id": "image-159",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745321",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-supporting-role-2"
+      },
+      "entities": []
+    },
+    "image-160": {
+      "id": "image-160",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008754691",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-supporting-role-3"
+      },
+      "entities": []
+    },
+    "image-161": {
+      "id": "image-161",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745323",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actor-in-a-supporting-role-4"
+      },
+      "entities": []
+    },
+    "image_rotator-162": {
+      "id": "image_rotator-162",
+      "type": "image_rotator",
+      "data": {
+        "className": "category-images"
+      },
+      "entities": [
+        "image-157",
+        "image-158",
+        "image-159",
+        "image-160",
+        "image-161"
+      ]
+    },
+    "stats-163": {
+      "id": "stats-163",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-164": {
+      "id": "text-164",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Actor in a Supporting Role"
+      },
+      "entities": []
+    },
+    "actor-in-a-supporting-role": {
+      "id": "actor-in-a-supporting-role",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "actor-in-a-supporting-role-0",
+        "actor-in-a-supporting-role-1",
+        "actor-in-a-supporting-role-2",
+        "actor-in-a-supporting-role-3",
+        "actor-in-a-supporting-role-4",
+        "stats-163"
+      ]
+    },
+    "category-166": {
+      "id": "category-166",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-4"
+      },
+      "entities": [
+        "text-164",
+        "image_rotator-162",
+        "actor-in-a-supporting-role"
+      ]
+    },
+    "text-167": {
+      "id": "text-167",
+      "type": "text",
+      "data": {
+        "content": "Angela Bassett",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-168": {
+      "id": "text-168",
+      "type": "text",
+      "data": {
+        "content": "Black Panther: Wakanda Forever",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-169": {
+      "id": "text-169",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/09/movies/black-panther-wakanda-forever-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-supporting-role-0": {
+      "id": "actress-in-a-supporting-role-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-167",
+        "text-168",
+        "text-169"
+      ]
+    },
+    "text-171": {
+      "id": "text-171",
+      "type": "text",
+      "data": {
+        "content": "Hong Chau",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-172": {
+      "id": "text-172",
+      "type": "text",
+      "data": {
+        "content": "The Whale",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-173": {
+      "id": "text-173",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/07/movies/the-whale-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-supporting-role-1": {
+      "id": "actress-in-a-supporting-role-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-171",
+        "text-172",
+        "text-173"
+      ]
+    },
+    "text-175": {
+      "id": "text-175",
+      "type": "text",
+      "data": {
+        "content": "Kerry Condon",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-176": {
+      "id": "text-176",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-177": {
+      "id": "text-177",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-supporting-role-2": {
+      "id": "actress-in-a-supporting-role-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-175",
+        "text-176",
+        "text-177"
+      ]
+    },
+    "text-179": {
+      "id": "text-179",
+      "type": "text",
+      "data": {
+        "content": "Jamie Lee Curtis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-180": {
+      "id": "text-180",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-181": {
+      "id": "text-181",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-supporting-role-3": {
+      "id": "actress-in-a-supporting-role-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-179",
+        "text-180",
+        "text-181"
+      ]
+    },
+    "text-183": {
+      "id": "text-183",
+      "type": "text",
+      "data": {
+        "content": "Stephanie Hsu",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-184": {
+      "id": "text-184",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-185": {
+      "id": "text-185",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "actress-in-a-supporting-role-4": {
+      "id": "actress-in-a-supporting-role-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-183",
+        "text-184",
+        "text-185"
+      ]
+    },
+    "image-187": {
+      "id": "image-187",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745311",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-supporting-role-0"
+      },
+      "entities": []
+    },
+    "image-188": {
+      "id": "image-188",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745306",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-supporting-role-1"
+      },
+      "entities": []
+    },
+    "image-189": {
+      "id": "image-189",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745310",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-supporting-role-2"
+      },
+      "entities": []
+    },
+    "image-190": {
+      "id": "image-190",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745307",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-supporting-role-3"
+      },
+      "entities": []
+    },
+    "image-191": {
+      "id": "image-191",
+      "type": "image",
+      "data": {
+        "scoop_id": "100000008745308",
+        "crop": "verticalTwoByThree735",
+        "nomineeId": "actress-in-a-supporting-role-4"
+      },
+      "entities": []
+    },
+    "image_rotator-192": {
+      "id": "image_rotator-192",
+      "type": "image_rotator",
+      "data": {
+        "className": "category-images"
+      },
+      "entities": [
+        "image-187",
+        "image-188",
+        "image-189",
+        "image-190",
+        "image-191"
+      ]
+    },
+    "stats-193": {
+      "id": "stats-193",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-194": {
+      "id": "text-194",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Actress in a Supporting Role"
+      },
+      "entities": []
+    },
+    "actress-in-a-supporting-role": {
+      "id": "actress-in-a-supporting-role",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "actress-in-a-supporting-role-0",
+        "actress-in-a-supporting-role-1",
+        "actress-in-a-supporting-role-2",
+        "actress-in-a-supporting-role-3",
+        "actress-in-a-supporting-role-4",
+        "stats-193"
+      ]
+    },
+    "category-196": {
+      "id": "category-196",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-5"
+      },
+      "entities": [
+        "text-194",
+        "image_rotator-192",
+        "actress-in-a-supporting-role"
+      ]
+    },
+    "text-197": {
+      "id": "text-197",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-198": {
+      "id": "text-198",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-screenplay-0": {
+      "id": "original-screenplay-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-197",
+        "text-198"
+      ]
+    },
+    "text-200": {
+      "id": "text-200",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-201": {
+      "id": "text-201",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-screenplay-1": {
+      "id": "original-screenplay-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-200",
+        "text-201"
+      ]
+    },
+    "text-203": {
+      "id": "text-203",
+      "type": "text",
+      "data": {
+        "content": "The Fabelmans",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-204": {
+      "id": "text-204",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/10/movies/the-fabelmans-review-spielberg.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-screenplay-2": {
+      "id": "original-screenplay-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-203",
+        "text-204"
+      ]
+    },
+    "text-206": {
+      "id": "text-206",
+      "type": "text",
+      "data": {
+        "content": "Tár",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-207": {
+      "id": "text-207",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/tar-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-screenplay-3": {
+      "id": "original-screenplay-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-206",
+        "text-207"
+      ]
+    },
+    "text-209": {
+      "id": "text-209",
+      "type": "text",
+      "data": {
+        "content": "Triangle of Sadness",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-210": {
+      "id": "text-210",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/triangle-of-sadness-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-screenplay-4": {
+      "id": "original-screenplay-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-209",
+        "text-210"
+      ]
+    },
+    "stats-212": {
+      "id": "stats-212",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-213": {
+      "id": "text-213",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Original Screenplay"
+      },
+      "entities": []
+    },
+    "original-screenplay": {
+      "id": "original-screenplay",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "original-screenplay-0",
+        "original-screenplay-1",
+        "original-screenplay-2",
+        "original-screenplay-3",
+        "original-screenplay-4",
+        "stats-212"
+      ]
+    },
+    "category-215": {
+      "id": "category-215",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-6"
+      },
+      "entities": [
+        "text-213",
+        "original-screenplay"
+      ]
+    },
+    "text-216": {
+      "id": "text-216",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-217": {
+      "id": "text-217",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "adapted-screenplay-0": {
+      "id": "adapted-screenplay-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-216",
+        "text-217"
+      ]
+    },
+    "text-219": {
+      "id": "text-219",
+      "type": "text",
+      "data": {
+        "content": "Glass Onion: A Knives Out Mystery",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-220": {
+      "id": "text-220",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/21/movies/glass-onion-a-knives-out-mystery-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "adapted-screenplay-1": {
+      "id": "adapted-screenplay-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-219",
+        "text-220"
+      ]
+    },
+    "text-222": {
+      "id": "text-222",
+      "type": "text",
+      "data": {
+        "content": "Living",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-223": {
+      "id": "text-223",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/22/movies/living-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "adapted-screenplay-2": {
+      "id": "adapted-screenplay-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-222",
+        "text-223"
+      ]
+    },
+    "text-225": {
+      "id": "text-225",
+      "type": "text",
+      "data": {
+        "content": "Top Gun: Maverick",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-226": {
+      "id": "text-226",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/05/26/movies/top-gun-maverick-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "adapted-screenplay-3": {
+      "id": "adapted-screenplay-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-225",
+        "text-226"
+      ]
+    },
+    "text-228": {
+      "id": "text-228",
+      "type": "text",
+      "data": {
+        "content": "Women Talking",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-229": {
+      "id": "text-229",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/22/movies/women-talking-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "adapted-screenplay-4": {
+      "id": "adapted-screenplay-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-228",
+        "text-229"
+      ]
+    },
+    "stats-231": {
+      "id": "stats-231",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-232": {
+      "id": "text-232",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Adapted Screenplay"
+      },
+      "entities": []
+    },
+    "adapted-screenplay": {
+      "id": "adapted-screenplay",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "adapted-screenplay-0",
+        "adapted-screenplay-1",
+        "adapted-screenplay-2",
+        "adapted-screenplay-3",
+        "adapted-screenplay-4",
+        "stats-231"
+      ]
+    },
+    "category-234": {
+      "id": "category-234",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-7"
+      },
+      "entities": [
+        "text-232",
+        "adapted-screenplay"
+      ]
+    },
+    "text-235": {
+      "id": "text-235",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-236": {
+      "id": "text-236",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "international-feature-0": {
+      "id": "international-feature-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-235",
+        "text-236"
+      ]
+    },
+    "text-238": {
+      "id": "text-238",
+      "type": "text",
+      "data": {
+        "content": "Argentina, 1985",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-239": {
+      "id": "text-239",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/09/29/movies/argentina-1985-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "international-feature-1": {
+      "id": "international-feature-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-238",
+        "text-239"
+      ]
+    },
+    "text-241": {
+      "id": "text-241",
+      "type": "text",
+      "data": {
+        "content": "Close",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-242": {
+      "id": "text-242",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2023/01/26/movies/close-review-lukas-dhont.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "international-feature-2": {
+      "id": "international-feature-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-241",
+        "text-242"
+      ]
+    },
+    "text-244": {
+      "id": "text-244",
+      "type": "text",
+      "data": {
+        "content": "EO",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-245": {
+      "id": "text-245",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/17/movies/eo-review-donkey.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "international-feature-3": {
+      "id": "international-feature-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-244",
+        "text-245"
+      ]
+    },
+    "text-247": {
+      "id": "text-247",
+      "type": "text",
+      "data": {
+        "content": "The Quiet Girl",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-248": {
+      "id": "text-248",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/15/movies/the-quiet-girl-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "international-feature-4": {
+      "id": "international-feature-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-247",
+        "text-248"
+      ]
+    },
+    "stats-250": {
+      "id": "stats-250",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-251": {
+      "id": "text-251",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "International Feature"
+      },
+      "entities": []
+    },
+    "international-feature": {
+      "id": "international-feature",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "international-feature-0",
+        "international-feature-1",
+        "international-feature-2",
+        "international-feature-3",
+        "international-feature-4",
+        "stats-250"
+      ]
+    },
+    "category-253": {
+      "id": "category-253",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-8"
+      },
+      "entities": [
+        "text-251",
+        "international-feature"
+      ]
+    },
+    "text-254": {
+      "id": "text-254",
+      "type": "text",
+      "data": {
+        "content": "Guillermo del Toro’s Pinocchio",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-255": {
+      "id": "text-255",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/07/movies/guillermo-del-toros-pinocchio-review-puppets-and-power.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "animated-feature-0": {
+      "id": "animated-feature-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-254",
+        "text-255"
+      ]
+    },
+    "text-257": {
+      "id": "text-257",
+      "type": "text",
+      "data": {
+        "content": "Marcel the Shell With Shoes On",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-258": {
+      "id": "text-258",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/marcel-the-shell-with-shoes-on-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "animated-feature-1": {
+      "id": "animated-feature-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-257",
+        "text-258"
+      ]
+    },
+    "text-260": {
+      "id": "text-260",
+      "type": "text",
+      "data": {
+        "content": "Puss in Boots: The Last Wish",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-261": {
+      "id": "text-261",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/19/movies/puss-in-boots-the-last-wish.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "animated-feature-2": {
+      "id": "animated-feature-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-260",
+        "text-261"
+      ]
+    },
+    "text-263": {
+      "id": "text-263",
+      "type": "text",
+      "data": {
+        "content": "The Sea Beast",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-264": {
+      "id": "text-264",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/07/07/movies/the-sea-beast-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "animated-feature-3": {
+      "id": "animated-feature-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-263",
+        "text-264"
+      ]
+    },
+    "text-266": {
+      "id": "text-266",
+      "type": "text",
+      "data": {
+        "content": "Turning Red",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-267": {
+      "id": "text-267",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/10/movies/turning-red-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "animated-feature-4": {
+      "id": "animated-feature-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-266",
+        "text-267"
+      ]
+    },
+    "stats-269": {
+      "id": "stats-269",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-270": {
+      "id": "text-270",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Animated Feature"
+      },
+      "entities": []
+    },
+    "animated-feature": {
+      "id": "animated-feature",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "animated-feature-0",
+        "animated-feature-1",
+        "animated-feature-2",
+        "animated-feature-3",
+        "animated-feature-4",
+        "stats-269"
+      ]
+    },
+    "category-272": {
+      "id": "category-272",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-9"
+      },
+      "entities": [
+        "text-270",
+        "animated-feature"
+      ]
+    },
+    "text-273": {
+      "id": "text-273",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-274": {
+      "id": "text-274",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "sound-0": {
+      "id": "sound-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-273",
+        "text-274"
+      ]
+    },
+    "text-276": {
+      "id": "text-276",
+      "type": "text",
+      "data": {
+        "content": "Avatar: The Way of Water",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-277": {
+      "id": "text-277",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/14/movies/avatar-the-way-of-water-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "sound-1": {
+      "id": "sound-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-276",
+        "text-277"
+      ]
+    },
+    "text-279": {
+      "id": "text-279",
+      "type": "text",
+      "data": {
+        "content": "The Batman",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-280": {
+      "id": "text-280",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/01/movies/the-batman-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "sound-2": {
+      "id": "sound-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-279",
+        "text-280"
+      ]
+    },
+    "text-282": {
+      "id": "text-282",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-283": {
+      "id": "text-283",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "sound-3": {
+      "id": "sound-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-282",
+        "text-283"
+      ]
+    },
+    "text-285": {
+      "id": "text-285",
+      "type": "text",
+      "data": {
+        "content": "Top Gun: Maverick",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-286": {
+      "id": "text-286",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/05/26/movies/top-gun-maverick-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "sound-4": {
+      "id": "sound-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-285",
+        "text-286"
+      ]
+    },
+    "stats-288": {
+      "id": "stats-288",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-289": {
+      "id": "text-289",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Sound"
+      },
+      "entities": []
+    },
+    "sound": {
+      "id": "sound",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "sound-0",
+        "sound-1",
+        "sound-2",
+        "sound-3",
+        "sound-4",
+        "stats-288"
+      ]
+    },
+    "category-291": {
+      "id": "category-291",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-10"
+      },
+      "entities": [
+        "text-289",
+        "sound"
+      ]
+    },
+    "text-292": {
+      "id": "text-292",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-293": {
+      "id": "text-293",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "visual-effects-0": {
+      "id": "visual-effects-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-292",
+        "text-293"
+      ]
+    },
+    "text-295": {
+      "id": "text-295",
+      "type": "text",
+      "data": {
+        "content": "Avatar: The Way of Water",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-296": {
+      "id": "text-296",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/14/movies/avatar-the-way-of-water-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "visual-effects-1": {
+      "id": "visual-effects-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-295",
+        "text-296"
+      ]
+    },
+    "text-298": {
+      "id": "text-298",
+      "type": "text",
+      "data": {
+        "content": "The Batman",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-299": {
+      "id": "text-299",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/01/movies/the-batman-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "visual-effects-2": {
+      "id": "visual-effects-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-298",
+        "text-299"
+      ]
+    },
+    "text-301": {
+      "id": "text-301",
+      "type": "text",
+      "data": {
+        "content": "Black Panther: Wakanda Forever",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-302": {
+      "id": "text-302",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/09/movies/black-panther-wakanda-forever-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "visual-effects-3": {
+      "id": "visual-effects-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-301",
+        "text-302"
+      ]
+    },
+    "text-304": {
+      "id": "text-304",
+      "type": "text",
+      "data": {
+        "content": "Top Gun: Maverick",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-305": {
+      "id": "text-305",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/05/26/movies/top-gun-maverick-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "visual-effects-4": {
+      "id": "visual-effects-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-304",
+        "text-305"
+      ]
+    },
+    "stats-307": {
+      "id": "stats-307",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-308": {
+      "id": "text-308",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Visual Effects"
+      },
+      "entities": []
+    },
+    "visual-effects": {
+      "id": "visual-effects",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "visual-effects-0",
+        "visual-effects-1",
+        "visual-effects-2",
+        "visual-effects-3",
+        "visual-effects-4",
+        "stats-307"
+      ]
+    },
+    "category-310": {
+      "id": "category-310",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-11"
+      },
+      "entities": [
+        "text-308",
+        "visual-effects"
+      ]
+    },
+    "text-311": {
+      "id": "text-311",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-312": {
+      "id": "text-312",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "film-editing-0": {
+      "id": "film-editing-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-311",
+        "text-312"
+      ]
+    },
+    "text-314": {
+      "id": "text-314",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-315": {
+      "id": "text-315",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "film-editing-1": {
+      "id": "film-editing-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-314",
+        "text-315"
+      ]
+    },
+    "text-317": {
+      "id": "text-317",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-318": {
+      "id": "text-318",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "film-editing-2": {
+      "id": "film-editing-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-317",
+        "text-318"
+      ]
+    },
+    "text-320": {
+      "id": "text-320",
+      "type": "text",
+      "data": {
+        "content": "Tár",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-321": {
+      "id": "text-321",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/tar-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "film-editing-3": {
+      "id": "film-editing-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-320",
+        "text-321"
+      ]
+    },
+    "text-323": {
+      "id": "text-323",
+      "type": "text",
+      "data": {
+        "content": "Top Gun: Maverick",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-324": {
+      "id": "text-324",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/05/26/movies/top-gun-maverick-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "film-editing-4": {
+      "id": "film-editing-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-323",
+        "text-324"
+      ]
+    },
+    "stats-326": {
+      "id": "stats-326",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-327": {
+      "id": "text-327",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Film Editing"
+      },
+      "entities": []
+    },
+    "film-editing": {
+      "id": "film-editing",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "film-editing-0",
+        "film-editing-1",
+        "film-editing-2",
+        "film-editing-3",
+        "film-editing-4",
+        "stats-326"
+      ]
+    },
+    "category-329": {
+      "id": "category-329",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-12"
+      },
+      "entities": [
+        "text-327",
+        "film-editing"
+      ]
+    },
+    "text-330": {
+      "id": "text-330",
+      "type": "text",
+      "data": {
+        "content": "The Boy, the Mole, the Fox and the Horse",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-animated-0": {
+      "id": "short-film-animated-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-330"
+      ]
+    },
+    "text-332": {
+      "id": "text-332",
+      "type": "text",
+      "data": {
+        "content": "The Flying Sailor",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-animated-1": {
+      "id": "short-film-animated-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-332"
+      ]
+    },
+    "text-334": {
+      "id": "text-334",
+      "type": "text",
+      "data": {
+        "content": "Ice Merchants",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-animated-2": {
+      "id": "short-film-animated-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-334"
+      ]
+    },
+    "text-336": {
+      "id": "text-336",
+      "type": "text",
+      "data": {
+        "content": "My Year of Dicks",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-animated-3": {
+      "id": "short-film-animated-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-336"
+      ]
+    },
+    "text-338": {
+      "id": "text-338",
+      "type": "text",
+      "data": {
+        "content": "An Ostrich Told Me the World Is Fake and I Think I Believe It",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-animated-4": {
+      "id": "short-film-animated-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-338"
+      ]
+    },
+    "stats-340": {
+      "id": "stats-340",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-341": {
+      "id": "text-341",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Short Film, Animated"
+      },
+      "entities": []
+    },
+    "short-film-animated": {
+      "id": "short-film-animated",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "short-film-animated-0",
+        "short-film-animated-1",
+        "short-film-animated-2",
+        "short-film-animated-3",
+        "short-film-animated-4",
+        "stats-340"
+      ]
+    },
+    "category-343": {
+      "id": "category-343",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-13"
+      },
+      "entities": [
+        "text-341",
+        "short-film-animated"
+      ]
+    },
+    "text-344": {
+      "id": "text-344",
+      "type": "text",
+      "data": {
+        "content": "An Irish Goodbye",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-live-action-0": {
+      "id": "short-film-live-action-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-344"
+      ]
+    },
+    "text-346": {
+      "id": "text-346",
+      "type": "text",
+      "data": {
+        "content": "Ivalu",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-live-action-1": {
+      "id": "short-film-live-action-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-346"
+      ]
+    },
+    "text-348": {
+      "id": "text-348",
+      "type": "text",
+      "data": {
+        "content": "Le Pupille",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-live-action-2": {
+      "id": "short-film-live-action-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-348"
+      ]
+    },
+    "text-350": {
+      "id": "text-350",
+      "type": "text",
+      "data": {
+        "content": "Night Ride",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-live-action-3": {
+      "id": "short-film-live-action-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-350"
+      ]
+    },
+    "text-352": {
+      "id": "text-352",
+      "type": "text",
+      "data": {
+        "content": "The Red Suitcase",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "short-film-live-action-4": {
+      "id": "short-film-live-action-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-352"
+      ]
+    },
+    "stats-354": {
+      "id": "stats-354",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-355": {
+      "id": "text-355",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Short Film, Live Action"
+      },
+      "entities": []
+    },
+    "short-film-live-action": {
+      "id": "short-film-live-action",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "short-film-live-action-0",
+        "short-film-live-action-1",
+        "short-film-live-action-2",
+        "short-film-live-action-3",
+        "short-film-live-action-4",
+        "stats-354"
+      ]
+    },
+    "category-357": {
+      "id": "category-357",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-14"
+      },
+      "entities": [
+        "text-355",
+        "short-film-live-action"
+      ]
+    },
+    "text-358": {
+      "id": "text-358",
+      "type": "text",
+      "data": {
+        "content": "The Elephant Whisperers",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "documentary-short-subject-0": {
+      "id": "documentary-short-subject-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-358"
+      ]
+    },
+    "text-360": {
+      "id": "text-360",
+      "type": "text",
+      "data": {
+        "content": "Haulout",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "documentary-short-subject-1": {
+      "id": "documentary-short-subject-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-360"
+      ]
+    },
+    "text-362": {
+      "id": "text-362",
+      "type": "text",
+      "data": {
+        "content": "How Do You Measure a Year?",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "documentary-short-subject-2": {
+      "id": "documentary-short-subject-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-362"
+      ]
+    },
+    "text-364": {
+      "id": "text-364",
+      "type": "text",
+      "data": {
+        "content": "The Martha Mitchell Effect",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "documentary-short-subject-3": {
+      "id": "documentary-short-subject-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-364"
+      ]
+    },
+    "text-366": {
+      "id": "text-366",
+      "type": "text",
+      "data": {
+        "content": "Stranger at the Gate",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "documentary-short-subject-4": {
+      "id": "documentary-short-subject-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-366"
+      ]
+    },
+    "stats-368": {
+      "id": "stats-368",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-369": {
+      "id": "text-369",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Documentary Short Subject"
+      },
+      "entities": []
+    },
+    "documentary-short-subject": {
+      "id": "documentary-short-subject",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "documentary-short-subject-0",
+        "documentary-short-subject-1",
+        "documentary-short-subject-2",
+        "documentary-short-subject-3",
+        "documentary-short-subject-4",
+        "stats-368"
+      ]
+    },
+    "category-371": {
+      "id": "category-371",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-15"
+      },
+      "entities": [
+        "text-369",
+        "documentary-short-subject"
+      ]
+    },
+    "text-372": {
+      "id": "text-372",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-373": {
+      "id": "text-373",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-score-0": {
+      "id": "original-score-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-372",
+        "text-373"
+      ]
+    },
+    "text-375": {
+      "id": "text-375",
+      "type": "text",
+      "data": {
+        "content": "Babylon",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-376": {
+      "id": "text-376",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/22/movies/babylon-review-damien-chazelle.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-score-1": {
+      "id": "original-score-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-375",
+        "text-376"
+      ]
+    },
+    "text-378": {
+      "id": "text-378",
+      "type": "text",
+      "data": {
+        "content": "The Banshees of Inisherin",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-379": {
+      "id": "text-379",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/the-banshees-of-inisherin-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-score-2": {
+      "id": "original-score-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-378",
+        "text-379"
+      ]
+    },
+    "text-381": {
+      "id": "text-381",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-382": {
+      "id": "text-382",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-score-3": {
+      "id": "original-score-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-381",
+        "text-382"
+      ]
+    },
+    "text-384": {
+      "id": "text-384",
+      "type": "text",
+      "data": {
+        "content": "The Fabelmans",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-385": {
+      "id": "text-385",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/10/movies/the-fabelmans-review-spielberg.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-score-4": {
+      "id": "original-score-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-384",
+        "text-385"
+      ]
+    },
+    "stats-387": {
+      "id": "stats-387",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-388": {
+      "id": "text-388",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Original Score"
+      },
+      "entities": []
+    },
+    "original-score": {
+      "id": "original-score",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "original-score-0",
+        "original-score-1",
+        "original-score-2",
+        "original-score-3",
+        "original-score-4",
+        "stats-387"
+      ]
+    },
+    "category-390": {
+      "id": "category-390",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-16"
+      },
+      "entities": [
+        "text-388",
+        "original-score"
+      ]
+    },
+    "text-391": {
+      "id": "text-391",
+      "type": "text",
+      "data": {
+        "content": "“Applause”",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-392": {
+      "id": "text-392",
+      "type": "text",
+      "data": {
+        "content": "Tell It Like a Woman",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-393": {
+      "id": "text-393",
+      "type": "text",
+      "data": {
+        "content": "[Review](#N/A)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-song-0": {
+      "id": "original-song-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-391",
+        "text-392",
+        "text-393"
+      ]
+    },
+    "text-395": {
+      "id": "text-395",
+      "type": "text",
+      "data": {
+        "content": "“Hold My Hand”",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-396": {
+      "id": "text-396",
+      "type": "text",
+      "data": {
+        "content": "Top Gun: Maverick",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-397": {
+      "id": "text-397",
+      "type": "text",
+      "data": {
+        "content": "[Review](#N/A)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-song-1": {
+      "id": "original-song-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-395",
+        "text-396",
+        "text-397"
+      ]
+    },
+    "text-399": {
+      "id": "text-399",
+      "type": "text",
+      "data": {
+        "content": "“Lift Me Up”",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-400": {
+      "id": "text-400",
+      "type": "text",
+      "data": {
+        "content": "Black Panther: Wakanda Forever",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-401": {
+      "id": "text-401",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2021/11/11/movies/belfast-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-song-2": {
+      "id": "original-song-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-399",
+        "text-400",
+        "text-401"
+      ]
+    },
+    "text-403": {
+      "id": "text-403",
+      "type": "text",
+      "data": {
+        "content": "“Naatu Naatu”",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-404": {
+      "id": "text-404",
+      "type": "text",
+      "data": {
+        "content": "RRR",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-405": {
+      "id": "text-405",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/04/05/movies/rrr-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-song-3": {
+      "id": "original-song-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-403",
+        "text-404",
+        "text-405"
+      ]
+    },
+    "text-407": {
+      "id": "text-407",
+      "type": "text",
+      "data": {
+        "content": "“This Is a Life”",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-408": {
+      "id": "text-408",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-film"
+      },
+      "entities": []
+    },
+    "text-409": {
+      "id": "text-409",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2021/04/29/movies/four-good-days-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "original-song-4": {
+      "id": "original-song-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-407",
+        "text-408",
+        "text-409"
+      ]
+    },
+    "stats-411": {
+      "id": "stats-411",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-412": {
+      "id": "text-412",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Original Song"
+      },
+      "entities": []
+    },
+    "original-song": {
+      "id": "original-song",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "original-song-0",
+        "original-song-1",
+        "original-song-2",
+        "original-song-3",
+        "original-song-4",
+        "stats-411"
+      ]
+    },
+    "category-414": {
+      "id": "category-414",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-17"
+      },
+      "entities": [
+        "text-412",
+        "original-song"
+      ]
+    },
+    "text-415": {
+      "id": "text-415",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-416": {
+      "id": "text-416",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "production-design-0": {
+      "id": "production-design-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-415",
+        "text-416"
+      ]
+    },
+    "text-418": {
+      "id": "text-418",
+      "type": "text",
+      "data": {
+        "content": "Avatar: The Way of Water",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-419": {
+      "id": "text-419",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/14/movies/avatar-the-way-of-water-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "production-design-1": {
+      "id": "production-design-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-418",
+        "text-419"
+      ]
+    },
+    "text-421": {
+      "id": "text-421",
+      "type": "text",
+      "data": {
+        "content": "Babylon",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-422": {
+      "id": "text-422",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/22/movies/babylon-review-damien-chazelle.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "production-design-2": {
+      "id": "production-design-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-421",
+        "text-422"
+      ]
+    },
+    "text-424": {
+      "id": "text-424",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-425": {
+      "id": "text-425",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "production-design-3": {
+      "id": "production-design-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-424",
+        "text-425"
+      ]
+    },
+    "text-427": {
+      "id": "text-427",
+      "type": "text",
+      "data": {
+        "content": "The Fabelmans",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-428": {
+      "id": "text-428",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/10/movies/the-fabelmans-review-spielberg.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "production-design-4": {
+      "id": "production-design-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-427",
+        "text-428"
+      ]
+    },
+    "stats-430": {
+      "id": "stats-430",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-431": {
+      "id": "text-431",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Production Design"
+      },
+      "entities": []
+    },
+    "production-design": {
+      "id": "production-design",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "production-design-0",
+        "production-design-1",
+        "production-design-2",
+        "production-design-3",
+        "production-design-4",
+        "stats-430"
+      ]
+    },
+    "category-433": {
+      "id": "category-433",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-18"
+      },
+      "entities": [
+        "text-431",
+        "production-design"
+      ]
+    },
+    "text-434": {
+      "id": "text-434",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-435": {
+      "id": "text-435",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "cinematography-0": {
+      "id": "cinematography-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-434",
+        "text-435"
+      ]
+    },
+    "text-437": {
+      "id": "text-437",
+      "type": "text",
+      "data": {
+        "content": "Bardo, False Chronicle of a Handful of Truths",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-438": {
+      "id": "text-438",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/03/movies/bardo-false-chronicle-of-a-handful-of-truths-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "cinematography-1": {
+      "id": "cinematography-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-437",
+        "text-438"
+      ]
+    },
+    "text-440": {
+      "id": "text-440",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-441": {
+      "id": "text-441",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "cinematography-2": {
+      "id": "cinematography-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-440",
+        "text-441"
+      ]
+    },
+    "text-443": {
+      "id": "text-443",
+      "type": "text",
+      "data": {
+        "content": "Empire of Light",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-444": {
+      "id": "text-444",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/08/movies/empire-of-light-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "cinematography-3": {
+      "id": "cinematography-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-443",
+        "text-444"
+      ]
+    },
+    "text-446": {
+      "id": "text-446",
+      "type": "text",
+      "data": {
+        "content": "Tár",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-447": {
+      "id": "text-447",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/06/movies/tar-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "cinematography-4": {
+      "id": "cinematography-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-446",
+        "text-447"
+      ]
+    },
+    "stats-449": {
+      "id": "stats-449",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-450": {
+      "id": "text-450",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Cinematography"
+      },
+      "entities": []
+    },
+    "cinematography": {
+      "id": "cinematography",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "cinematography-0",
+        "cinematography-1",
+        "cinematography-2",
+        "cinematography-3",
+        "cinematography-4",
+        "stats-449"
+      ]
+    },
+    "category-452": {
+      "id": "category-452",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-19"
+      },
+      "entities": [
+        "text-450",
+        "cinematography"
+      ]
+    },
+    "text-453": {
+      "id": "text-453",
+      "type": "text",
+      "data": {
+        "content": "Babylon",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-454": {
+      "id": "text-454",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/22/movies/babylon-review-damien-chazelle.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "costume-design-0": {
+      "id": "costume-design-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-453",
+        "text-454"
+      ]
+    },
+    "text-456": {
+      "id": "text-456",
+      "type": "text",
+      "data": {
+        "content": "Black Panther: Wakanda Forever",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-457": {
+      "id": "text-457",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/09/movies/black-panther-wakanda-forever-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "costume-design-1": {
+      "id": "costume-design-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-456",
+        "text-457"
+      ]
+    },
+    "text-459": {
+      "id": "text-459",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-460": {
+      "id": "text-460",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "costume-design-2": {
+      "id": "costume-design-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-459",
+        "text-460"
+      ]
+    },
+    "text-462": {
+      "id": "text-462",
+      "type": "text",
+      "data": {
+        "content": "Everything Everywhere All at Once",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-463": {
+      "id": "text-463",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/24/movies/everything-everywhere-all-at-once-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "costume-design-3": {
+      "id": "costume-design-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-462",
+        "text-463"
+      ]
+    },
+    "text-465": {
+      "id": "text-465",
+      "type": "text",
+      "data": {
+        "content": "Mrs. Harris Goes to Paris",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-466": {
+      "id": "text-466",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/07/14/movies/mrs-harris-goes-to-paris-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "costume-design-4": {
+      "id": "costume-design-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-465",
+        "text-466"
+      ]
+    },
+    "stats-468": {
+      "id": "stats-468",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-469": {
+      "id": "text-469",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Costume Design"
+      },
+      "entities": []
+    },
+    "costume-design": {
+      "id": "costume-design",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "costume-design-0",
+        "costume-design-1",
+        "costume-design-2",
+        "costume-design-3",
+        "costume-design-4",
+        "stats-468"
+      ]
+    },
+    "category-471": {
+      "id": "category-471",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-20"
+      },
+      "entities": [
+        "text-469",
+        "costume-design"
+      ]
+    },
+    "text-472": {
+      "id": "text-472",
+      "type": "text",
+      "data": {
+        "content": "All Quiet on the Western Front",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-473": {
+      "id": "text-473",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/27/movies/all-quiet-on-the-western-front-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "makeup-0": {
+      "id": "makeup-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-472",
+        "text-473"
+      ]
+    },
+    "text-475": {
+      "id": "text-475",
+      "type": "text",
+      "data": {
+        "content": "The Batman",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-476": {
+      "id": "text-476",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/03/01/movies/the-batman-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "makeup-1": {
+      "id": "makeup-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-475",
+        "text-476"
+      ]
+    },
+    "text-478": {
+      "id": "text-478",
+      "type": "text",
+      "data": {
+        "content": "Black Panther: Wakanda Forever",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-479": {
+      "id": "text-479",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/09/movies/black-panther-wakanda-forever-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "makeup-2": {
+      "id": "makeup-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-478",
+        "text-479"
+      ]
+    },
+    "text-481": {
+      "id": "text-481",
+      "type": "text",
+      "data": {
+        "content": "Elvis",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-482": {
+      "id": "text-482",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/06/23/movies/elvis-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "makeup-3": {
+      "id": "makeup-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-481",
+        "text-482"
+      ]
+    },
+    "text-484": {
+      "id": "text-484",
+      "type": "text",
+      "data": {
+        "content": "The Whale",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-485": {
+      "id": "text-485",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/12/07/movies/the-whale-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "makeup-4": {
+      "id": "makeup-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-484",
+        "text-485"
+      ]
+    },
+    "stats-487": {
+      "id": "stats-487",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-488": {
+      "id": "text-488",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Makeup"
+      },
+      "entities": []
+    },
+    "makeup": {
+      "id": "makeup",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "makeup-0",
+        "makeup-1",
+        "makeup-2",
+        "makeup-3",
+        "makeup-4",
+        "stats-487"
+      ]
+    },
+    "category-490": {
+      "id": "category-490",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-21"
+      },
+      "entities": [
+        "text-488",
+        "makeup"
+      ]
+    },
+    "text-491": {
+      "id": "text-491",
+      "type": "text",
+      "data": {
+        "content": "All That Breathes",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-492": {
+      "id": "text-492",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/10/20/movies/all-that-breathes-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "documentary-feature-0": {
+      "id": "documentary-feature-0",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-491",
+        "text-492"
+      ]
+    },
+    "text-494": {
+      "id": "text-494",
+      "type": "text",
+      "data": {
+        "content": "All the Beauty and the Bloodshed",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-495": {
+      "id": "text-495",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/11/22/movies/all-the-beauty-and-the-bloodshed-review-nan-goldin.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "documentary-feature-1": {
+      "id": "documentary-feature-1",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-494",
+        "text-495"
+      ]
+    },
+    "text-497": {
+      "id": "text-497",
+      "type": "text",
+      "data": {
+        "content": "Fire of Love",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-498": {
+      "id": "text-498",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/07/06/movies/fire-of-love-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "documentary-feature-2": {
+      "id": "documentary-feature-2",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-497",
+        "text-498"
+      ]
+    },
+    "text-500": {
+      "id": "text-500",
+      "type": "text",
+      "data": {
+        "content": "A House Made of Splinters",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "documentary-feature-3": {
+      "id": "documentary-feature-3",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-500"
+      ]
+    },
+    "text-502": {
+      "id": "text-502",
+      "type": "text",
+      "data": {
+        "content": "Navalny",
+        "className": "nominee-name"
+      },
+      "entities": []
+    },
+    "text-503": {
+      "id": "text-503",
+      "type": "text",
+      "data": {
+        "content": "[Review](https://www.nytimes.com/2022/04/24/movies/navalny-review.html)",
+        "className": "nominee-review"
+      },
+      "entities": []
+    },
+    "documentary-feature-4": {
+      "id": "documentary-feature-4",
+      "type": "nominee",
+      "data": {},
+      "entities": [
+        "text-502",
+        "text-503"
+      ]
+    },
+    "stats-505": {
+      "id": "stats-505",
+      "type": "stats",
+      "data": {
+        "template": "[NUMBER_OF_RESPONSES] votes"
+      },
+      "entities": []
+    },
+    "text-506": {
+      "id": "text-506",
+      "type": "text",
+      "data": {
+        "className": "category-title",
+        "content": "Documentary Feature"
+      },
+      "entities": []
+    },
+    "documentary-feature": {
+      "id": "documentary-feature",
+      "type": "multiple_choice_question",
+      "data": {
+        "isLocked": false,
+        "className": false
+      },
+      "entities": [
+        "documentary-feature-0",
+        "documentary-feature-1",
+        "documentary-feature-2",
+        "documentary-feature-3",
+        "documentary-feature-4",
+        "stats-505"
+      ]
+    },
+    "category-508": {
+      "id": "category-508",
+      "type": "category",
+      "data": {
+        "className": "container category-container category-22"
+      },
+      "entities": [
+        "text-506",
+        "documentary-feature"
+      ]
+    },
+    "ad_slot-509": {
+      "id": "ad_slot-509",
+      "type": "ad_slot",
+      "data": {
+        "adId": "mid-1",
+        "dataPosition": "mid-1",
+        "className": "category-container container ad-container",
+        "sizeKey": "column"
+      },
+      "entities": []
+    },
+    "text-510": {
+      "id": "text-510",
+      "type": "text",
+      "data": {
+        "content": "Reset"
+      },
+      "entities": []
+    },
+    "reset-511": {
+      "id": "reset-511",
+      "type": "reset",
+      "data": {},
+      "entities": [
+        "text-510"
+      ]
+    },
+    "progress_meter-512": {
+      "id": "progress_meter-512",
+      "type": "progress_meter",
+      "data": {
+        "className": "progress-meter"
+      },
+      "entities": [
+        "reset-511"
+      ]
+    },
+    "text-513": {
+      "id": "text-513",
+      "type": "text",
+      "data": {
+        "content": "Voting will close on Sunday, March 12, at 7 p.m. Eastern.",
+        "textStyle": "Default",
+        "className": "voting-info"
+      },
+      "entities": []
+    },
+    "container-514": {
+      "id": "container-514",
+      "type": "container",
+      "data": {
+        "className": "voting-status"
+      },
+      "entities": [
+        "text-513"
+      ]
+    },
+    "text-515": {
+      "id": "text-515",
+      "type": "text",
+      "data": {
+        "content": "<h1>2023 Oscars Ballot</h1>",
+        "textStyle": "Default",
+        "className": "oscars-heading"
+      },
+      "entities": []
+    },
+    "text-1675804565319": {
+      "id": "text-1675804565319",
+      "type": "text",
+      "data": {
+        "content": "Here’s every nominee. Cast your vote and predict the winners.",
+        "textStyle": "Default",
+        "className": "leadin-instrux"
+      },
+      "entities": []
+    },
+    "quiz-1": {
+      "id": "quiz-1",
+      "type": "quiz",
+      "data": {},
+      "entities": [
+        "text-515",
+        "text-1675804565319",
+        "container-514",
+        "progress_meter-512",
+        "category-46",
+        "category-76",
+        "category-106",
+        "category-136",
+        "ad_slot-509",
+        "category-166",
+        "category-196",
+        "category-215",
+        "category-234",
+        "category-253",
+        "category-272",
+        "category-291",
+        "category-310",
+        "category-329",
+        "category-343",
+        "category-357",
+        "category-371",
+        "category-390",
+        "category-414",
+        "category-433",
+        "category-452",
+        "category-471",
+        "category-490",
+        "category-508"
+      ]
+    }
+  }
+}

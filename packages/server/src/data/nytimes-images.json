@@ -1,0 +1,3354 @@
+{
+  "100000004440357": {
+    "credit": "Hulton Archive/Getty Images",
+    "caption": "Aerial view of 1950s Midtown Manhattan.",
+    "slug_name": "05newfrontier2",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2016/06/05/magazine/05newfrontier2/05mag-05newfrontier-t_CA1-verticalTwoByThree735.jpg"
+      },
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 451,
+        "content": "images/2016/06/05/magazine/05newfrontier2/05mag-05newfrontier-t_CA1-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 372,
+        "content": "images/2016/06/05/magazine/05newfrontier2/05mag-05newfrontier-t_CA1-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 237,
+        "content": "images/2016/06/05/magazine/05newfrontier2/05mag-05newfrontier-t_CA1-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2016/06/05/magazine/05newfrontier2/05mag-05newfrontier-t_CA1-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2016/06/05/magazine/05newfrontier2/05mag-05newfrontier-t_CA1-thumbLarge.jpg"
+      }
+    ]
+  },
+  "100000008234260": {
+    "credit": "Rob Youngson/Focus Features ",
+    "caption": "",
+    "slug_name": "04oscar-ballot-belfast",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 390,
+        "content": "images/2022/02/09/arts/04oscar-ballot-belfast/merlin_197232027_3155e59f-c468-4241-83d0-922459d9512d-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 322,
+        "content": "images/2022/02/09/arts/04oscar-ballot-belfast/merlin_197232027_3155e59f-c468-4241-83d0-922459d9512d-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 205,
+        "content": "images/2022/02/09/arts/04oscar-ballot-belfast/merlin_197232027_3155e59f-c468-4241-83d0-922459d9512d-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/02/09/arts/04oscar-ballot-belfast/04oscar-ballot-belfast-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/02/09/arts/04oscar-ballot-belfast/04oscar-ballot-belfast-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/02/09/arts/04oscar-ballot-belfast/04oscar-ballot-belfast-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234301": {
+    "credit": "Apple TV+",
+    "caption": "",
+    "slug_name": "04oscar-ballot-coda",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 338,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coda/merlin_192677748_0487313a-cd01-40dd-ba6e-8f56f2b6f92a-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 278,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coda/merlin_192677748_0487313a-cd01-40dd-ba6e-8f56f2b6f92a-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 177,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coda/merlin_192677748_0487313a-cd01-40dd-ba6e-8f56f2b6f92a-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coda/merlin_192677748_0487313a-cd01-40dd-ba6e-8f56f2b6f92a-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coda/merlin_192677748_0487313a-cd01-40dd-ba6e-8f56f2b6f92a-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coda/merlin_192677748_0487313a-cd01-40dd-ba6e-8f56f2b6f92a-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008133693": {
+    "credit": "Niko Tavernise/Netflix ",
+    "caption": "Oh, no: Jennifer Lawrence plays a grad student who spots a comet that is hurtling toward Earth.",
+    "slug_name": "23dont-look-up",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2021/12/23/arts/23dont-look-up/merlin_199399956_d0afefaa-d4d4-4e2b-bd09-3cf46c7d6fe0-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2021/12/23/arts/23dont-look-up/merlin_199399956_d0afefaa-d4d4-4e2b-bd09-3cf46c7d6fe0-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2021/12/23/arts/23dont-look-up/merlin_199399956_d0afefaa-d4d4-4e2b-bd09-3cf46c7d6fe0-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2021/12/23/arts/23dont-look-up/23dont-look-up-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2021/12/23/arts/23dont-look-up/23dont-look-up-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2021/12/23/arts/23dont-look-up/23dont-look-up-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234321": {
+    "credit": "Bitters End",
+    "caption": "",
+    "slug_name": "04oscar-ballot-drive",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2022/03/04/arts/04oscar-ballot-drive/merlin_190850013_5b9491ff-913e-4400-95a9-dd4b85f92371-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2022/03/04/arts/04oscar-ballot-drive/merlin_190850013_5b9491ff-913e-4400-95a9-dd4b85f92371-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2022/03/04/arts/04oscar-ballot-drive/merlin_190850013_5b9491ff-913e-4400-95a9-dd4b85f92371-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-drive/04oscar-ballot-drive-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-drive/04oscar-ballot-drive-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-drive/04oscar-ballot-drive-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234327": {
+    "credit": "Chia Bella James/Warner Bros.",
+    "caption": "Timothée Chalamet as Paul Atreides and Rebecca Ferguson as Lady Jessica in “Dune.” Paul is considerably less complicated and conflicted onscreen than he is on the page, our critic writes.",
+    "slug_name": "04oscar-ballot-dune",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2021/10/20/arts/04oscar-ballot-dune/20dune-review1-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2021/10/20/arts/04oscar-ballot-dune/20dune-review1-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2021/10/20/arts/04oscar-ballot-dune/20dune-review1-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2021/10/20/arts/04oscar-ballot-dune/20dune-review1-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2021/10/20/arts/04oscar-ballot-dune/20dune-review1-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2021/10/20/arts/04oscar-ballot-dune/20dune-review1-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234357": {
+    "credit": "Warner Bros",
+    "caption": "From left, Demi Singleton as Serena, Saniyya Sidney as Venus and Will Smith as the future tennis stars’ father, Richard Williams, in “King Richard.”",
+    "slug_name": "04oscar-ballot-king",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2021/11/18/arts/04oscar-ballot-king/18king-richard1-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2021/11/18/arts/04oscar-ballot-king/18king-richard1-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2021/11/18/arts/04oscar-ballot-king/18king-richard1-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2021/11/18/arts/04oscar-ballot-king/18king-richard1-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2021/11/18/arts/04oscar-ballot-king/18king-richard1-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2021/11/18/arts/04oscar-ballot-king/18king-richard1-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234362": {
+    "credit": "Melinda Sue Gordon/Metro Goldwyn Mayer Pictures ",
+    "caption": "Cooper Hoffman and Alana Haim in “Licorice Pizza.” Hoffman, the son of Philip Seymour Hoffman, plays the film’s improbable teenage hero.",
+    "slug_name": "04oscar-ballot-pizza",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2021/11/25/arts/04oscar-ballot-pizza/merlin_198054663_8c99b183-4b9c-4ca3-a7b9-c0859edacd40-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2021/11/25/arts/04oscar-ballot-pizza/merlin_198054663_8c99b183-4b9c-4ca3-a7b9-c0859edacd40-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2021/11/25/arts/04oscar-ballot-pizza/merlin_198054663_8c99b183-4b9c-4ca3-a7b9-c0859edacd40-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2021/11/25/arts/04oscar-ballot-pizza/25licorice-pizza-review-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2021/11/25/arts/04oscar-ballot-pizza/25licorice-pizza-review-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2021/11/25/arts/04oscar-ballot-pizza/25licorice-pizza-review-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234349": {
+    "credit": "Kerry Hayes/Searchlight Pictures",
+    "caption": "",
+    "slug_name": "04oscar-ballot-nightmare",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2022/03/04/arts/04oscar-ballot-nightmare/merlin_199079757_6893a9c3-2d9b-40a6-9e92-8838ed08480b-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2022/03/04/arts/04oscar-ballot-nightmare/merlin_199079757_6893a9c3-2d9b-40a6-9e92-8838ed08480b-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2022/03/04/arts/04oscar-ballot-nightmare/merlin_199079757_6893a9c3-2d9b-40a6-9e92-8838ed08480b-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-nightmare/merlin_199079757_6893a9c3-2d9b-40a6-9e92-8838ed08480b-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-nightmare/merlin_199079757_6893a9c3-2d9b-40a6-9e92-8838ed08480b-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-nightmare/merlin_199079757_6893a9c3-2d9b-40a6-9e92-8838ed08480b-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234365": {
+    "credit": "Netflix",
+    "caption": "Benedict Cumberbatch as Phil Burbank in Jane Campion’s “The Power of the Dog.”",
+    "slug_name": "04oscar-ballot-power",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 334,
+        "content": "images/2021/11/30/arts/04oscar-ballot-power/merlin_198348879_9d6e48c8-a630-4e5d-907a-a8e691f64523-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 276,
+        "content": "images/2021/11/30/arts/04oscar-ballot-power/merlin_198348879_9d6e48c8-a630-4e5d-907a-a8e691f64523-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 175,
+        "content": "images/2021/11/30/arts/04oscar-ballot-power/merlin_198348879_9d6e48c8-a630-4e5d-907a-a8e691f64523-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2021/11/30/arts/04oscar-ballot-power/merlin_198348879_9d6e48c8-a630-4e5d-907a-a8e691f64523-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2021/11/30/arts/04oscar-ballot-power/merlin_198348879_9d6e48c8-a630-4e5d-907a-a8e691f64523-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2021/11/30/arts/04oscar-ballot-power/30power-2-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234336": {
+    "credit": "Niko Tavernise/20th Century Studios",
+    "caption": "",
+    "slug_name": "04oscar-ballot-wss",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 401,
+        "content": "images/2022/03/04/arts/04oscar-ballot-wss/merlin_194032890_a20e4b49-4f99-4f22-9bbc-c269acded6ff-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 331,
+        "content": "images/2022/03/04/arts/04oscar-ballot-wss/merlin_194032890_a20e4b49-4f99-4f22-9bbc-c269acded6ff-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2022/03/04/arts/04oscar-ballot-wss/merlin_194032890_a20e4b49-4f99-4f22-9bbc-c269acded6ff-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-wss/merlin_194032890_a20e4b49-4f99-4f22-9bbc-c269acded6ff-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-wss/merlin_194032890_a20e4b49-4f99-4f22-9bbc-c269acded6ff-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-wss/merlin_194032890_a20e4b49-4f99-4f22-9bbc-c269acded6ff-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234381": {
+    "credit": "Vickie Flores/EPA, via Shutterstock",
+    "caption": "",
+    "slug_name": "04oscar-ballot-branagh",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-branagh/merlin_196181748_1d19687c-2dfb-4a40-9643-fa62d4920e13-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-branagh/merlin_196181748_1d19687c-2dfb-4a40-9643-fa62d4920e13-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-branagh/merlin_196181748_1d19687c-2dfb-4a40-9643-fa62d4920e13-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-branagh/04oscar-ballot-branagh-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-branagh/04oscar-ballot-branagh-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-branagh/merlin_196181748_1d19687c-2dfb-4a40-9643-fa62d4920e13-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234385": {
+    "credit": "Andreas Rentz/Getty Images",
+    "caption": "",
+    "slug_name": "04oscar-ballot-hamaguchi",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hamaguchi/04oscar-ballot-hamaguchi-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hamaguchi/04oscar-ballot-hamaguchi-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hamaguchi/04oscar-ballot-hamaguchi-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hamaguchi/04oscar-ballot-hamaguchi-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hamaguchi/04oscar-ballot-hamaguchi-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hamaguchi/04oscar-ballot-hamaguchi-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234384": {
+    "credit": "Valerie Macon/Agence France-Presse — Getty Images",
+    "caption": "",
+    "slug_name": "04oscar-ballot-anderson",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-anderson/04oscar-ballot-anderson-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 742,
+        "content": "images/2022/03/04/arts/04oscar-ballot-anderson/04oscar-ballot-anderson-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 472,
+        "content": "images/2022/03/04/arts/04oscar-ballot-anderson/04oscar-ballot-anderson-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-anderson/04oscar-ballot-anderson-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-anderson/04oscar-ballot-anderson-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1101,
+        "content": "images/2022/03/04/arts/04oscar-ballot-anderson/04oscar-ballot-anderson-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234383": {
+    "credit": "Christophe Archambault/Agence France-Presse — Getty Images",
+    "caption": "",
+    "slug_name": "04oscar-ballot-campion",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-campion/04oscar-ballot-campion-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-campion/04oscar-ballot-campion-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-campion/04oscar-ballot-campion-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-campion/04oscar-ballot-campion-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-campion/04oscar-ballot-campion-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-campion/04oscar-ballot-campion-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234382": {
+    "credit": "Charles Sykes/Invision, via Associated Press",
+    "caption": "",
+    "slug_name": "04oscar-ballot-spielberg",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spielberg/04oscar-ballot-spielberg-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spielberg/04oscar-ballot-spielberg-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spielberg/04oscar-ballot-spielberg-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spielberg/04oscar-ballot-spielberg-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spielberg/04oscar-ballot-spielberg-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spielberg/04oscar-ballot-spielberg-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234411": {
+    "credit": "Glen Wilson/Amazon Studios",
+    "caption": "",
+    "slug_name": "04oscar-nomination-bardem",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-nomination-bardem/04oscar-nomination-bardem-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-nomination-bardem/04oscar-nomination-bardem-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-nomination-bardem/04oscar-nomination-bardem-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-nomination-bardem/04oscar-nomination-bardem-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-nomination-bardem/04oscar-nomination-bardem-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-nomination-bardem/04oscar-nomination-bardem-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234415": {
+    "credit": "Kirsty Griffin/Netflix",
+    "caption": "",
+    "slug_name": "04oscar-ballot-cumberbatch",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cumberbatch/04oscar-ballot-cumberbatch-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cumberbatch/04oscar-ballot-cumberbatch-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cumberbatch/04oscar-ballot-cumberbatch-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cumberbatch/04oscar-ballot-cumberbatch-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cumberbatch/04oscar-ballot-cumberbatch-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cumberbatch/04oscar-ballot-cumberbatch-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234420": {
+    "credit": "Macall Polay/Netflix",
+    "caption": "",
+    "slug_name": "04oscar-ballot-garfield",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-garfield/04oscar-ballot-garfield-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 742,
+        "content": "images/2022/03/04/arts/04oscar-ballot-garfield/04oscar-ballot-garfield-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 472,
+        "content": "images/2022/03/04/arts/04oscar-ballot-garfield/04oscar-ballot-garfield-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-garfield/04oscar-ballot-garfield-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-garfield/04oscar-ballot-garfield-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-garfield/04oscar-ballot-garfield-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234455": {
+    "credit": "Warner Bros.",
+    "caption": "",
+    "slug_name": "04oscar-ballot-smith",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-smith/04oscar-ballot-smith-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-smith/04oscar-ballot-smith-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-smith/04oscar-ballot-smith-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-smith/04oscar-ballot-smith-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-smith/04oscar-ballot-smith-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-smith/04oscar-ballot-smith-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234461": {
+    "credit": "Alison Cohen Rosa/A24",
+    "caption": "",
+    "slug_name": "04oscar-ballot-denzel",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-denzel/04oscar-ballot-denzel-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 742,
+        "content": "images/2022/03/04/arts/04oscar-ballot-denzel/04oscar-ballot-denzel-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 472,
+        "content": "images/2022/03/04/arts/04oscar-ballot-denzel/04oscar-ballot-denzel-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-denzel/04oscar-ballot-denzel-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-denzel/04oscar-ballot-denzel-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-denzel/04oscar-ballot-denzel-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234464": {
+    "credit": "20th Century Studios",
+    "caption": "",
+    "slug_name": "04oscar-ballot-chastain",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 281,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain/04oscar-ballot-chastain-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 232,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain/04oscar-ballot-chastain-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 147,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain/04oscar-ballot-chastain-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain/04oscar-ballot-chastain-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain/04oscar-ballot-chastain-thumbLarge-v2.jpg"
+      }
+    ]
+  },
+  "100000008234469": {
+    "credit": "Yannis Drakoulidis/Netflix",
+    "caption": "",
+    "slug_name": "04oscar-ballot-coleman",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coleman/04oscar-ballot-coleman-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coleman/04oscar-ballot-coleman-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coleman/04oscar-ballot-coleman-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coleman/04oscar-ballot-coleman-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coleman/04oscar-ballot-coleman-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-coleman/04oscar-ballot-coleman-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234482": {
+    "credit": "Iglesias Más/Sony Pictures Classics",
+    "caption": "",
+    "slug_name": "04oscar-ballot-cruz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cruz/04oscar-ballot-cruz-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cruz/04oscar-ballot-cruz-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cruz/04oscar-ballot-cruz-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cruz/04oscar-ballot-cruz-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cruz/04oscar-ballot-cruz-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-cruz/04oscar-ballot-cruz-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234488": {
+    "credit": "Glen Wilson/Amazon Studios",
+    "caption": "",
+    "slug_name": "04oscar-ballot-kidman",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kidman/04oscar-ballot-kidman-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kidman/04oscar-ballot-kidman-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kidman/04oscar-ballot-kidman-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kidman/04oscar-ballot-kidman-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kidman/04oscar-ballot-kidman-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kidman/04oscar-ballot-kidman-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234506": {
+    "credit": "Neon",
+    "caption": "",
+    "slug_name": "04oscar-ballot-stewart",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-stewart/04oscar-ballot-stewart-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-stewart/04oscar-ballot-stewart-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-stewart/04oscar-ballot-stewart-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-stewart/04oscar-ballot-stewart-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-stewart/04oscar-ballot-stewart-thumbLarge.jpg"
+      }
+    ]
+  },
+  "100000008234518": {
+    "credit": "Rob Youngson/Focus Features",
+    "caption": "",
+    "slug_name": "04oscar-ballot-hinds2",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hinds2/04oscar-ballot-hinds2-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hinds2/04oscar-ballot-hinds2-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hinds2/04oscar-ballot-hinds2-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hinds2/04oscar-ballot-hinds2-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hinds2/04oscar-ballot-hinds2-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-hinds2/04oscar-ballot-hinds2-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234527": {
+    "credit": "Apple TV+",
+    "caption": "",
+    "slug_name": "04oscar-ballot-kotsur",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur/04oscar-ballot-kotsur-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur/04oscar-ballot-kotsur-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur/04oscar-ballot-kotsur-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur/04oscar-ballot-kotsur-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur/04oscar-ballot-kotsur-thumbLarge.jpg"
+      }
+    ]
+  },
+  "100000008234543": {
+    "credit": "Kirsty Griffin/Netflix",
+    "caption": "",
+    "slug_name": "04oscar-ballot-plemons",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-plemons/04oscar-ballot-plemons-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-plemons/04oscar-ballot-plemons-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-plemons/04oscar-ballot-plemons-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-plemons/04oscar-ballot-plemons-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-plemons/04oscar-ballot-plemons-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-plemons/04oscar-ballot-plemons-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234553": {
+    "credit": "Glen Wilson/Amazon Studios",
+    "caption": "",
+    "slug_name": "04oscar-ballot-simmons",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-simmons/04oscar-ballot-simmons-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 742,
+        "content": "images/2022/03/04/arts/04oscar-ballot-simmons/04oscar-ballot-simmons-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 472,
+        "content": "images/2022/03/04/arts/04oscar-ballot-simmons/04oscar-ballot-simmons-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-simmons/04oscar-ballot-simmons-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-simmons/04oscar-ballot-simmons-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-simmons/04oscar-ballot-simmons-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234558": {
+    "credit": "Kirsty Griffin/Netflix",
+    "caption": "",
+    "slug_name": "04oscar-ballot-mcphee",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-mcphee/04oscar-ballot-mcphee-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-mcphee/04oscar-ballot-mcphee-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-mcphee/04oscar-ballot-mcphee-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-mcphee/04oscar-ballot-mcphee-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-mcphee/04oscar-ballot-mcphee-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-mcphee/04oscar-ballot-mcphee-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234565": {
+    "credit": "Netflix",
+    "caption": "",
+    "slug_name": "04oscar-ballot-buckley",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-buckley/04oscar-ballot-buckley-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 744,
+        "content": "images/2022/03/04/arts/04oscar-ballot-buckley/04oscar-ballot-buckley-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-buckley/04oscar-ballot-buckley-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-buckley/04oscar-ballot-buckley-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-buckley/04oscar-ballot-buckley-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1104,
+        "content": "images/2022/03/04/arts/04oscar-ballot-buckley/04oscar-ballot-buckley-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234570": {
+    "credit": "Niko Tavernise/20th Century Studios",
+    "caption": "",
+    "slug_name": "04oscar-ballot-debose",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 901,
+        "content": "images/2022/03/04/arts/04oscar-ballot-debose/04oscar-ballot-debose-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-debose/04oscar-ballot-debose-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-debose/04oscar-ballot-debose-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-debose/04oscar-ballot-debose-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-debose/04oscar-ballot-debose-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-debose/04oscar-ballot-debose-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234571": {
+    "credit": "Rob Youngson/Focus Features, via Associated Press",
+    "caption": "",
+    "slug_name": "04oscar-ballot-dench",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 899,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dench/04oscar-ballot-dench-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 742,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dench/04oscar-ballot-dench-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 472,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dench/04oscar-ballot-dench-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dench/04oscar-ballot-dench-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dench/04oscar-ballot-dench-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dench/04oscar-ballot-dench-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234568": {
+    "credit": "Kirsty Griffin/Netflix",
+    "caption": "",
+    "slug_name": "04oscar-ballot-dunst",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dunst/04oscar-ballot-dunst-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dunst/04oscar-ballot-dunst-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dunst/04oscar-ballot-dunst-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dunst/04oscar-ballot-dunst-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dunst/04oscar-ballot-dunst-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-dunst/04oscar-ballot-dunst-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008234561": {
+    "credit": "Warner Bros.",
+    "caption": "",
+    "slug_name": "04oscar-ballot-ellis",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-ellis/04oscar-ballot-ellis-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 742,
+        "content": "images/2022/03/04/arts/04oscar-ballot-ellis/04oscar-ballot-ellis-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 472,
+        "content": "images/2022/03/04/arts/04oscar-ballot-ellis/04oscar-ballot-ellis-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-ellis/04oscar-ballot-ellis-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-ellis/04oscar-ballot-ellis-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-ellis/04oscar-ballot-ellis-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008237887": {
+    "credit": "Pablo Larrain/Neon",
+    "caption": "",
+    "slug_name": "04oscar-ballot-spencer",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 899,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spencer/04oscar-ballot-spencer-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 742,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spencer/04oscar-ballot-spencer-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 472,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spencer/04oscar-ballot-spencer-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spencer/04oscar-ballot-spencer-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spencer/04oscar-ballot-spencer-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-spencer/04oscar-ballot-spencer-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008238092": {
+    "credit": "Apple TV+, via Associated Press",
+    "caption": "",
+    "slug_name": "04oscar-ballot-kotsur2",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur2/04oscar-ballot-kotsur2-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur2/04oscar-ballot-kotsur2-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur2/04oscar-ballot-kotsur2-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur2/04oscar-ballot-kotsur2-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur2/04oscar-ballot-kotsur2-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2022/03/04/arts/04oscar-ballot-kotsur2/04oscar-ballot-kotsur2-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008238765": {
+    "credit": "Daniel McFadden/Searchlight Pictures ",
+    "caption": "",
+    "slug_name": "04oscar-ballot-chastain2",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain2/merlin_194676642_7731aaa4-5b53-45b5-9dd6-ed7d51203220-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain2/merlin_194676642_7731aaa4-5b53-45b5-9dd6-ed7d51203220-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain2/merlin_194676642_7731aaa4-5b53-45b5-9dd6-ed7d51203220-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain2/04oscar-ballot-chastain2-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain2/04oscar-ballot-chastain2-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2022/03/04/arts/04oscar-ballot-chastain2/04oscar-ballot-chastain2-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000007697917": {
+    "credit": "Justin J Wee for The New York Times",
+    "caption": "Chung didn&rsquo;t start out wanting to be a filmmaker. &ldquo;I&rsquo;ve generally felt like a late bloomer in all of this.&rdquo;",
+    "slug_name": "chung-ballot",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2021/02/28/arts/chung-ballot/merlin_183801243_0ce84464-ccc8-46fe-b2b4-e83fe9743495-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2021/02/28/arts/chung-ballot/merlin_183801243_0ce84464-ccc8-46fe-b2b4-e83fe9743495-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2021/02/28/arts/chung-ballot/merlin_183801243_0ce84464-ccc8-46fe-b2b4-e83fe9743495-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2021/02/28/arts/chung-ballot/28minari-director1-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2021/02/28/arts/chung-ballot/28minari-director1-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2021/02/28/arts/chung-ballot/28minari-director1-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008749406": {
+    "credit": "Tristan Fewings/Getty Images",
+    "caption": "",
+    "slug_name": "oscar-ballot-director-01-ztjc",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 408,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 337,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 214,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1101,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008749404": {
+    "credit": "John Phillips/Getty Images",
+    "caption": "",
+    "slug_name": "oscar-ballot-director-03-ztjc",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008749403": {
+    "credit": "John Sciulli/Getty Images",
+    "caption": "",
+    "slug_name": "oscar-ballot-director-04-ztjc",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008749407": {
+    "credit": "Ettore Ferrari/EPA, via Shutterstock",
+    "caption": "",
+    "slug_name": "oscar-ballot-director-02-ztjc",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 900,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 743,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 473,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008749405": {
+    "credit": "Andy Rain/EPA, via Shutterstock",
+    "caption": "",
+    "slug_name": "oscar-ballot-director-05-ztjc",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 726,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 599,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 381,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745429": {
+    "credit": "A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actor-01-pvwb",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 451,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 372,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 237,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-verticalTwoByThree735-v2.jpg"
+      }
+    ]
+  },
+  "100000008745425": {
+    "credit": "Searchlight Pictures/20th Century Studios",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actor-03-pvwb",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 338,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 279,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 177,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745426": {
+    "credit": "Warner Bros.",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actor-02-pvwb",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 251,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 207,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 132,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1101,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745423": {
+    "credit": "Jamie D. Ramsay/Number 9 films and Sony Pictures Classics",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actor-05-pvwb",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 406,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 335,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 213,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745430": {
+    "credit": "A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actor-06-pvwb",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-verticalTwoByThree735-v2.jpg"
+      }
+    ]
+  },
+  "100000008745392": {
+    "credit": "Focus Features",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actress-07-jlfw",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 251,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 207,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 132,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1101,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-verticalTwoByThree735-v2.jpg"
+      }
+    ]
+  },
+  "100000008745396": {
+    "credit": "David Bornfriend/A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actress-04-jlfw",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-verticalTwoByThree735-v3.jpg"
+      }
+    ]
+  },
+  "100000008745391": {
+    "credit": "Netflix",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actress-03-jlfw",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 323,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 267,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 170,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1101,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745393": {
+    "credit": "Momentum Pictures",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actress-06-jlfw",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-articleLarge-v3.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-master495-v3.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-master315-v3.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-thumbStandard-v3.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-thumbLarge-v3.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-verticalTwoByThree735-v4.jpg"
+      }
+    ]
+  },
+  "100000008745395": {
+    "credit": "Universal Pictures and Amblin Entertainment",
+    "caption": "",
+    "slug_name": "oscar-ballot-lead-actress-01-jlfw",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745319": {
+    "credit": "Searchlight Pictures/20th Century Studios",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actor-01-jwbf",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 338,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 279,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 177,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745322": {
+    "credit": "Searchlight Pictures/20th Century Studios.",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actor-02-jwbf",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 251,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-02-jwbf/oscar-ballot-supporting-actor-02-jwbf-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 207,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-02-jwbf/oscar-ballot-supporting-actor-02-jwbf-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 132,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-02-jwbf/oscar-ballot-supporting-actor-02-jwbf-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-02-jwbf/oscar-ballot-supporting-actor-02-jwbf-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-02-jwbf/oscar-ballot-supporting-actor-02-jwbf-thumbLarge.jpg"
+      }
+    ]
+  },
+  "100000008749376": {
+    "credit": "Wilson Webb/Apple TV+ and A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actor-lvzf",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745321": {
+    "credit": "Merie Weismiller Wallace/Universal Pictures and Amblin Entertainment, via Associated Press",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actor-04-jwbf",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745323": {
+    "credit": "A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actor-03-jwbf",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745311": {
+    "credit": "Annette Brown/Marvel Studios",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actress-05-tlqh",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 401,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 331,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745307": {
+    "credit": "via A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actress-01-tlqh",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745308": {
+    "credit": "A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actress-03-tlqh",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 338,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 279,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 177,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745310": {
+    "credit": "Jonathan Hession/Searchlight Pictures and 20th Century Studios",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actress-02-tlqh",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 338,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 279,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 177,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008745306": {
+    "credit": "A24, via Associated Press",
+    "caption": "",
+    "slug_name": "oscar-ballot-supporting-actress-04-tlqh",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 451,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 372,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 237,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000007695992": {
+    "credit": "Sony Pictures Classics",
+    "caption": "The movie script, which was written with Anthony Hopkins in mind, changes the character’s name to Anthony.",
+    "slug_name": "father-ballot",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2021/02/25/arts/father-ballot/father-ballot-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2021/02/25/arts/father-ballot/father-ballot-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2021/02/25/arts/father-ballot/father-ballot-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2021/02/25/arts/father-ballot/father-ballot-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2021/02/25/arts/father-ballot/father-ballot-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2021/02/25/arts/father-ballot/father-ballot-verticalTwoByThree735-v2.jpg"
+      }
+    ]
+  },
+  "100000008748404": {
+    "credit": "A24",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-09-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-09-bwlz/oscar-ballot-best-picture-09-bwlz-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-09-bwlz/oscar-ballot-best-picture-09-bwlz-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-09-bwlz/oscar-ballot-best-picture-09-bwlz-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-09-bwlz/oscar-ballot-best-picture-09-bwlz-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-09-bwlz/oscar-ballot-best-picture-09-bwlz-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-09-bwlz/oscar-ballot-best-picture-09-bwlz-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008748403": {
+    "credit": "Merie Weismiller Wallace/Universal Pictures and Amblin Entertainment",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-10-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-10-bwlz/oscar-ballot-best-picture-10-bwlz-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-10-bwlz/oscar-ballot-best-picture-10-bwlz-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-10-bwlz/oscar-ballot-best-picture-10-bwlz-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-10-bwlz/oscar-ballot-best-picture-10-bwlz-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-10-bwlz/oscar-ballot-best-picture-10-bwlz-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1102,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-10-bwlz/oscar-ballot-best-picture-10-bwlz-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008748424": {
+    "credit": "Searchlight Pictures/20th Century Studios",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-kqwh",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 399,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-kqwh/oscar-ballot-best-picture-kqwh-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 329,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-kqwh/oscar-ballot-best-picture-kqwh-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-kqwh/oscar-ballot-best-picture-kqwh-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-kqwh/oscar-ballot-best-picture-kqwh-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-kqwh/oscar-ballot-best-picture-kqwh-thumbLarge-v2.jpg"
+      }
+    ]
+  },
+  "100000008748408": {
+    "credit": "Paramount Pictures",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-01-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 399,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-01-bwlz/oscar-ballot-best-picture-01-bwlz-articleLarge-v3.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 329,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-01-bwlz/oscar-ballot-best-picture-01-bwlz-master495-v3.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-01-bwlz/oscar-ballot-best-picture-01-bwlz-master315-v3.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-01-bwlz/oscar-ballot-best-picture-01-bwlz-thumbStandard-v3.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-01-bwlz/oscar-ballot-best-picture-01-bwlz-thumbLarge-v3.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1100,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-01-bwlz/oscar-ballot-best-picture-01-bwlz-verticalTwoByThree735-v3.jpg"
+      }
+    ]
+  },
+  "100000008748401": {
+    "credit": "Warner Bros.",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-02-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-02-bwlz/oscar-ballot-best-picture-02-bwlz-articleLarge-v3.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-02-bwlz/oscar-ballot-best-picture-02-bwlz-master495-v3.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-02-bwlz/oscar-ballot-best-picture-02-bwlz-master315-v3.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-02-bwlz/oscar-ballot-best-picture-02-bwlz-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-02-bwlz/oscar-ballot-best-picture-02-bwlz-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-02-bwlz/oscar-ballot-best-picture-02-bwlz-verticalTwoByThree735-v2.jpg"
+      }
+    ]
+  },
+  "100000008748406": {
+    "credit": "Reiner Bajo/Netflix",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-07-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-07-bwlz/oscar-ballot-best-picture-07-bwlz-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-07-bwlz/oscar-ballot-best-picture-07-bwlz-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-07-bwlz/oscar-ballot-best-picture-07-bwlz-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-07-bwlz/oscar-ballot-best-picture-07-bwlz-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-07-bwlz/oscar-ballot-best-picture-07-bwlz-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-07-bwlz/oscar-ballot-best-picture-07-bwlz-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008748407": {
+    "credit": "Neon",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-03-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 399,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-03-bwlz/oscar-ballot-best-picture-03-bwlz-articleLarge-v3.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 329,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-03-bwlz/oscar-ballot-best-picture-03-bwlz-master495-v3.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-03-bwlz/oscar-ballot-best-picture-03-bwlz-master315-v3.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-03-bwlz/oscar-ballot-best-picture-03-bwlz-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-03-bwlz/oscar-ballot-best-picture-03-bwlz-thumbLarge-v2.jpg"
+      }
+    ]
+  },
+  "100000008748400": {
+    "credit": "Michael Gibson/Orion Pictures",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-06-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-06-bwlz/oscar-ballot-best-picture-06-bwlz-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-06-bwlz/oscar-ballot-best-picture-06-bwlz-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-06-bwlz/oscar-ballot-best-picture-06-bwlz-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-06-bwlz/oscar-ballot-best-picture-06-bwlz-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-06-bwlz/oscar-ballot-best-picture-06-bwlz-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-06-bwlz/oscar-ballot-best-picture-06-bwlz-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008748402": {
+    "credit": "20th Century Studios",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-04-bwlz",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 400,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-04-bwlz/oscar-ballot-best-picture-04-bwlz-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-04-bwlz/oscar-ballot-best-picture-04-bwlz-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-04-bwlz/oscar-ballot-best-picture-04-bwlz-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-04-bwlz/oscar-ballot-best-picture-04-bwlz-thumbStandard-v2.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-04-bwlz/oscar-ballot-best-picture-04-bwlz-thumbLarge-v2.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1101,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-04-bwlz/oscar-ballot-best-picture-04-bwlz-verticalTwoByThree735-v2.jpg"
+      }
+    ]
+  },
+  "100000008748441": {
+    "credit": "Focus Features",
+    "caption": "",
+    "slug_name": "oscar-ballot-best-picture-pght",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 399,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-pght/oscar-ballot-best-picture-pght-articleLarge-v2.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 330,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-pght/oscar-ballot-best-picture-pght-master495-v2.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 210,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-pght/oscar-ballot-best-picture-pght-master315-v2.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-pght/oscar-ballot-best-picture-pght-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-pght/oscar-ballot-best-picture-pght-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1101,
+        "content": "images/2023/01/30/multimedia/oscar-ballot-best-picture-pght/oscar-ballot-best-picture-pght-verticalTwoByThree735.jpg"
+      }
+    ]
+  },
+  "100000008754691": {
+    "credit": "Photo Credit: Jonathan Hession/Searchlight Pictures, via Associated Press",
+    "caption": "",
+    "slug_name": "keoghan1-tclm",
+    "host": "https://static01.nyt.com/",
+    "crops": [
+      {
+        "type": "articleLarge",
+        "width": 600,
+        "height": 377,
+        "content": "images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-articleLarge.jpg"
+      },
+      {
+        "type": "master495",
+        "width": 495,
+        "height": 311,
+        "content": "images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-master495.jpg"
+      },
+      {
+        "type": "master315",
+        "width": 315,
+        "height": 198,
+        "content": "images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-master315.jpg"
+      },
+      {
+        "type": "thumbStandard",
+        "width": 75,
+        "height": 75,
+        "content": "images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-thumbStandard.jpg"
+      },
+      {
+        "type": "thumbLarge",
+        "width": 150,
+        "height": 150,
+        "content": "images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-thumbLarge.jpg"
+      },
+      {
+        "type": "verticalTwoByThree735",
+        "width": 735,
+        "height": 1103,
+        "content": "images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-verticalTwoByThree735.jpg"
+      }
+    ]
+  }
+}
