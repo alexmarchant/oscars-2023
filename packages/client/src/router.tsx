@@ -17,8 +17,8 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '',
-        loader: ballotLoader,
         element: <Ballot />,
+        loader: ballotLoader,
       },
       {
         path: 'login',

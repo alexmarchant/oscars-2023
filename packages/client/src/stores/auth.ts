@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { client, UserSession } from '../trpc/client'
+import { isTRPCClientError } from '../trpc/client'
 
 const TokenKey = 'am-oscar-2023-jwt-token'
 
@@ -9,6 +10,7 @@ export type SignupInput = Parameters<typeof client.signup.mutate>[0]
 interface AuthStore {
   token: null | string
   session: UserSession | null
+  error: string | null
   login(input: LoginInput): Promise<void>
   signup(input: SignupInput): Promise<void>
   setTokenAndGetSession(token: string): Promise<void>
@@ -18,11 +20,24 @@ interface AuthStore {
 export const useAuthStore = create<AuthStore>((set, get) => ({
   token: localStorage.getItem(TokenKey),
   session: null,
+  error: null,
+  loading: false,
   async login (input: LoginInput) {
-    const token = await client.login.mutate(input)
-    await get().setTokenAndGetSession(token)
+    set({ error: null })
+    try {
+      const token = await client.login.mutate(input)
+      await get().setTokenAndGetSession(token)
+    } catch (e) {
+      if (isTRPCClientError(e) && e.data?.code === 'BAD_REQUEST') {
+        set({ error: 'Sorry, your password was incorrect. Please double-check your password.' })
+      } else {
+        console.error(e)
+        set({ error: 'Sorry, something went wrong. Try again or contact us.' })
+      }
+    }
   },
   async signup (input: SignupInput) {
+    set({ error: null })
     const token = await client.signup.mutate(input)
     await get().setTokenAndGetSession(token)
   },
@@ -40,3 +55,5 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
     }
   },
 }))
+
+useAuthStore.getState().getSession()

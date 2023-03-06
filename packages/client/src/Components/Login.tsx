@@ -4,12 +4,12 @@ import {
   TextInput,
   Button,
 } from 'react95'
-import { isTRPCClientError } from '../trpc/client'
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import CenteredWindow from './CenteredWindow'
 import ErrorMessage from './ErrorMessage'
 import { useAuthStore } from '../stores/auth'
+import { useRedirectIfSession } from '../hooks/useRedirectIfSession'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -24,19 +24,14 @@ const LinkSeparator = styled.span`
 export default function Login() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  const [error, setError] = useState<string | null>(null)
+
+  useRedirectIfSession()
+  const login = useAuthStore(state => state.login)
+  const error = useAuthStore(state => state.error)
+
 
   async function handleLogin () {
-    try {
-      await useAuthStore.getState().login({ email, password })
-    } catch (e) {
-      if (isTRPCClientError(e) && e.data?.code === 'BAD_REQUEST') {
-        setError('Sorry, your password was incorrect. Please double-check your password.')
-      } else {
-        console.error(e)
-        setError('Sorry, something went wrong. Try again or contact us.')
-      }
-    }
+    await login({ email, password })
   }
 
   return (

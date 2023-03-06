@@ -8,6 +8,7 @@ import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import CentererWindow from './CenteredWindow'
 import { useAuthStore } from '../stores/auth'
+import { useRedirectIfSession } from '../hooks/useRedirectIfSession'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -24,6 +25,8 @@ export default function Signup() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [passwordConfirmation, setPasswordConfirmation] = useState('')
+
+  useRedirectIfSession()
 
   async function handleSignup() {
     await useAuthStore.getState().signup({

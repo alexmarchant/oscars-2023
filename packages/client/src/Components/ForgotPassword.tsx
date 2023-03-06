@@ -7,6 +7,7 @@ import {
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import AuthWindow from './CenteredWindow'
+import { useRedirectIfSession } from '../hooks/useRedirectIfSession'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -20,6 +21,8 @@ const LinkSeparator = styled.span`
 
 export default function Login() {
   const [ email, setEmail ] = useState('')
+
+  useRedirectIfSession()
 
   function resetPassword() {
     console.error('TODO')
