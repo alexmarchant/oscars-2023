@@ -4,8 +4,6 @@ import {
   Window,
   WindowHeader,
   WindowContent,
-  Button,
-  Toolbar,
 } from 'react95'
 
 const Container = styled.div`
@@ -31,17 +29,6 @@ export default function CenteredWindow (props: React.PropsWithChildren<Props>) {
         <WindowHeader>
           <span>{props.header}</span>
         </WindowHeader>
-        <Toolbar>
-          <Button variant='menu' size='sm'>
-            File
-          </Button>
-          <Button variant='menu' size='sm'>
-            Edit
-          </Button>
-          <Button variant='menu' size='sm' disabled>
-            Save
-          </Button>
-        </Toolbar>
         <WindowContent>
           { props.children }
         </WindowContent>

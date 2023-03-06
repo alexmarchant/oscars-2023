@@ -7,6 +7,7 @@ import {
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import CentererWindow from './CenteredWindow'
+import { client } from '../trpc/client'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -19,10 +20,19 @@ const LinkSeparator = styled.span`
 `
 
 export default function Signup() {
-  const [ username, setUsername ] = useState('')
-  const [ email, setEmail ] = useState('')
-  const [ password, setPassword ] = useState('')
-  const [ passwordConfirmation, setPasswordConfirmation ] = useState('')
+  const [username, setUsername] = useState('')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [passwordConfirmation, setPasswordConfirmation] = useState('')
+
+  async function handleSignup() {
+    await client.signup.mutate({
+      username,
+      email,
+      password,
+      passwordConfirmation,
+    })
+  }
 
   return (
     <CentererWindow header="Signup">
@@ -65,7 +75,7 @@ export default function Signup() {
       </GroupBox>
       <br/>
       <ButtonRow>
-        <Button primary>
+        <Button primary onClick={handleSignup}>
           Signup
         </Button>
         <div>

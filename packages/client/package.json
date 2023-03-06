@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@am-oscar-2023/validation": "workspace:0.0.0",
+    "@am-oscar-2023/shared": "workspace:0.0.0",
     "@react95/clippy": "~1.0.10",
     "@react95/icons": "~2.0.6",
     "@trpc/client": "^10.14.0",
@@ -21,7 +21,8 @@
     "react-router-dom": "~6.8.2",
     "react95": "~4.0.0",
     "styled-components": "~5.3.8",
-    "zod": "~3.21.0"
+    "zod": "~3.21.0",
+    "zustand": "~4.3.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

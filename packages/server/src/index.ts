@@ -1,3 +1,6 @@
+import * as dotenv from 'dotenv'
+dotenv.config()
+
 import * as express from 'express'
 import * as trpcExpress from '@trpc/server/adapters/express'
 import * as cors from 'cors'
@@ -16,6 +19,9 @@ app.get('/', (req, res) => {
 app.use('/trpc', trpcExpress.createExpressMiddleware({
     router: appRouter,
     createContext,
+    onError({ error, type, path, input, ctx, req }) {
+      console.error('Error:', error.message)
+    },
   }),
 )
 

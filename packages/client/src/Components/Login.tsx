@@ -4,10 +4,12 @@ import {
   TextInput,
   Button,
 } from 'react95'
+import { client, isTRPCClientError } from '../trpc/client'
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import AuthWindow from './CenteredWindow'
-import { LoginSchema } from '@am-oscar-2023/validation'
+import ErrorMessage from './ErrorMessage'
+import { useAuthStore } from '../stores/auth'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -19,55 +21,25 @@ const LinkSeparator = styled.span`
   padding: 0 1em;
 `
 
-const ErrorMessage = styled.p`
-  color: red;
-  margin-top: 0.7em;
-`
-
 export default function Login() {
-  const [ email, setEmail ] = useState('')
-  const [ password, setPassword ] = useState('')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [error, setError] = useState<string | null>(null)
 
-  const [ emailError, setEmailError ] = useState<null | string>(null)
-  const [ passwordError, setPasswordError ] = useState<null | string>(null)
-
-  function handleLogin () {
-    resetErrors()
-
-    const { email: cleanedEmail, password: cleanedPassword } = cleanData({ email, password })
-
-    setEmail(cleanedEmail)
-    setPassword(cleanedPassword)
-
-    const result = LoginSchema.safeParse({
-      email: cleanedEmail,
-      password: cleanedPassword,
-    })
-
-    if (result.success) {
-      console.log('do login')
-    } else {
-      for (const issue of result.error.issues) {
-        if (issue.path[0] === 'email') {
-          setEmailError(issue.message)
-        }
-        if (issue.path[0] === 'password') {
-          setPasswordError(issue.message)
-        }
+  async function handleLogin () {
+    try {
+      const token = await client.login.mutate({
+        email,
+        password,
+      })
+      useAuthStore.getState().setToken(token)
+    } catch (e) {
+      if (isTRPCClientError(e) && e.data?.code === 'BAD_REQUEST') {
+        setError('Sorry, your password was incorrect. Please double-check your password.')
+      } else {
+        console.error(e)
+        setError('Sorry, something went wrong. Try again or contact us.')
       }
-    }
-  }
-
-  function resetErrors() {
-    setEmailError(null)
-    setPasswordError(null)
-  }
-
-  function cleanData(data: { email: string, password: string }): { email: string, password: string } {
-    const { email, password } = data
-    return {
-      email: email.trim(),
-      password: password.trim(),
     }
   }
 
@@ -80,9 +52,6 @@ export default function Login() {
           onChange={event => setEmail(event.target.value)}
           fullWidth
         />
-        {emailError && <ErrorMessage>
-          {emailError}
-        </ErrorMessage>}
       </GroupBox>
       <br/>
       <GroupBox label="Password">
@@ -93,11 +62,14 @@ export default function Login() {
           type="password"
           fullWidth
         />
-        {passwordError && <ErrorMessage>
-          {passwordError}
-        </ErrorMessage>}
       </GroupBox>
       <br/>
+      {error && <>
+        <ErrorMessage>
+          {error}
+        </ErrorMessage>
+        <br/>
+      </>}
       <ButtonRow>
         <Button primary onClick={handleLogin}>
           Login

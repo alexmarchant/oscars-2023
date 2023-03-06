@@ -2,11 +2,11 @@ import React from 'react'
 import {
   createBrowserRouter,
 } from 'react-router-dom'
-import Layout from './Components/Layout'
-import ErrorPage from './Components/ErrorPage'
-import Login from './Components/Login'
-import Signup from './Components/Signup'
-import ForgotPassword from './Components/ForgotPassword'
+import Layout from './components/Layout'
+import ErrorPage from './components/ErrorPage'
+import Login from './components/Login'
+import Signup from './components/Signup'
+import ForgotPassword from './components/ForgotPassword'
 
 export const router = createBrowserRouter([
   {

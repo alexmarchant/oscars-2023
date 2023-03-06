@@ -7,7 +7,7 @@ import {
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import AuthWindow from './CenteredWindow'
-import { LoginSchema } from '@am-oscar-2023/validation'
+import { LoginSchema } from '../../../shared/src'
 
 const ButtonRow = styled.div`
   display: flex;

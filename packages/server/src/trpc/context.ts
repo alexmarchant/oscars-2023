@@ -1,10 +1,43 @@
-import { inferAsyncReturnType } from '@trpc/server'
-import * as trpcExpress from '@trpc/server/adapters/express'
+import type { Request } from 'express'
+import { CreateExpressContextOptions} from '@trpc/server/adapters/express'
+import { client } from '../database/client'
+import { verifyAndDecodeToken, UserSession } from '../auth'
 
-// created for each request
-export const createContext = ({
-  req,
-  res,
-}: trpcExpress.CreateExpressContextOptions) => ({}) // no context
+export interface Context {
+  db: typeof client
+  currentUser?: UserSession
+}
 
-export type Context = inferAsyncReturnType<typeof createContext>
+export function createContext({ req, res }: CreateExpressContextOptions): Context {
+  return {
+    db: client,
+    currentUser: getCurrentUser(req),
+  }
+}
+
+function getCurrentUser(req: Request): UserSession | undefined {
+  const authorizationHeader = req.headers.authorization
+  if (!authorizationHeader) {
+    // console.log('No auth header')
+    return
+  }
+
+  const token = authorizationHeader.split(' ')[1]
+  if (!token) {
+    // console.log('No token')
+    return
+  }
+
+  try {
+    const payload = verifyAndDecodeToken(token)
+    return {
+      id: payload.id,
+      username: payload.username,
+      email: payload.email,
+    }
+  } catch (e) {
+    console.error(e)
+    return
+  }
+}
+
