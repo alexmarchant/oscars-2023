@@ -1,5 +1,5 @@
 import { inferAsyncReturnType } from '@trpc/server'
-import * as trpcExpress from '@trpc/server/adapters/express';
+import * as trpcExpress from '@trpc/server/adapters/express'
 
 // created for each request
 export const createContext = ({
