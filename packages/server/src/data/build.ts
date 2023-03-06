@@ -30,6 +30,16 @@ function getEntityName(entity: any): string {
   return nameEnt.data.content
 }
 
+function getNomineeListEnt(entity: any): any {
+  for (const id of entity.entities) {
+    const listEnt = entitiesById[id]
+    if (listEnt.type === 'multiple_choice_question') {
+      return listEnt
+    }
+  }
+  throw new Error('Nominee list ent not found')
+}
+
 for (const entityId of entitiesById['quiz-1'].entities) {
   // Get category
   const entity = entitiesById[entityId]
@@ -42,8 +52,7 @@ for (const entityId of entitiesById['quiz-1'].entities) {
 
   // Noiminess
   const nominees: Nominee[] = []
-  const nomineeListId = entity.entities[1]
-  const nomineeListEnt = entitiesById[nomineeListId]
+  const nomineeListEnt = getNomineeListEnt(entity)
   for (const nomineeId of nomineeListEnt.entities) {
     const nomineeEnt = entitiesById[nomineeId]
     if (nomineeEnt.type !== 'nominee') continue
@@ -63,4 +72,7 @@ for (const entityId of entitiesById['quiz-1'].entities) {
   })
 }
 
-writeFileSync(targetFilePath, JSON.stringify(oscarData, null, 2))
+const jsonOscarData = JSON.stringify(oscarData, null, 2)
+console.log(jsonOscarData)
+
+writeFileSync(targetFilePath, jsonOscarData)

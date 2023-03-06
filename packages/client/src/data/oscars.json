@@ -2,27 +2,138 @@
   "categories": [
     {
       "name": "Best Picture",
-      "nominees": []
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Avatar: The Way of Water"
+        },
+        {
+          "name": "The Banshees of Inisherin"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "The Fabelmans"
+        },
+        {
+          "name": "Tár"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        },
+        {
+          "name": "Triangle of Sadness"
+        },
+        {
+          "name": "Women Talking"
+        }
+      ]
     },
     {
       "name": "Director",
-      "nominees": []
+      "nominees": [
+        {
+          "name": "Martin McDonagh"
+        },
+        {
+          "name": "Daniel Kwan and Daniel Scheinert"
+        },
+        {
+          "name": "Steven Spielberg"
+        },
+        {
+          "name": "Todd Field"
+        },
+        {
+          "name": "Ruben Ostlund"
+        }
+      ]
     },
     {
       "name": "Actor in a Leading Role",
-      "nominees": []
+      "nominees": [
+        {
+          "name": "Austin Butler"
+        },
+        {
+          "name": "Colin Farrell"
+        },
+        {
+          "name": "Brendan Fraser"
+        },
+        {
+          "name": "Paul Mescal"
+        },
+        {
+          "name": "Bill Nighy"
+        }
+      ]
     },
     {
       "name": "Actress in a Leading Role",
-      "nominees": []
+      "nominees": [
+        {
+          "name": "Cate Blanchett"
+        },
+        {
+          "name": "Ana de Armas"
+        },
+        {
+          "name": "Andrea Riseborough"
+        },
+        {
+          "name": "Michelle Williams"
+        },
+        {
+          "name": "Michelle Yeoh"
+        }
+      ]
     },
     {
       "name": "Actor in a Supporting Role",
-      "nominees": []
+      "nominees": [
+        {
+          "name": "Brendan Gleeson"
+        },
+        {
+          "name": "Brian Tyree Henry"
+        },
+        {
+          "name": "Judd Hirsch"
+        },
+        {
+          "name": "Barry Keoghan"
+        },
+        {
+          "name": "Ke Huy Quan"
+        }
+      ]
     },
     {
       "name": "Actress in a Supporting Role",
-      "nominees": []
+      "nominees": [
+        {
+          "name": "Angela Bassett"
+        },
+        {
+          "name": "Hong Chau"
+        },
+        {
+          "name": "Kerry Condon"
+        },
+        {
+          "name": "Jamie Lee Curtis"
+        },
+        {
+          "name": "Stephanie Hsu"
+        }
+      ]
     },
     {
       "name": "Original Screenplay",
