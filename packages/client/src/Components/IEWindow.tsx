@@ -17,9 +17,9 @@ const StyledWindow = styled(Window)`
 `
 
 const Content = styled.div`
+  min-height: 0;
   margin-top: ${FramePadding}px;
   margin-bottom: ${FramePadding}px;
-  height: 100%;
   flex-grow: 1;
   flex-shrink: 1;
 `
@@ -27,7 +27,9 @@ const Content = styled.div`
 const ContentFrame = styled(Frame)`
   width: 100%;
   height: 100%;
+  max-height: 100%;
   background-color: ${props => props.theme.material};
+  overflow-y: scroll;
 `
 
 const Footer = styled.div`
