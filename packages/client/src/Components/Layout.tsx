@@ -9,6 +9,14 @@ import { Outlet } from 'react-router-dom'
 const GlobalStyles = createGlobalStyle`
   ${styleReset}
 
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
   @font-face {
     font-family: 'ms_sans_serif';
     src: url('${ms_sans_serif}') format('woff2');

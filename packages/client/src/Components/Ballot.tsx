@@ -3,6 +3,7 @@ import { useAuthStore } from '../stores/auth'
 import { redirect, useLoaderData } from 'react-router-dom'
 import { UserSession } from '../trpc/client'
 import { AppBar, Toolbar, Button } from 'react95'
+import IEWindow from './IEWindow'
 import { User1 } from '@react95/icons'
 import styled from 'styled-components'
 
@@ -23,6 +24,11 @@ const StyledAppBar = styled(AppBar)`
   flex-shrink: 0;
 `
 
+const IEWindowContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+`
 
 interface LoaderData {
   session: UserSession
@@ -48,11 +54,15 @@ export default function Ballot () {
   return (
     <Container>
       <Content>
-        <h1>Ballot</h1>
-        <p>Hi {session.username}</p>
+        <IEWindowContainer>
+          <IEWindow>
+            <h1>Ballot</h1>
+            <p>Hi {session.username}</p>
+          </IEWindow>
+        </IEWindowContainer>
       </Content>
       <StyledAppBar position="relative">
-        <Toolbar noPadding={true}>
+        <Toolbar>
           <Button
             style={{ fontWeight: 'bold' }}
           >
