@@ -1,6 +1,7 @@
-import { useRouteError } from "react-router-dom"
-import Layout from "./Layout"
-import CenteredWindow from "./CenteredWindow"
+import React from 'react'
+import { useRouteError } from 'react-router-dom'
+import Layout from './Layout'
+import CenteredWindow from './CenteredWindow'
 
 export default function ErrorPage() {
   const error = useRouteError() as any

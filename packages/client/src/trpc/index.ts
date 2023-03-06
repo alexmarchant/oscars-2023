@@ -7,7 +7,7 @@ const client = createTRPCProxyClient<AppRouter>({
       url: 'http://localhost:3000/trpc',
     }),
   ],
-});
+})
 
 async function main() {
   const result = await client.greet.query('tRPC')

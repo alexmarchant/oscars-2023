@@ -15,6 +15,7 @@ importers:
   packages/client:
     specifiers:
       '@react95/clippy': ~1.0.10
+      '@react95/icons': ~2.0.6
       '@trpc/client': ^10.14.0
       '@trpc/server': ^10.14.0
       '@types/react': ^18.0.27
@@ -34,8 +35,10 @@ importers:
       styled-components: ~5.3.8
       typescript: ^4.9.3
       vite: ^4.1.0
+      zod: ~3.21.0
     dependencies:
       '@react95/clippy': 1.0.10_react@18.2.0
+      '@react95/icons': 2.0.6
       '@trpc/client': 10.14.0_@trpc+server@10.14.0
       '@trpc/server': 10.14.0
       '@types/styled-components': 5.1.26
@@ -45,6 +48,7 @@ importers:
       react-router-dom: 6.8.2_biqbaboplfbrettd7655fr4n2y
       react95: 4.0.0_lfoodr2hdmy7hzfgwjnbclkduy
       styled-components: 5.3.8_onnosic5saeeaifzq3hb7tucky
+      zod: 3.21.0
     devDependencies:
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -537,6 +541,10 @@ packages:
       jquery: 3.6.3
       prop-types: 15.8.1
       react: 18.2.0
+    dev: false
+
+  /@react95/icons/2.0.6:
+    resolution: {integrity: sha512-zLwi3S+UpnqcNuLcHd6ruqLJzVtCyfY8tQr1qCTaooF8s90Fhy1guGfrp4npJ/3mNLD3UbHLyH18iT9OuUwntQ==}
     dev: false
 
   /@remix-run/router/1.3.3:
@@ -2944,3 +2952,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /zod/3.21.0:
+    resolution: {integrity: sha512-UYdykTcVxB6lfdyLzAqLyyYAlOcpoluECvjsdoaqfQmz9p+3LRaIqYcNiL/J2kFYp66fBM8wwBvIGVEjq7KtZw==}
+    dev: false

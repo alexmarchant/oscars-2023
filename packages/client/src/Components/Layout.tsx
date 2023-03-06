@@ -4,7 +4,7 @@ import { styleReset } from 'react95'
 import original from 'react95/dist/themes/original'
 import ms_sans_serif from 'react95/dist/fonts/ms_sans_serif.woff2'
 import ms_sans_serif_bold from 'react95/dist/fonts/ms_sans_serif_bold.woff2'
-import { Outlet } from "react-router-dom"
+import { Outlet } from 'react-router-dom'
 
 const GlobalStyles = createGlobalStyle`
   ${styleReset}
@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: 100%;
   }
-`;
+`
 
 const Container = styled.div`
   width: 100%;

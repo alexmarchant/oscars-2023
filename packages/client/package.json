@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react95/clippy": "~1.0.10",
+    "@react95/icons": "~2.0.6",
     "@trpc/client": "^10.14.0",
     "@trpc/server": "^10.14.0",
     "@types/styled-components": "~5.1.26",
@@ -18,7 +19,8 @@
     "react-is": "~16.8.0",
     "react-router-dom": "~6.8.2",
     "react95": "~4.0.0",
-    "styled-components": "~5.3.8"
+    "styled-components": "~5.3.8",
+    "zod": "~3.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

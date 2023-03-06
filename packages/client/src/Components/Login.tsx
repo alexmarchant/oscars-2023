@@ -22,6 +22,13 @@ export default function Login() {
   const [ email, setEmail ] = useState('')
   const [ password, setPassword ] = useState('')
 
+  function handleLogin () {
+    console.log({
+      email,
+      password,
+    })
+  }
+
   return (
     <AuthWindow header="Login">
       <GroupBox label="Email address">
@@ -44,7 +51,7 @@ export default function Login() {
       </GroupBox>
       <br/>
       <ButtonRow>
-        <Button primary>
+        <Button primary onClick={handleLogin}>
           Login
         </Button>
         <div>

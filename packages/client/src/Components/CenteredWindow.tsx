@@ -5,7 +5,7 @@ import {
   WindowHeader,
   WindowContent,
   Button,
-  Toolbar
+  Toolbar,
 } from 'react95'
 
 const Container = styled.div`

@@ -1,5 +1,5 @@
 // styled.d.ts
-import 'styled-components';
+import 'styled-components'
 
 interface IPalette {
   main: string
