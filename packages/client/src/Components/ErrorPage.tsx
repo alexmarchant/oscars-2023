@@ -9,7 +9,7 @@ export default function ErrorPage() {
 
   return (
     <Layout>
-      <CenteredWindow header="Error!">
+      <CenteredWindow header="Error">
         <h1>Oops!</h1>
         <p>
           <i>{error.statusText || error.message}</i>

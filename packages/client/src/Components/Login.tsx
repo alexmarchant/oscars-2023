@@ -4,10 +4,10 @@ import {
   TextInput,
   Button,
 } from 'react95'
-import { client, isTRPCClientError } from '../trpc/client'
+import { isTRPCClientError } from '../trpc/client'
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
-import AuthWindow from './CenteredWindow'
+import CenteredWindow from './CenteredWindow'
 import ErrorMessage from './ErrorMessage'
 import { useAuthStore } from '../stores/auth'
 
@@ -28,11 +28,7 @@ export default function Login() {
 
   async function handleLogin () {
     try {
-      const token = await client.login.mutate({
-        email,
-        password,
-      })
-      useAuthStore.getState().setToken(token)
+      await useAuthStore.getState().login({ email, password })
     } catch (e) {
       if (isTRPCClientError(e) && e.data?.code === 'BAD_REQUEST') {
         setError('Sorry, your password was incorrect. Please double-check your password.')
@@ -44,7 +40,7 @@ export default function Login() {
   }
 
   return (
-    <AuthWindow header="Login">
+    <CenteredWindow header="Login">
       <GroupBox label="Email">
         <TextInput
           value={email}
@@ -84,6 +80,6 @@ export default function Login() {
           </RouterAnchor>
         </div>
       </ButtonRow>
-    </AuthWindow>
+    </CenteredWindow>
   )
 }

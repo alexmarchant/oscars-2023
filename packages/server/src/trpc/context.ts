@@ -34,6 +34,7 @@ function getCurrentUser(req: Request): UserSession | undefined {
       id: payload.id,
       username: payload.username,
       email: payload.email,
+      admin: payload.admin,
     }
   } catch (e) {
     console.error(e)

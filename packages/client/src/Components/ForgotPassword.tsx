@@ -7,7 +7,6 @@ import {
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import AuthWindow from './CenteredWindow'
-import { LoginSchema } from '../../../shared/src'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -17,11 +16,6 @@ const ButtonRow = styled.div`
 
 const LinkSeparator = styled.span`
   padding: 0 1em;
-`
-
-const ErrorMessage = styled.p`
-  color: red;
-  margin-top: 0.7em;
 `
 
 export default function Login() {

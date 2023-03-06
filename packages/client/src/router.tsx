@@ -7,6 +7,7 @@ import ErrorPage from './components/ErrorPage'
 import Login from './components/Login'
 import Signup from './components/Signup'
 import ForgotPassword from './components/ForgotPassword'
+import Ballot, { loader as ballotLoader } from './components/Ballot'
 
 export const router = createBrowserRouter([
   {
@@ -14,6 +15,11 @@ export const router = createBrowserRouter([
     element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: '',
+        loader: ballotLoader,
+        element: <Ballot />,
+      },
       {
         path: 'login',
         element: <Login />,

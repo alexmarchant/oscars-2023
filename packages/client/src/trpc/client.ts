@@ -30,3 +30,5 @@ export const client = createTRPCProxyClient<AppRouter>({
     }),
   ],
 })
+
+export type UserSession = Awaited<ReturnType<typeof client.session.query>>

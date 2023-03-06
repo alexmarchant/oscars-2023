@@ -7,7 +7,7 @@ import {
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import CentererWindow from './CenteredWindow'
-import { client } from '../trpc/client'
+import { useAuthStore } from '../stores/auth'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -26,9 +26,9 @@ export default function Signup() {
   const [passwordConfirmation, setPasswordConfirmation] = useState('')
 
   async function handleSignup() {
-    await client.signup.mutate({
-      username,
+    await useAuthStore.getState().signup({
       email,
+      username,
       password,
       passwordConfirmation,
     })
