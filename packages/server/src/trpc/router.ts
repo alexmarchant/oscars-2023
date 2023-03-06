@@ -1,7 +1,5 @@
 import { initTRPC } from '@trpc/server'
-import { Context, createContext } from './context'
-
-export { createContext }
+import type { Context } from './context'
 
 export type AppRouter = typeof appRouter
 
