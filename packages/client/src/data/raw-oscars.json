@@ -1,0 +1,642 @@
+{
+  "categories": [
+    {
+      "name": "Best Picture",
+      "hasImages": true,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-07-bwlz-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-07-bwlz/oscar-ballot-best-picture-07-bwlz-master495-v2.jpg"
+          }
+        },
+        {
+          "name": "Avatar: The Way of Water",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-04-bwlz-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-04-bwlz/oscar-ballot-best-picture-04-bwlz-master495-v2.jpg"
+          }
+        },
+        {
+          "name": "The Banshees of Inisherin",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-kqwh-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-kqwh/oscar-ballot-best-picture-kqwh-master495-v2.jpg"
+          }
+        },
+        {
+          "name": "Elvis",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-02-bwlz-master495-v3.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-02-bwlz/oscar-ballot-best-picture-02-bwlz-master495-v3.jpg"
+          }
+        },
+        {
+          "name": "Everything Everywhere All at Once",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-09-bwlz-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-09-bwlz/oscar-ballot-best-picture-09-bwlz-master495.jpg"
+          }
+        },
+        {
+          "name": "The Fabelmans",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-10-bwlz-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-10-bwlz/oscar-ballot-best-picture-10-bwlz-master495.jpg"
+          }
+        },
+        {
+          "name": "Tár",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-pght-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-pght/oscar-ballot-best-picture-pght-master495-v2.jpg"
+          }
+        },
+        {
+          "name": "Top Gun: Maverick",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-01-bwlz-master495-v3.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-01-bwlz/oscar-ballot-best-picture-01-bwlz-master495-v3.jpg"
+          }
+        },
+        {
+          "name": "Triangle of Sadness",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-03-bwlz-master495-v3.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-03-bwlz/oscar-ballot-best-picture-03-bwlz-master495-v3.jpg"
+          }
+        },
+        {
+          "name": "Women Talking",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-best-picture-06-bwlz-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/30/multimedia/oscar-ballot-best-picture-06-bwlz/oscar-ballot-best-picture-06-bwlz-master495.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Director",
+      "hasImages": true,
+      "nominees": [
+        {
+          "name": "Martin McDonagh",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-director-02-ztjc-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-master495.jpg"
+          }
+        },
+        {
+          "name": "Daniel Kwan and Daniel Scheinert",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-director-04-ztjc-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-master495.jpg"
+          }
+        },
+        {
+          "name": "Steven Spielberg",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-director-01-ztjc-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-master495.jpg"
+          }
+        },
+        {
+          "name": "Todd Field",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-director-03-ztjc-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-master495.jpg"
+          }
+        },
+        {
+          "name": "Ruben Ostlund",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-director-05-ztjc-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-master495.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Actor in a Leading Role",
+      "hasImages": true,
+      "nominees": [
+        {
+          "name": "Austin Butler",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actor-02-pvwb-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-master495.jpg"
+          }
+        },
+        {
+          "name": "Colin Farrell",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actor-03-pvwb-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-master495.jpg"
+          }
+        },
+        {
+          "name": "Brendan Fraser",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actor-01-pvwb-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-master495-v2.jpg"
+          }
+        },
+        {
+          "name": "Paul Mescal",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actor-06-pvwb-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-master495-v2.jpg"
+          }
+        },
+        {
+          "name": "Bill Nighy",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actor-05-pvwb-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-master495.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Actress in a Leading Role",
+      "hasImages": true,
+      "nominees": [
+        {
+          "name": "Cate Blanchett",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actress-07-jlfw-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-master495-v2.jpg"
+          }
+        },
+        {
+          "name": "Ana de Armas",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actress-03-jlfw-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-master495.jpg"
+          }
+        },
+        {
+          "name": "Andrea Riseborough",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actress-06-jlfw-master495-v3.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-master495-v3.jpg"
+          }
+        },
+        {
+          "name": "Michelle Williams",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actress-01-jlfw-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-master495.jpg"
+          }
+        },
+        {
+          "name": "Michelle Yeoh",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-lead-actress-04-jlfw-master495-v2.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-master495-v2.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Actor in a Supporting Role",
+      "hasImages": true,
+      "nominees": [
+        {
+          "name": "Brendan Gleeson",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actor-01-jwbf-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-master495.jpg"
+          }
+        },
+        {
+          "name": "Brian Tyree Henry",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actor-lvzf-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-master495.jpg"
+          }
+        },
+        {
+          "name": "Judd Hirsch",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actor-04-jwbf-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-master495.jpg"
+          }
+        },
+        {
+          "name": "Barry Keoghan",
+          "image": {
+            "newURL": "/nominee-images/keoghan1-tclm-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-master495.jpg"
+          }
+        },
+        {
+          "name": "Ke Huy Quan",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actor-03-jwbf-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-master495.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Actress in a Supporting Role",
+      "hasImages": true,
+      "nominees": [
+        {
+          "name": "Angela Bassett",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actress-05-tlqh-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-master495.jpg"
+          }
+        },
+        {
+          "name": "Hong Chau",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actress-04-tlqh-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-master495.jpg"
+          }
+        },
+        {
+          "name": "Kerry Condon",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actress-02-tlqh-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-master495.jpg"
+          }
+        },
+        {
+          "name": "Jamie Lee Curtis",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actress-01-tlqh-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-master495.jpg"
+          }
+        },
+        {
+          "name": "Stephanie Hsu",
+          "image": {
+            "newURL": "/nominee-images/oscar-ballot-supporting-actress-03-tlqh-master495.gif",
+            "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-master495.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Original Screenplay",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "The Banshees of Inisherin"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "The Fabelmans"
+        },
+        {
+          "name": "Tár"
+        },
+        {
+          "name": "Triangle of Sadness"
+        }
+      ]
+    },
+    {
+      "name": "Adapted Screenplay",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Glass Onion: A Knives Out Mystery"
+        },
+        {
+          "name": "Living"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        },
+        {
+          "name": "Women Talking"
+        }
+      ]
+    },
+    {
+      "name": "International Feature",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Argentina, 1985"
+        },
+        {
+          "name": "Close"
+        },
+        {
+          "name": "EO"
+        },
+        {
+          "name": "The Quiet Girl"
+        }
+      ]
+    },
+    {
+      "name": "Animated Feature",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "Guillermo del Toro’s Pinocchio"
+        },
+        {
+          "name": "Marcel the Shell With Shoes On"
+        },
+        {
+          "name": "Puss in Boots: The Last Wish"
+        },
+        {
+          "name": "The Sea Beast"
+        },
+        {
+          "name": "Turning Red"
+        }
+      ]
+    },
+    {
+      "name": "Sound",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Avatar: The Way of Water"
+        },
+        {
+          "name": "The Batman"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        }
+      ]
+    },
+    {
+      "name": "Visual Effects",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Avatar: The Way of Water"
+        },
+        {
+          "name": "The Batman"
+        },
+        {
+          "name": "Black Panther: Wakanda Forever"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        }
+      ]
+    },
+    {
+      "name": "Film Editing",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "The Banshees of Inisherin"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "Tár"
+        },
+        {
+          "name": "Top Gun: Maverick"
+        }
+      ]
+    },
+    {
+      "name": "Short Film, Animated",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "The Boy, the Mole, the Fox and the Horse"
+        },
+        {
+          "name": "The Flying Sailor"
+        },
+        {
+          "name": "Ice Merchants"
+        },
+        {
+          "name": "My Year of Dicks"
+        },
+        {
+          "name": "An Ostrich Told Me the World Is Fake and I Think I Believe It"
+        }
+      ]
+    },
+    {
+      "name": "Short Film, Live Action",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "An Irish Goodbye"
+        },
+        {
+          "name": "Ivalu"
+        },
+        {
+          "name": "Le Pupille"
+        },
+        {
+          "name": "Night Ride"
+        },
+        {
+          "name": "The Red Suitcase"
+        }
+      ]
+    },
+    {
+      "name": "Documentary Short Subject",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "The Elephant Whisperers"
+        },
+        {
+          "name": "Haulout"
+        },
+        {
+          "name": "How Do You Measure a Year?"
+        },
+        {
+          "name": "The Martha Mitchell Effect"
+        },
+        {
+          "name": "Stranger at the Gate"
+        }
+      ]
+    },
+    {
+      "name": "Original Score",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Babylon"
+        },
+        {
+          "name": "The Banshees of Inisherin"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "The Fabelmans"
+        }
+      ]
+    },
+    {
+      "name": "Original Song",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "“Applause”"
+        },
+        {
+          "name": "“Hold My Hand”"
+        },
+        {
+          "name": "“Lift Me Up”"
+        },
+        {
+          "name": "“Naatu Naatu”"
+        },
+        {
+          "name": "“This Is a Life”"
+        }
+      ]
+    },
+    {
+      "name": "Production Design",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Avatar: The Way of Water"
+        },
+        {
+          "name": "Babylon"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "The Fabelmans"
+        }
+      ]
+    },
+    {
+      "name": "Cinematography",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "Bardo, False Chronicle of a Handful of Truths"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Empire of Light"
+        },
+        {
+          "name": "Tár"
+        }
+      ]
+    },
+    {
+      "name": "Costume Design",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "Babylon"
+        },
+        {
+          "name": "Black Panther: Wakanda Forever"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "Everything Everywhere All at Once"
+        },
+        {
+          "name": "Mrs. Harris Goes to Paris"
+        }
+      ]
+    },
+    {
+      "name": "Makeup",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All Quiet on the Western Front"
+        },
+        {
+          "name": "The Batman"
+        },
+        {
+          "name": "Black Panther: Wakanda Forever"
+        },
+        {
+          "name": "Elvis"
+        },
+        {
+          "name": "The Whale"
+        }
+      ]
+    },
+    {
+      "name": "Documentary Feature",
+      "hasImages": false,
+      "nominees": [
+        {
+          "name": "All That Breathes"
+        },
+        {
+          "name": "All the Beauty and the Bloodshed"
+        },
+        {
+          "name": "Fire of Love"
+        },
+        {
+          "name": "A House Made of Splinters"
+        },
+        {
+          "name": "Navalny"
+        }
+      ]
+    }
+  ]
+}

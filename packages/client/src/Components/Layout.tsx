@@ -4,18 +4,12 @@ import { styleReset } from 'react95'
 import original from 'react95/dist/themes/original'
 import ms_sans_serif from 'react95/dist/fonts/ms_sans_serif.woff2'
 import ms_sans_serif_bold from 'react95/dist/fonts/ms_sans_serif_bold.woff2'
+import ms_serif from '../assets/pixelated-times-new-roman.woff2'
 import { Outlet } from 'react-router-dom'
+import '@react95/icons/icons.css'
 
 const GlobalStyles = createGlobalStyle`
   ${styleReset}
-
-  html {
-    box-sizing: border-box;
-  }
-
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
 
   @font-face {
     font-family: 'ms_sans_serif';
@@ -31,10 +25,29 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal
   }
 
+  @font-face {
+    font-family: 'ms_serif';
+    src: url('${ms_serif}') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   h1 {
     font-size: 1.4em;
     font-weight: bold;
     margin-bottom: .3em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: .2em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: .1em;
   }
 
   body {

@@ -6,7 +6,7 @@ import { User1 } from '@react95/icons'
 import styled from 'styled-components'
 import { AppBar, Toolbar, Button } from 'react95'
 import IEWindow from './IEWindow'
-import Form from './Form'
+import Website from './Website'
 
 const Container = styled.div`
   display: flex;
@@ -29,6 +29,13 @@ const IEWindowContainer = styled.div`
   width: 100%;
   height: 100%;
   padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+`
+
+const StyledIEWindow = styled(IEWindow)`
+  max-width: 1200px;
 `
 
 interface LoaderData {
@@ -56,9 +63,9 @@ export default function Ballot () {
     <Container>
       <Content>
         <IEWindowContainer>
-          <IEWindow>
-            <Form />
-          </IEWindow>
+          <StyledIEWindow header="Oscar Pool">
+            <Website />
+          </StyledIEWindow>
         </IEWindowContainer>
       </Content>
       <StyledAppBar position="relative">

@@ -1,8 +1,10 @@
 import React from 'react'
 import {
   Window,
+  WindowContent,
   WindowHeader,
   Frame,
+  ScrollView,
 } from 'react95'
 import { Mshtml32528, Mshtml32547 } from '@react95/icons'
 import styled from 'styled-components'
@@ -16,20 +18,18 @@ const StyledWindow = styled(Window)`
   flex-direction: column;
 `
 
-const Content = styled.div`
+const StyledWindowContent = styled(WindowContent)`
   min-height: 0;
   margin-top: ${FramePadding}px;
   margin-bottom: ${FramePadding}px;
   flex-grow: 1;
   flex-shrink: 1;
+  padding: 0;
 `
 
-const ContentFrame = styled(Frame)`
+const StyledScrollView = styled(ScrollView)`
   width: 100%;
   height: 100%;
-  max-height: 100%;
-  background-color: ${props => props.theme.material};
-  overflow-y: scroll;
 `
 
 const Footer = styled.div`
@@ -47,6 +47,7 @@ const FooterFrame = styled(Frame)`
 `
 
 interface Props {
+  header: string
   className?: string
 }
 
@@ -56,13 +57,13 @@ export default function IEWindow(props: React.PropsWithChildren<Props>) {
         <WindowHeader>
           <Mshtml32528 variant="16x16_4" />
           &nbsp;
-          Microsoft Internet Explorer
+          {props.header}
         </WindowHeader>
-        <Content>
-          <ContentFrame variant="field">
+        <StyledWindowContent>
+          <StyledScrollView>
             { props.children }
-          </ContentFrame>
-        </Content>
+          </StyledScrollView>
+        </StyledWindowContent>
         <Footer>
           <FooterFrame variant="well" style={{ flexGrow: 1, flexShrink: 1, width: '100%' }}>
             &nbsp;

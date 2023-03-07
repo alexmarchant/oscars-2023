@@ -11,10 +11,12 @@
   "dependencies": {
     "@am-oscar-2023/shared": "workspace:0.0.0",
     "@react95/clippy": "~1.0.10",
+    "@react95/core": "~6.0.6",
     "@react95/icons": "~2.0.6",
     "@trpc/client": "^10.14.0",
     "@trpc/server": "^10.14.0",
     "@types/styled-components": "~5.1.26",
+    "@xstyled/styled-components": "~3.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "~16.8.0",
