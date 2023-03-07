@@ -71,7 +71,6 @@ export default function Website(props: { className?: string }) {
         })
       }, 200))
     }
-    console.log('saving changed', saving)
   }, [saving, timer])
 
   // Reset the timer when reaches 100

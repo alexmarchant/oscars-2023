@@ -1,13 +1,19 @@
-import React from 'react'
-import { useAuthStore } from '../stores/auth'
-import { redirect } from 'react-router-dom'
-import { UserSession } from '../trpc/client'
+import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { User1 } from '@react95/icons'
 import styled from 'styled-components'
-import { AppBar, Toolbar, Button } from 'react95'
+import {
+  AppBar,
+  Toolbar,
+  Button,
+  MenuList,
+  MenuListItem,
+} from 'react95'
+import { Computer3 } from '@react95/icons'
 import IEWindow from './IEWindow'
 import Website from './Website'
 import { useBallotStore } from '../stores/ballot'
+import { useAuthStore } from '../stores/auth'
 
 const Container = styled.div`
   display: flex;
@@ -19,6 +25,7 @@ const Content = styled.div`
   flex-grow: 1;
   flex-shrink: 1;
   height: 100%;
+  min-height: 0;
 `
 
 const StyledAppBar = styled(AppBar)`
@@ -39,34 +46,55 @@ const StyledIEWindow = styled(IEWindow)`
   max-width: 1000px;
 `
 
-interface LoaderData {
-  session: UserSession
-}
+const StartMenuItem = styled(MenuListItem)`
+  justify-content: flex-start;
+  cursor: pointer;
 
-export async function loader(): Promise<LoaderData | Response> {
-  // If it already exists use it
-  let session = useAuthStore.getState().session
-  if (session) return { session }
-
-  // Try to query
-  await useAuthStore.getState().getSession()
-  session = useAuthStore.getState().session
-  if (session) return { session }
-
-  // Redirect if failed
-  return redirect('/login')
-}
+  &:hover {
+    cursor: pointer;
+  }
+`
 
 export default function Ballot () {
-  // const { session } = useLoaderData() as LoaderData
-  const loading = useBallotStore(state => state.loading)
+  const loadingBallot = useBallotStore(state => state.loading)
+  const [appBarMenuOpen, setAppBarMenuOpen] = useState(false)
+  const session = useAuthStore(state => state.session)
+  const logout = useAuthStore(state => state.logout)
+  const loadingSession = useAuthStore(state => state.loading)
+  const navigate = useNavigate()
+
+  function handleWindowClick() {
+    setAppBarMenuOpen(false)
+  }
+
+  useEffect(() => {
+    if (!session && !loadingSession) {
+      navigate('/login')
+    }
+  }, [session, navigate, loadingSession])
+
+  useEffect(() => {
+    window.addEventListener('click', handleWindowClick)
+    return () => { window.removeEventListener('click', handleWindowClick) }
+  }, [])
+
+  function handleStartClick(e: React.MouseEvent) {
+    e.stopPropagation()
+    setAppBarMenuOpen(true)
+  }
+
+  function handleLogoutClick(e: React.MouseEvent) {
+    e.stopPropagation()
+    logout()
+    setAppBarMenuOpen(false)
+  }
 
   return (
     <Container>
       <Content>
         <IEWindowContainer>
           <StyledIEWindow header="Oscar Pool">
-            {!loading && 
+            {!loadingBallot && 
               <Website />
             }
           </StyledIEWindow>
@@ -76,12 +104,30 @@ export default function Ballot () {
         <Toolbar>
           <Button
             style={{ fontWeight: 'bold' }}
+            onClick={handleStartClick}
           >
             <User1 variant="22x22_4" />
             &nbsp;
             Start
           </Button>
         </Toolbar>
+        {appBarMenuOpen && (
+          <MenuList
+            style={{
+              position: 'absolute',
+              left: '-1px',
+              bottom: 'calc(100% + 2px)',
+              width: 250,
+            }}
+          >
+            <StartMenuItem
+              onClick={handleLogoutClick}
+            >
+              <Computer3 variant="32x32_4" style={{ marginRight: 15 }} />
+              Logout
+            </StartMenuItem>
+          </MenuList>
+        )}
       </StyledAppBar>
     </Container>
   )

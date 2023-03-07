@@ -11,7 +11,9 @@ interface AuthStore {
   token: null | string
   session: UserSession | null
   error: string | null
+  loading: boolean
   login(input: LoginInput): Promise<void>
+  logout(): void
   signup(input: SignupInput): Promise<void>
   setTokenAndGetSession(token: string): Promise<void>
   getSession(): Promise<void>
@@ -36,6 +38,13 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
       }
     }
   },
+  logout () {
+    localStorage.removeItem(TokenKey)
+    set({
+      session: null,
+      token: null,
+    })
+  },
   async signup (input: SignupInput) {
     set({ error: null })
     const token = await client.signup.mutate(input)
@@ -47,9 +56,13 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
     await get().getSession()
   },
   async getSession() {
+    const token = get().token
+    if (!token) return
+
+    set({ loading: true })
     try {
       const session = await client.session.query()
-      set({ session })
+      set({ session, loading: false })
     } catch (e) {
       console.log('failed to get sesion')
     }
