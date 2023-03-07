@@ -10,7 +10,7 @@ const AnchorAny = Anchor as any
 
 export default function RouterAnchor(props: React.PropsWithChildren<Props>) {
   return (
-    <AnchorAny to={props.to} as={Link}>
+    <AnchorAny to={props.to} as={Link} underline="true">
       {props.children}
     </AnchorAny>
   )

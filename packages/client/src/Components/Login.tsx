@@ -22,13 +22,13 @@ const LinkSeparator = styled.span`
 `
 
 export default function Login() {
+  useRedirectIfSession()
+
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  useRedirectIfSession()
   const login = useAuthStore(state => state.login)
   const error = useAuthStore(state => state.error)
-
 
   async function handleLogin () {
     await login({ email, password })
@@ -69,10 +69,10 @@ export default function Login() {
           <RouterAnchor to="/signup">
             Signup
           </RouterAnchor>
-          <LinkSeparator>|</LinkSeparator>
+          {/* <LinkSeparator>|</LinkSeparator>
           <RouterAnchor to="/forgot">
             Forgot password
-          </RouterAnchor>
+          </RouterAnchor> */}
         </div>
       </ButtonRow>
     </CenteredWindow>

@@ -16,7 +16,7 @@ interface AuthStore {
   logout(): void
   signup(input: SignupInput): Promise<void>
   setTokenAndGetSession(token: string): Promise<void>
-  getSession(): Promise<void>
+  getSession(): Promise<UserSession | null>
 }
 
 export const useAuthStore = create<AuthStore>((set, get) => ({
@@ -30,10 +30,10 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
       const token = await client.login.mutate(input)
       await get().setTokenAndGetSession(token)
     } catch (e) {
+      console.error(e)
       if (isTRPCClientError(e) && e.data?.code === 'BAD_REQUEST') {
         set({ error: 'Sorry, your password was incorrect. Please double-check your password.' })
       } else {
-        console.error(e)
         set({ error: 'Sorry, something went wrong. Try again or contact us.' })
       }
     }
@@ -47,8 +47,18 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
   },
   async signup (input: SignupInput) {
     set({ error: null })
-    const token = await client.signup.mutate(input)
-    await get().setTokenAndGetSession(token)
+    try {
+      const token = await client.signup.mutate(input)
+      await get().setTokenAndGetSession(token)
+    } catch (e) {
+      console.error(e)
+      if (isTRPCClientError(e) && e.data?.code === 'BAD_REQUEST') {
+        console.log(e)
+        set({ error: 'Sorry, your password was incorrect. Please double-check your password.' })
+      } else {
+        set({ error: 'Sorry, something went wrong. Try again or contact us.' })
+      }
+    }
   },
   async setTokenAndGetSession(token: string) {
     localStorage.setItem(TokenKey, token)
@@ -57,15 +67,17 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
   },
   async getSession() {
     const token = get().token
-    if (!token) return
+    if (!token) return null
 
     set({ loading: true })
     try {
       const session = await client.session.query()
       set({ session, loading: false })
+      return session
     } catch (e) {
       console.log('failed to get sesion')
     }
+    return null
   },
 }))
 

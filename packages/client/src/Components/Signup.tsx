@@ -7,8 +7,10 @@ import {
 import RouterAnchor from './RouterAnchor'
 import styled from 'styled-components'
 import CentererWindow from './CenteredWindow'
+import ErrorMessage from './ErrorMessage'
 import { useAuthStore } from '../stores/auth'
 import { useRedirectIfSession } from '../hooks/useRedirectIfSession'
+import { SignupSchema } from '@am-oscar-2023/shared'
 
 const ButtonRow = styled.div`
   display: flex;
@@ -25,11 +27,35 @@ export default function Signup() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [passwordConfirmation, setPasswordConfirmation] = useState('')
+  const [validationErrors, setValidationErrors] = useState<Record<string, string>>({})
+
+  const signupError = useAuthStore(state => state.error)
+  const signup = useAuthStore(state => state.signup)
 
   useRedirectIfSession()
 
   async function handleSignup() {
-    await useAuthStore.getState().signup({
+    setValidationErrors({})
+    const result = SignupSchema.safeParse({
+      email,
+      username,
+      password,
+      passwordConfirmation,
+    })
+    if (!result.success) {
+      const errorMap: Record<string, string> = {}
+      for (const issue of result.error.issues) {
+        const key = issue.path[0]
+        errorMap[key] = issue.message
+      }
+      setValidationErrors(errorMap)
+      return
+    }
+    if (password !== passwordConfirmation) {
+      setValidationErrors({ passwordConfirmation: 'Passwords do not match' })
+      return
+    }
+    await signup({
       email,
       username,
       password,
@@ -46,6 +72,11 @@ export default function Signup() {
           onChange={event => setEmail(event.target.value)}
           fullWidth
         />
+        {validationErrors.email && <>
+          <ErrorMessage>
+            {validationErrors.email}
+          </ErrorMessage>
+        </>}
       </GroupBox>
       <br/>
       <GroupBox label="Username">
@@ -55,6 +86,11 @@ export default function Signup() {
           onChange={event => setUsername(event.target.value)}
           fullWidth
         />
+        {validationErrors.username && <>
+          <ErrorMessage>
+            {validationErrors.username}
+          </ErrorMessage>
+        </>}
       </GroupBox>
       <br/>
       <GroupBox label="Password">
@@ -65,6 +101,11 @@ export default function Signup() {
           type="password"
           fullWidth
         />
+        {validationErrors.password && <>
+          <ErrorMessage>
+            {validationErrors.password}
+          </ErrorMessage>
+        </>}
       </GroupBox>
       <br/>
       <GroupBox label="Password confirmation">
@@ -75,8 +116,19 @@ export default function Signup() {
           type="password"
           fullWidth
         />
+        {validationErrors.passwordConfirmation && <>
+          <ErrorMessage>
+            {validationErrors.passwordConfirmation}
+          </ErrorMessage>
+        </>}
       </GroupBox>
       <br/>
+      {signupError && <>
+        <ErrorMessage>
+          {signupError}
+        </ErrorMessage>
+        <br/>
+      </>}
       <ButtonRow>
         <Button primary onClick={handleSignup}>
           Signup
@@ -85,10 +137,10 @@ export default function Signup() {
           <RouterAnchor to="/login">
             Login
           </RouterAnchor>
-          <LinkSeparator>|</LinkSeparator>
+          {/* <LinkSeparator>|</LinkSeparator>
           <RouterAnchor to="/forgot">
             Forgot password
-          </RouterAnchor>
+          </RouterAnchor> */}
         </div>
       </ButtonRow>
     </CentererWindow>

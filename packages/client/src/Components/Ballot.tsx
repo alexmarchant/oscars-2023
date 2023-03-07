@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLoaderData, redirect } from 'react-router-dom'
 import { User1 } from '@react95/icons'
 import styled from 'styled-components'
 import {
@@ -55,7 +55,22 @@ const StartMenuItem = styled(MenuListItem)`
   }
 `
 
+export async function ballotLoader() {
+  // Make sure they are logged in, or else redirect
+  let session = await useAuthStore.getState().session 
+  if (!session) {
+    session = await useAuthStore.getState().getSession() 
+    if (!session){
+      return redirect('/login')
+    }
+  }
+  // Load the ballot
+  await useBallotStore.getState().getBallot()
+  return null
+}
+
 export default function Ballot () {
+  useLoaderData()
   const loadingBallot = useBallotStore(state => state.loading)
   const [appBarMenuOpen, setAppBarMenuOpen] = useState(false)
   const session = useAuthStore(state => state.session)

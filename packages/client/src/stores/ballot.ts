@@ -6,8 +6,8 @@ type Ballot = Record<string, string>
 export interface BallotStore {
   ballot: Ballot
   loading: boolean
-  getBallot: () => void
-  setPick: (category: string, nominee: string) => void
+  getBallot: () => Promise<Ballot | undefined>
+  setPick: (category: string, nominee: string) => Promise<void>
 }
 
 export const useBallotStore = create<BallotStore>((set, get) => ({
@@ -18,6 +18,7 @@ export const useBallotStore = create<BallotStore>((set, get) => ({
     try {
       const ballot = await client.ballot.query()
       set({ loading: false, ballot })
+      return ballot
     } catch(e) {
       alert('Sorry, error loading your picks :( Maybe refresh and try again')
       console.error(e)
@@ -38,5 +39,3 @@ export const useBallotStore = create<BallotStore>((set, get) => ({
     }
   },
 }))
-
-useBallotStore.getState().getBallot()
