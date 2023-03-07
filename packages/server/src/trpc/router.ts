@@ -1,5 +1,5 @@
 import { initTRPC, TRPCError } from '@trpc/server'
-import { LoginSchema, SignupSchema } from '../../../shared/src'
+import { LoginSchema, SignupSchema, SetPickSchema } from '../../../shared/src'
 import type { Context } from './context'
 import { createTokenForUser } from '../auth'
 import * as bcrypt from 'bcrypt'
@@ -63,5 +63,57 @@ export const appRouter = t.router({
           })
         }
         return currentUser
+      }),
+    
+    ballot: t.procedure
+      .query(async ({ ctx }): Promise<Record<string, string>> => {
+        const { currentUser } = ctx
+        if (!currentUser) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Not logged in',
+          })
+        }
+        const picks = await ctx.db.pick.findMany({
+          where: {
+            userId: currentUser.id,
+          },
+        })
+
+        return picks.reduce((acc, pick) => {
+          acc[pick.category] = pick.nominee
+          return acc
+        }, {} as Record<string, string>)
+      }),
+  
+    setPick: t.procedure
+      .input((val: unknown) => {
+        return SetPickSchema.parse(val)
+      })
+      .mutation(async ({ ctx, input }) => {
+        const { currentUser } = ctx
+        if (!currentUser) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Not logged in',
+          })
+        }
+
+        await ctx.db.pick.upsert({
+          where: {
+            userCategoryPick: {
+              userId: currentUser.id,
+              category: input.category,
+            },
+          },
+          update: {
+            nominee: input.nominee,
+          },
+          create: {
+            userId: currentUser.id,
+            category: input.category,
+            nominee: input.nominee,
+          },
+        })
       }),
 })

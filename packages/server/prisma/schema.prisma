@@ -16,4 +16,14 @@ model User {
   username String @unique
   hashedPassword String
   admin Boolean @default(false)
+  picks Pick[]
+}
+
+model Pick {
+  id Int @id @default(autoincrement()) 
+  user User @relation(fields: [userId], references: [id])
+  userId Int
+  category String
+  nominee String
+  @@unique([userId, category], name: "userCategoryPick")
 }

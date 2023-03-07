@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Category as ICategory, Nominee } from '../data/oscars'
 import styled from 'styled-components'
 import { Anchor, Radio } from 'react95'
+import { useBallotStore } from '../stores/ballot'
+import { shallow } from 'zustand/shallow'
 
 interface Props {
   category: ICategory
@@ -51,9 +53,9 @@ const NomineeItem = styled.div`
 
 const NomineeImage = styled.img`
   width: 100%;
-  max-width: 100%;
   height: 100%;
-  max-height: 300px;
+  max-height: 350px;
+  max-width: 400px;
   object-fit: contain;
 `
 
@@ -61,13 +63,20 @@ export default function Category(props: Props) {
   const firstNominee = props.category.nominees[0]
   const defaultImageURL = firstNominee.image?.newURL
 
-  const [selectedNominee, setSelectedNominee] = useState<Nominee | null>(null)
-  const [imageURL, setImageURL] = useState<string | undefined>(defaultImageURL)
+  const { pick, setPick } = useBallotStore(
+    state => ({
+      pick: state.ballot[props.category.name] as string | undefined,
+      setPick: state.setPick,
+    }),
+    shallow
+  )
+
+  const selectedNominee = props.category.nominees.find(nom => nom.name === pick)
+  const imageURL = selectedNominee?.image?.newURL ? selectedNominee.image.newURL : defaultImageURL
 
   function handleNomineeClick(nominee: Nominee, event?: React.MouseEvent<HTMLAnchorElement>) {
     event?.preventDefault()
-    setSelectedNominee(nominee)
-    setImageURL(nominee.image?.newURL)
+    setPick(props.category.name, nominee.name)
   }
 
   const Nominees = props.category.nominees.map(nominee => (
@@ -78,7 +87,7 @@ export default function Category(props: Props) {
       />
       <StyledAnchor
         onClick={(e) => handleNomineeClick(nominee, e)}
-        href="http://crazytown.com"
+        href="http://nimrod313.myspace.com"
       >
         {nominee.name}
       </StyledAnchor>
