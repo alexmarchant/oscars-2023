@@ -6,6 +6,7 @@ import StartMenu from './StartMenu'
 import Website from './Website'
 import { useBallotStore } from '../stores/ballot'
 import { useAuthStore } from '../stores/auth'
+import { Explorer100 } from '@react95/icons'
 
 const Container = styled.div`
   display: flex;
@@ -33,7 +34,18 @@ const StyledIEWindow = styled(IEWindow)`
   max-width: 1000px;
 `
 
-export async function ballotLoader() {
+const DesktopIcon = styled.div`
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-size: 16px;
+`
+
+export async function desktopLoader() {
   // Make sure they are logged in, or else redirect
   let session = await useAuthStore.getState().session 
   if (!session) {
@@ -47,7 +59,7 @@ export async function ballotLoader() {
   return null
 }
 
-export default function Ballot () {
+export default function Desktop () {
   useLoaderData()
   const loadingBallot = useBallotStore(state => state.loading)
   const session = useAuthStore(state => state.session)
@@ -63,6 +75,12 @@ export default function Ballot () {
   return (
     <Container>
       <Content>
+        <DesktopIcon>
+          <Explorer100 style={{ marginBottom: 5, width: 45, height: 45 }}/>
+          <span>
+            My Computer
+          </span>
+        </DesktopIcon>
         <IEWindowContainer>
           <StyledIEWindow header="Oscar Pool">
             {!loadingBallot && 

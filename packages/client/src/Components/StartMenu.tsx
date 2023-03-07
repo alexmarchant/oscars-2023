@@ -75,7 +75,7 @@ export default function StartMenu() {
           &nbsp;
           Start
         </Button>
-        <Frame variant="status" style={{ height: '100%', display: 'flex', alignItems: 'center', fontSize: 14, padding: '0 15px 0 4px' }}>
+        <Frame variant="status" style={{ height: '100%', display: 'flex', alignItems: 'center', fontSize: 14, padding: '0 12px 0 6px' }}>
           <Sndrec3210 variant="16x16_4" style={{ marginRight: 10 }} />
           {formattedTime}
         </Frame>

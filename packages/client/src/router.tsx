@@ -7,7 +7,7 @@ import ErrorPage from './components/ErrorPage'
 import Login from './components/Login'
 import Signup from './components/Signup'
 import ForgotPassword from './components/ForgotPassword'
-import Ballot, { ballotLoader } from './components/Ballot'
+import Desktop, { desktopLoader } from './components/Desktop'
 
 export const router = createBrowserRouter([
   {
@@ -17,8 +17,8 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '',
-        element: <Ballot />,
-        loader: ballotLoader,
+        element: <Desktop />,
+        loader: desktopLoader,
       },
       {
         path: 'login',
