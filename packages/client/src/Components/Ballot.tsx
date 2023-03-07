@@ -7,6 +7,7 @@ import styled from 'styled-components'
 import { AppBar, Toolbar, Button } from 'react95'
 import IEWindow from './IEWindow'
 import Website from './Website'
+import { useBallotStore } from '../stores/ballot'
 
 const Container = styled.div`
   display: flex;
@@ -58,13 +59,16 @@ export async function loader(): Promise<LoaderData | Response> {
 
 export default function Ballot () {
   // const { session } = useLoaderData() as LoaderData
+  const loading = useBallotStore(state => state.loading)
 
   return (
     <Container>
       <Content>
         <IEWindowContainer>
           <StyledIEWindow header="Oscar Pool">
-            <Website />
+            {!loading && 
+              <Website />
+            }
           </StyledIEWindow>
         </IEWindowContainer>
       </Content>

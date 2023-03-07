@@ -15,11 +15,13 @@ export const useBallotStore = create<BallotStore>((set, get) => ({
   loading: false,
   async getBallot() {
     set({ loading: true })
-    const ballot = await client.ballot.query()
-    set({
-      loading: false,
-      ballot,
-    })
+    try {
+      const ballot = await client.ballot.query()
+      set({ loading: false, ballot })
+    } catch(e) {
+      alert('Sorry, error loading your picks :( Maybe refresh and try again')
+      console.error(e)
+    }
   },
   async setPick(category: string, nominee: string) {
     const ballot = get().ballot
@@ -27,10 +29,13 @@ export const useBallotStore = create<BallotStore>((set, get) => ({
       ...ballot,
       [category]: nominee },
     })
-    await client.setPick.mutate({
-      category,
-      nominee,
-    })
+    try {
+      await client.setPick.mutate({ category, nominee })
+    } catch(e) {
+      set({ ballot })
+      alert('Sorry, error saving your pick :( Maybe refresh and try again')
+      console.error(e)
+    }
   },
 }))
 
