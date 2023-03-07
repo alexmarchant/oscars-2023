@@ -17,9 +17,9 @@ const ButtonRow = styled.div`
   align-items: center;
 `
 
-const LinkSeparator = styled.span`
-  padding: 0 1em;
-`
+// const LinkSeparator = styled.span`
+//   padding: 0 1em;
+// `
 
 export default function Login() {
   useRedirectIfSession()
@@ -30,51 +30,58 @@ export default function Login() {
   const login = useAuthStore(state => state.login)
   const error = useAuthStore(state => state.error)
 
-  async function handleLogin () {
+  async function handleLogin (e: React.FormEvent) {
+    e.preventDefault()
     await login({ email, password })
   }
 
   return (
     <CenteredWindow header="Login">
-      <GroupBox label="Email">
-        <TextInput
-          value={email}
-          placeholder="bgates@msn.com"
-          onChange={event => setEmail(event.target.value)}
-          fullWidth
-        />
-      </GroupBox>
-      <br/>
-      <GroupBox label="Password">
-        <TextInput
-          value={password}
-          placeholder="********"
-          onChange={event => setPassword(event.target.value)}
-          type="password"
-          fullWidth
-        />
-      </GroupBox>
-      <br/>
-      {error && <>
-        <ErrorMessage>
-          {error}
-        </ErrorMessage>
+      <form onSubmit={handleLogin}>
+        <GroupBox label="Email">
+          <TextInput
+            value={email}
+            placeholder="bgates@msn.com"
+            onChange={event => setEmail(event.target.value)}
+            fullWidth
+          />
+        </GroupBox>
         <br/>
-      </>}
-      <ButtonRow>
-        <Button primary onClick={handleLogin}>
-          Login
-        </Button>
-        <div>
-          <RouterAnchor to="/signup">
-            Signup
-          </RouterAnchor>
-          {/* <LinkSeparator>|</LinkSeparator>
-          <RouterAnchor to="/forgot">
-            Forgot password
-          </RouterAnchor> */}
-        </div>
-      </ButtonRow>
+        <GroupBox label="Password">
+          <TextInput
+            value={password}
+            placeholder="********"
+            onChange={event => setPassword(event.target.value)}
+            type="password"
+            fullWidth
+          />
+        </GroupBox>
+        <br/>
+        {error && <>
+          <ErrorMessage>
+            {error}
+          </ErrorMessage>
+          <br/>
+        </>}
+        <ButtonRow>
+          <Button
+            primary
+            onClick={handleLogin}
+            type="submit"
+          >
+            Login
+          </Button>
+          <div>
+            <RouterAnchor to="/signup">
+              Signup
+            </RouterAnchor>
+            {/* <LinkSeparator>|</LinkSeparator>
+            <RouterAnchor to="/forgot">
+              Forgot password
+            </RouterAnchor> */}
+          </div>
+        </ButtonRow>
+      </form>
     </CenteredWindow>
   )
 }

@@ -17,6 +17,7 @@
     "@trpc/server": "^10.14.0",
     "@types/styled-components": "~5.1.26",
     "@xstyled/styled-components": "~3.7.0",
+    "date-fns": "~2.29.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "~16.8.0",

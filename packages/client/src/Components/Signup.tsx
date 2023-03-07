@@ -18,9 +18,9 @@ const ButtonRow = styled.div`
   align-items: center;
 `
 
-const LinkSeparator = styled.span`
-  padding: 0 1em;
-`
+// const LinkSeparator = styled.span`
+//   padding: 0 1em;
+// `
 
 export default function Signup() {
   const [username, setUsername] = useState('')
@@ -34,7 +34,9 @@ export default function Signup() {
 
   useRedirectIfSession()
 
-  async function handleSignup() {
+  async function handleSignup(e: React.FormEvent) {
+    e.preventDefault()
+
     setValidationErrors({})
     const result = SignupSchema.safeParse({
       email,
@@ -65,84 +67,90 @@ export default function Signup() {
 
   return (
     <CentererWindow header="Signup">
-      <GroupBox label="Email">
-        <TextInput
-          value={email}
-          placeholder="bgates@msn.com"
-          onChange={event => setEmail(event.target.value)}
-          fullWidth
-        />
-        {validationErrors.email && <>
-          <ErrorMessage>
-            {validationErrors.email}
-          </ErrorMessage>
-        </>}
-      </GroupBox>
-      <br/>
-      <GroupBox label="Username">
-        <TextInput
-          value={username}
-          placeholder="dollar_bill"
-          onChange={event => setUsername(event.target.value)}
-          fullWidth
-        />
-        {validationErrors.username && <>
-          <ErrorMessage>
-            {validationErrors.username}
-          </ErrorMessage>
-        </>}
-      </GroupBox>
-      <br/>
-      <GroupBox label="Password">
-        <TextInput
-          value={password}
-          placeholder="********"
-          onChange={event => setPassword(event.target.value)}
-          type="password"
-          fullWidth
-        />
-        {validationErrors.password && <>
-          <ErrorMessage>
-            {validationErrors.password}
-          </ErrorMessage>
-        </>}
-      </GroupBox>
-      <br/>
-      <GroupBox label="Password confirmation">
-        <TextInput
-          value={passwordConfirmation}
-          placeholder="********"
-          onChange={event => setPasswordConfirmation(event.target.value)}
-          type="password"
-          fullWidth
-        />
-        {validationErrors.passwordConfirmation && <>
-          <ErrorMessage>
-            {validationErrors.passwordConfirmation}
-          </ErrorMessage>
-        </>}
-      </GroupBox>
-      <br/>
-      {signupError && <>
-        <ErrorMessage>
-          {signupError}
-        </ErrorMessage>
+      <form onSubmit={handleSignup}>
+        <GroupBox label="Email">
+          <TextInput
+            value={email}
+            placeholder="bgates@msn.com"
+            onChange={event => setEmail(event.target.value)}
+            fullWidth
+          />
+          {validationErrors.email && <>
+            <ErrorMessage>
+              {validationErrors.email}
+            </ErrorMessage>
+          </>}
+        </GroupBox>
         <br/>
-      </>}
-      <ButtonRow>
-        <Button primary onClick={handleSignup}>
-          Signup
-        </Button>
-        <div>
-          <RouterAnchor to="/login">
-            Login
-          </RouterAnchor>
-          {/* <LinkSeparator>|</LinkSeparator>
-          <RouterAnchor to="/forgot">
-            Forgot password
-          </RouterAnchor> */}
-        </div>
-      </ButtonRow>
+        <GroupBox label="Username">
+          <TextInput
+            value={username}
+            placeholder="dollar_bill"
+            onChange={event => setUsername(event.target.value)}
+            fullWidth
+          />
+          {validationErrors.username && <>
+            <ErrorMessage>
+              {validationErrors.username}
+            </ErrorMessage>
+          </>}
+        </GroupBox>
+        <br/>
+        <GroupBox label="Password">
+          <TextInput
+            value={password}
+            placeholder="********"
+            onChange={event => setPassword(event.target.value)}
+            type="password"
+            fullWidth
+          />
+          {validationErrors.password && <>
+            <ErrorMessage>
+              {validationErrors.password}
+            </ErrorMessage>
+          </>}
+        </GroupBox>
+        <br/>
+        <GroupBox label="Password confirmation">
+          <TextInput
+            value={passwordConfirmation}
+            placeholder="********"
+            onChange={event => setPasswordConfirmation(event.target.value)}
+            type="password"
+            fullWidth
+          />
+          {validationErrors.passwordConfirmation && <>
+            <ErrorMessage>
+              {validationErrors.passwordConfirmation}
+            </ErrorMessage>
+          </>}
+        </GroupBox>
+        <br/>
+        {signupError && <>
+          <ErrorMessage>
+            {signupError}
+          </ErrorMessage>
+          <br/>
+        </>}
+        <ButtonRow>
+          <Button
+            primary
+            onClick={handleSignup}
+            type="submit"
+          >
+            Signup
+          </Button>
+          <div>
+            <RouterAnchor to="/login">
+              Login
+            </RouterAnchor>
+            {/* <LinkSeparator>|</LinkSeparator>
+            <RouterAnchor to="/forgot">
+              Forgot password
+            </RouterAnchor> */}
+          </div>
+        </ButtonRow>
+      </form>
     </CentererWindow>
   )
 }
