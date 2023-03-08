@@ -51,7 +51,7 @@ export async function desktopLoader() {
   if (!session) {
     session = await useAuthStore.getState().getSession() 
     if (!session){
-      return redirect('/login')
+      return redirect('/signup')
     }
   }
   // Load the ballot
@@ -66,6 +66,7 @@ export default function Desktop () {
   const loadingSession = useAuthStore(state => state.loading)
   const navigate = useNavigate()
 
+  // Handle logout
   useEffect(() => {
     if (!session && !loadingSession) {
       navigate('/login')
