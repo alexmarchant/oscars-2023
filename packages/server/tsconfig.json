@@ -1,18 +1,17 @@
 {
   "compilerOptions": {
     "target": "ES2018",
-    "useDefineForClassFields": true,
     "lib": ["ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "module": "CommonJS",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "outDir": "dist"
   },
   "include": ["src"]
 }

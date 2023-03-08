@@ -1,5 +1,5 @@
 import { initTRPC, TRPCError } from '@trpc/server'
-import { LoginSchema, SignupSchema, SetPickSchema } from '../../../shared/src'
+import { LoginSchema, SignupSchema, SetPickSchema } from '@am-oscar-2023/shared'
 import type { Context } from './context'
 import { createTokenForUser } from '../auth'
 import * as bcrypt from 'bcrypt'
