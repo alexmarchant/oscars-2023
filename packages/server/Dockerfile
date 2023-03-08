@@ -7,15 +7,12 @@ RUN npm install -g pnpm
 COPY pnpm-* package.json ./
 COPY packages/server packages/server
 COPY packages/shared packages/shared
-
 RUN pnpm install
 
 WORKDIR /usr/src/app/packages/server
-
 RUN npm run build
 
 WORKDIR /usr/src/app/packages/server
-
 RUN npx prisma generate
 RUN npm run build
 

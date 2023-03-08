@@ -12,18 +12,14 @@ COPY packages/server packages/server
 RUN pnpm install
 
 WORKDIR /usr/src/app/packages/shared
-
 RUN npm run build
 
 WORKDIR /usr/src/app/packages/server
-
 RUN npx prisma generate
 RUN npm run build
 
-WORKDIR /usr/src/app/packages/client
-
 ARG VITE_TRPC_ENDPOINT
-
+WORKDIR /usr/src/app/packages/client
 RUN npm run build
 
-CMD ["npm", "run", "preview", "--host"]
+CMD ["npm", "run", "start"]

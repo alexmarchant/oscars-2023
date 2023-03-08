@@ -1,15 +1,15 @@
 node_modules
 
-packges/client/node_modules
-packges/client/dist
-packges/client/Dockerfile
+packages/client/node_modules
+packages/client/.env
+packages/client/dist
+packages/client/Dockerfile
 
-packges/server/node_modules
-packges/server/.env
-packges/server/src/scripts/images
-packges/server/Dockerfile
-packges/server/dist
+packages/server/node_modules
+packages/server/.env
+packages/server/dist
+packages/server/Dockerfile
+packages/server/src/scripts/images
 
-packges/shared/dist
-packges/shared/node_modules
-packges/shared/tsconfig.tsbuildinfo
+packages/shared/node_modules
+packages/shared/dist

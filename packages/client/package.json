@@ -7,7 +7,7 @@
     "dev": "vite",
     "build:shared": "cd ../shared && tsc",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "start": "vite preview --host"
   },
   "dependencies": {
     "@am-oscar-2023/shared": "workspace:0.0.0",
