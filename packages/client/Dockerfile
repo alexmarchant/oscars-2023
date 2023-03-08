@@ -26,4 +26,4 @@ ARG VITE_TRPC_ENDPOINT
 
 RUN npm run build
 
-CMD ["npm", "run", "preview"]
+CMD ["npm", "run", "preview", "--host"]
