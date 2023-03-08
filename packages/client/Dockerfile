@@ -11,7 +11,7 @@ COPY packages/server packages/server
 
 RUN pnpm install
 
-COPY packages/shared packages/shared
+WORKDIR /usr/src/app/packages/shared
 
 RUN npm run build
 
@@ -21,6 +21,8 @@ RUN npx prisma generate
 RUN npm run build
 
 WORKDIR /usr/src/app/packages/client
+
+ARG VITE_TRPC_ENDPOINT
 
 RUN npm run build
 
