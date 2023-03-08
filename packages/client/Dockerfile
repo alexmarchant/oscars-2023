@@ -8,7 +8,6 @@ COPY pnpm-* package.json ./
 COPY packages/shared packages/shared
 COPY packages/client packages/client
 COPY packages/server packages/server
-
 RUN pnpm install
 
 WORKDIR /usr/src/app/packages/shared
