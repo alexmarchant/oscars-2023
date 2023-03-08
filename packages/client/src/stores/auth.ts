@@ -75,7 +75,7 @@ export const useAuthStore = create<AuthStore>((set, get) => ({
       set({ session, loading: false })
       return session
     } catch (e) {
-      console.log('failed to get sesion')
+      console.log('failed to get session')
     }
     return null
   },

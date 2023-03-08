@@ -2,9 +2,10 @@
   "name": "@am-oscar-2023/server",
   "private": true,
   "version": "0.0.0",
+  "types": "./dist/type-exports.d.ts",
   "scripts": {
     "dev": "nodemon ./src/index.ts",
-    "build": "tsc -b",
+    "build": "tsc",
     "start": "node ./dist/index.js"
   },
   "dependencies": {

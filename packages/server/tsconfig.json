@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "lib": ["ESNext"],
+    "target": "ESNext",
     "allowJs": false,
-    "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -12,10 +10,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "outDir": "dist",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "declaration": true,
   },
   "include": ["src"],
-  "references": [
-    { "path": "../shared" }
-  ]
 }

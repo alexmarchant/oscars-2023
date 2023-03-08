@@ -4,7 +4,7 @@ import {
   TRPCClientError,
   HTTPHeaders,
 } from '@trpc/client'
-import type { AppRouter } from '../../../server/src/trpc/router'
+import type { AppRouter } from '@am-oscar-2023/server'
 import { useAuthStore } from '../stores/auth'
 
 export function isTRPCClientError(
