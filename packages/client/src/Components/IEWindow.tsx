@@ -165,12 +165,10 @@ export default function IEWindow(props: React.PropsWithChildren<Props>) {
               </Frame>
             </Toolbar>
           </div>
-          <Frame variant="field">
+          <Frame variant="field" style={{ flexGrow: 0, flexShrink: 0, width: 88, height: 88 }}>
             <img
               src={windows95Image}
               style={{
-                flexGrow: 0,
-                flexShrink: 0,
                 height: '100%',
                 padding: 2,
                 boxSizing: 'border-box',
