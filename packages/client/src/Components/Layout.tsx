@@ -56,7 +56,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     background-color: ${original.desktopBackground};
     overflow: hidden;
   }
