@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import oscarStatue from '../assets/oscar-small.gif'
 import { Button, ProgressBar } from 'react95'
 import { useBallotStore } from '../stores/ballot'
+import { MobileBreak } from './helpers'
 
 const Container = styled.div`
   padding: 1em 1.3em;
@@ -25,6 +26,10 @@ const SubHeader = styled.p`
 const StyledCategory = styled(Category)`
   margin-top: 1em;
   margin-bottom: 3em;
+
+  @media (max-width: ${MobileBreak}) {
+    margin-bottom: 1em;
+  }
 `
 
 const OscarImage = styled.img`
@@ -36,6 +41,12 @@ const HeaderRow = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+
+  @media (max-width: ${MobileBreak}) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
 `
 
 const SaveRow = styled.div`
@@ -96,7 +107,7 @@ export default function Website(props: { className?: string }) {
           </Header>
           <SubHeader>Please make your picks below</SubHeader>
         </div>
-        <OscarImage src={oscarStatue} />
+        <OscarImage className="hidden-mobile" src={oscarStatue} />
       </HeaderRow>
       <hr/>
       {Categories}

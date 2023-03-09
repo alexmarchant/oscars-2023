@@ -7,6 +7,7 @@ import Website from './Website'
 import { useBallotStore } from '../stores/ballot'
 import { useAuthStore } from '../stores/auth'
 import { Explorer100 } from '@react95/icons'
+import { MobileBreak } from './helpers'
 
 const Container = styled.div`
   display: flex;
@@ -28,6 +29,10 @@ const IEWindowContainer = styled.div`
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+
+  @media (max-width: ${MobileBreak}) {
+    padding: 0;
+  }
 `
 
 const StyledIEWindow = styled(IEWindow)`

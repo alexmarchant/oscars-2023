@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { Anchor, Radio } from 'react95'
 import { useBallotStore } from '../stores/ballot'
 import { shallow } from 'zustand/shallow'
+import { MobileBreak } from './helpers'
 
 interface Props {
   category: ICategory
@@ -12,18 +13,33 @@ interface Props {
 
 const Content = styled.div`
   display: flex;
-`
 
-const ImageSection = styled.div`
-  width: 50%;
-  padding-left: 5px;
-  box-sizing: border-box;
+  @media (max-width: ${MobileBreak}) {
+    flex-direction: column;
+  }
 `
 
 const NomineesSection = styled.div`
   width: 50%;
   padding-right: 5px;
   box-sizing: border-box;
+
+  @media (max-width: ${MobileBreak}) {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 1em;
+  }
+`
+
+const ImageSection = styled.div`
+  width: 50%;
+  padding-left: 5px;
+  box-sizing: border-box;
+
+  @media (max-width: ${MobileBreak}) {
+    width: 100%;
+    padding: 0;
+  }
 `
 
 const StyledAnchor = styled(Anchor)`
@@ -57,6 +73,11 @@ const NomineeImage = styled.img`
   max-height: 350px;
   max-width: 400px;
   object-fit: contain;
+
+  @media (max-width: ${MobileBreak}) {
+    max-height: 200px;
+    max-width: 100%;
+  }
 `
 
 export default function Category(props: Props) {

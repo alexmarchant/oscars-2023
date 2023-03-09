@@ -133,16 +133,18 @@ export default function IEWindow(props: React.PropsWithChildren<Props>) {
           <div style={{ flexGrow: 1, flexShrink: 1 }}>
             <Separator />
             <Toolbar>
+              <span className="hidden-mobile">
+                <Button>
+                  <FolderOpen variant="16x16_4" />
+                </Button>
+                <Button>
+                  <Dpmodemx701 variant="16x16_4" />
+                </Button>
+                <Button style={{ marginRight: 5 }}>
+                  <Printer variant="16x16_4" />
+                </Button>
+              </span>
               <Button>
-                <FolderOpen variant="16x16_4" />
-              </Button>
-              <Button>
-                <Dpmodemx701 variant="16x16_4" />
-              </Button>
-              <Button>
-                <Printer variant="16x16_4" />
-              </Button>
-              <Button style={{ marginLeft: 5 }}>
                 <ArrowLeft variant="32x32_4" />
               </Button>
               <Button>
@@ -157,9 +159,11 @@ export default function IEWindow(props: React.PropsWithChildren<Props>) {
             </Toolbar>
             <Separator />
             <Toolbar style={{ paddingBottom: 0 }}>
-              Address:
-              <Frame variant="field" style={{ width: '100%', marginLeft: 3 }}>
-                <div style={{ padding: '3px 8px 1px' }}>
+              <span className="hidden-mobile" style={{ marginRight: 7 }}>
+                Address:
+              </span>
+              <Frame variant="field" style={{ width: '100%', paddingLeft: 0, flexShrink: 1 }}>
+                <div style={{ padding: '3px 8px 1px', textOverflow: 'ellipsis' }}>
                   https://oscars.alexmarchant.com
                 </div>
               </Frame>
@@ -185,7 +189,7 @@ export default function IEWindow(props: React.PropsWithChildren<Props>) {
           <FooterFrame variant="well" style={{ flexGrow: 1, flexShrink: 1, width: '100%' }}>
             &nbsp;
           </FooterFrame>
-          <FooterFrame variant="well" style={{ flexGrow: 0, flexShrink: 0, width: 200 }}>
+          <FooterFrame className="hidden-mobile" variant="well" style={{ flexGrow: 0, flexShrink: 0, width: 200 }}>
             &nbsp;
           </FooterFrame>
           <FooterFrame variant="well" style={{ flexGrow: 0, flexShrink: 0, width: 100 }}>

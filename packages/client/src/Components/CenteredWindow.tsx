@@ -5,6 +5,7 @@ import {
   WindowHeader,
   WindowContent,
 } from 'react95'
+import { MobileBreak } from './helpers'
 
 const Container = styled.div`
   width: 100%;
@@ -12,6 +13,11 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+
+  @media (max-width: ${MobileBreak}) {
+    padding: 20px;
+  }
 `
 
 const StyledWindow = styled(Window)`
