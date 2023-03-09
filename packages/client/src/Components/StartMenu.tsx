@@ -84,7 +84,6 @@ export default function StartMenu() {
               marginLeft: 5,
               flexShrink: 1,
               flexGrow: 0,
-              maxWidth: 300,
             }}
           >
             <Mshtml32528 variant="16x16_4" />
