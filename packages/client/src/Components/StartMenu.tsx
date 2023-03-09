@@ -8,7 +8,7 @@ import {
   Frame,
 } from 'react95'
 import styled from 'styled-components'
-import { User1, Computer3, Sndrec3210 } from '@react95/icons'
+import { User1, Computer3, Sndrec3210, Mshtml32528 } from '@react95/icons'
 import { useAuthStore } from '../stores/auth'
 import format from 'date-fns/format'
 
@@ -67,15 +67,32 @@ export default function StartMenu() {
   return (
     <StyledAppBar position="relative">
       <Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <Button
-          style={{ fontWeight: 'bold' }}
-          onClick={handleStartClick}
-        >
-          <User1 variant="22x22_4" />
-          &nbsp;
-          Start
-        </Button>
-        <Frame variant="status" style={{ height: '100%', display: 'flex', alignItems: 'center', fontSize: 14, padding: '0 12px 0 6px' }}>
+        <div style={{ display: 'flex', flexShrink: 1, flexGrow: 0 }}>
+          <Button
+            style={{ fontWeight: 'bold', flexShrink: 0, flexGrow: 0 }}
+            onClick={handleStartClick}
+          >
+            <User1 variant="22x22_4" />
+            &nbsp;
+            Start
+          </Button>
+          <Button
+            className="hidden-mobile"
+            active={true}
+            style={{
+              fontWeight: 'bold',
+              marginLeft: 5,
+              flexShrink: 1,
+              flexGrow: 0,
+              maxWidth: 300,
+            }}
+          >
+            <Mshtml32528 variant="16x16_4" />
+            &nbsp;
+            Internet Explorer - Oscar Pool
+          </Button>
+        </div>
+        <Frame variant="status" style={{ height: '100%', display: 'flex', alignItems: 'center', fontSize: 14, padding: '0 12px 0 6px', flexShrink: 0, flexGrow: 0 }}>
           <Sndrec3210 variant="16x16_4" style={{ marginRight: 10 }} />
           {formattedTime}
         </Frame>
