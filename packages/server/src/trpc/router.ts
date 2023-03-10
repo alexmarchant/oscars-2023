@@ -1,5 +1,5 @@
 import { initTRPC, TRPCError } from '@trpc/server'
-import { LoginSchema, SignupSchema, SetPickSchema } from '@am-oscar-2023/shared'
+import { LoginSchema, SignupSchema, SetPickSchema, SetWinnerSchema } from '@am-oscar-2023/shared'
 import type { Context } from './context'
 import { createTokenForUser } from '../auth'
 import * as bcrypt from 'bcrypt'
@@ -111,6 +111,39 @@ export const appRouter = t.router({
           },
           create: {
             userId: currentUser.id,
+            category: input.category,
+            nominee: input.nominee,
+          },
+        })
+      }),
+
+    setWinner: t.procedure
+      .input((val: unknown) => {
+        return SetWinnerSchema.parse(val)
+      })
+      .mutation(async ({ ctx, input }) => {
+        const { currentUser } = ctx
+        if (!currentUser) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Not logged in',
+          })
+        }
+        if (!currentUser.admin) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Not admin',
+          })
+        }
+
+        await ctx.db.winner.upsert({
+          where: {
+            category: input.category,
+          },
+          update: {
+            nominee: input.nominee,
+          },
+          create: {
             category: input.category,
             nominee: input.nominee,
           },

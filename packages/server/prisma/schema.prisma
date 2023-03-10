@@ -27,3 +27,9 @@ model Pick {
   nominee String
   @@unique([userId, category], name: "userCategoryPick")
 }
+
+model Winner {
+  id Int @id @default(autoincrement()) 
+  category String @unique
+  nominee String
+}
