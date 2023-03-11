@@ -62,8 +62,10 @@ export default function LeaderboardSite () {
       <Header>Leaderboard</Header>
       <StyledTable>
         <TableHead>
-          <TableHeadCell>Username</TableHeadCell>
-          <TableHeadCell>Score</TableHeadCell>
+          <TableRow>
+            <TableHeadCell>Username</TableHeadCell>
+            <TableHeadCell>Score</TableHeadCell>
+          </TableRow>
         </TableHead>
         <TableBody>
           {LeaderboardTableRows}
