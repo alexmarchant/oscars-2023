@@ -43,6 +43,12 @@ export const appRouter = t.router({
     })
     .mutation(async ({ ctx, input }) => {
       const { email, username, password, passwordConfirmation } = input
+      if (ctx.locked) {
+        throw new TRPCError({
+          code: 'BAD_REQUEST',
+          message: 'Signups are locked',
+        })
+      }
       if (password !== passwordConfirmation) {
         throw new TRPCError({
           code: 'BAD_REQUEST',
@@ -103,6 +109,12 @@ export const appRouter = t.router({
           throw new TRPCError({
             code: 'BAD_REQUEST',
             message: 'Not logged in',
+          })
+        }
+        if (ctx.locked) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Ballots are locked',
           })
         }
 

@@ -3,15 +3,19 @@ import { CreateExpressContextOptions} from '@trpc/server/adapters/express'
 import { client } from '../database/client'
 import { verifyAndDecodeToken, UserSession } from '../auth'
 
+const LOCKED = process.env.LOCKED?.toLowerCase() === 'true'
+
 export interface Context {
   db: typeof client
   currentUser?: UserSession
+  locked: boolean
 }
 
 export function createContext({ req, res }: CreateExpressContextOptions): Context {
   return {
     db: client,
     currentUser: getCurrentUser(req),
+    locked: LOCKED,
   }
 }
 

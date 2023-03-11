@@ -9,7 +9,7 @@ COPY packages/server packages/server
 COPY packages/shared packages/shared
 RUN pnpm install
 
-WORKDIR /usr/src/app/packages/server
+WORKDIR /usr/src/app/packages/shared
 RUN npm run build
 
 WORKDIR /usr/src/app/packages/server
