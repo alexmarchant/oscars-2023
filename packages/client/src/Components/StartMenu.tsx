@@ -103,7 +103,7 @@ export default function StartMenu(props: Props) {
             <Mshtml32528 className="hidden-mobile" variant="16x16_4" />
             &nbsp;
             <span className="hidden-mobile">
-              Oscar
+              Oscar&nbsp;
             </span>
             Pool
           </AppButton>
