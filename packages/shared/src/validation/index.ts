@@ -1,3 +1,4 @@
+export * from './DeleteWinnerSchema'
 export * from './LoginSchema'
 export * from './SetPickSchema'
 export * from './SetWinnerSchema'

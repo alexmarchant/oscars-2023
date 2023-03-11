@@ -9,6 +9,7 @@ export function createTokenForUser(user: User) {
     email: user.email,
     username: user.username,
     admin: user.admin,
+    paid: user.paid,
   }
   const privateKey = getPrivateKey()
   return jwt.sign(session, privateKey)

@@ -1,5 +1,11 @@
 import { initTRPC, TRPCError } from '@trpc/server'
-import { LoginSchema, SignupSchema, SetPickSchema, SetWinnerSchema } from '@am-oscar-2023/shared'
+import {
+  LoginSchema,
+  SignupSchema,
+  SetPickSchema,
+  SetWinnerSchema,
+  DeleteWinnerSchema,
+} from '@am-oscar-2023/shared'
 import type { Context } from './context'
 import { createTokenForUser } from '../auth'
 import * as bcrypt from 'bcrypt'
@@ -117,6 +123,15 @@ export const appRouter = t.router({
         })
       }),
 
+    winners: t.procedure
+      .query(async ({ ctx }) => {
+        const winners = await ctx.db.winner.findMany()
+        return winners.reduce((acc, winner) => {
+          acc[winner.category] = winner.nominee
+          return acc
+        }, {} as Record<string, string>)
+      }),
+
     setWinner: t.procedure
       .input((val: unknown) => {
         return SetWinnerSchema.parse(val)
@@ -146,6 +161,32 @@ export const appRouter = t.router({
           create: {
             category: input.category,
             nominee: input.nominee,
+          },
+        })
+      }),
+
+    deleteWinner: t.procedure
+      .input((val: unknown) => {
+        return DeleteWinnerSchema.parse(val)
+      })
+      .mutation(async ({ ctx, input }) => {
+        const { currentUser } = ctx
+        if (!currentUser) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Not logged in',
+          })
+        }
+        if (!currentUser.admin) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Not admin',
+          })
+        }
+
+        await ctx.db.winner.delete({
+          where: {
+            category: input.category,
           },
         })
       }),

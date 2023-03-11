@@ -52,7 +52,7 @@ const DesktopIcon = styled.div`
 
 export async function desktopLoader() {
   // Make sure they are logged in, or else redirect
-  let session = await useAuthStore.getState().session 
+  let session = useAuthStore.getState().session 
   if (!session) {
     session = await useAuthStore.getState().getSession() 
     if (!session){
