@@ -6,6 +6,8 @@ import oscarStatue from '../assets/oscar-small.gif'
 import { Button, ProgressBar } from 'react95'
 import { useBallotStore } from '../stores/ballot'
 import { MobileBreak } from '../helpers'
+import { useMetaStore } from '../stores/meta'
+import { useWinnersStore } from '../stores/winners'
 
 const Container = styled.div`
   padding: 1em 1.3em;
@@ -53,15 +55,19 @@ const SaveRow = styled.div`
   display: flex;
 `
 
-export default function BallotSite(props: { className?: string }) {
+export default function BallotSite() {
   const [timer, setTimer] = useState<any>(null)
   const [saving, setSaving] = useState(false)
   const [saveProgress, setSaveProgress] = useState<number>(0)
   const ballot = useBallotStore(state => state.ballot)
+  const locked = useMetaStore(state => state.locked)
+  const getLocked = useMetaStore(state => state.getLocked)
+  const winners = useWinnersStore(state => state.winners)
+  const getWinners = useWinnersStore(state => state.getWinners)
 
   const Categories = OscarData.categories.map(category => (
     <div key={category.name}>
-      <StyledCategory category={category} />
+      <StyledCategory category={category} locked={locked} winner={winners[category.name]} />
       <hr/>
     </div>
   ))
@@ -93,6 +99,22 @@ export default function BallotSite(props: { className?: string }) {
       setSaving(false)
     }
   }, [saveProgress, timer])
+
+  useEffect(() => {
+    getLocked()
+    const timer = setInterval(() => {
+      getLocked()
+    }, 5000)
+    return () => clearInterval(timer)
+  }, [getLocked])
+
+  useEffect(() => {
+    getWinners()
+    const timer = setInterval(() => {
+      getWinners()
+    }, 5000)
+    return () => clearInterval(timer)
+  }, [getWinners])
 
   const savedCategories = Object.keys(ballot).length
   const totalCategories = OscarData.categories.length

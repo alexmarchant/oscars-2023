@@ -7,11 +7,6 @@ import { shallow } from 'zustand/shallow'
 import { MobileBreak } from '../helpers'
 import { CategoryPoints } from '@am-oscar-2023/shared'
 
-interface Props {
-  category: ICategory
-  className?: string
-}
-
 const Content = styled.div`
   display: flex;
 
@@ -82,6 +77,13 @@ const NomineeImage = styled.img`
   }
 `
 
+interface Props {
+  category: ICategory
+  locked: boolean
+  className?: string
+  winner?: string
+}
+
 export default function Category(props: Props) {
   const firstNominee = props.category.nominees[0]
   const defaultImageURL = firstNominee.image?.newURL
@@ -104,17 +106,29 @@ export default function Category(props: Props) {
 
   const Nominees = props.category.nominees.map(nominee => (
     <NomineeItem key={nominee.name}>
-      <StyledRadio
-        checked={nominee.name === selectedNominee?.name}
-        onChange={() => handleNomineeClick(nominee)}
-      />
-      <StyledAnchor
-        onClick={(e) => handleNomineeClick(nominee, e)}
-        href="http://nimrod313.myspace.com"
-      >
+      {props.locked && <span>
+        {nominee.name === selectedNominee?.name && <span style={{ color: 'red' }}>
+          [Your Pick]&nbsp;
+        </span>}
+        {nominee.name === props.winner && <span style={{ color: 'green' }}>
+          [Winner]&nbsp;
+        </span>}
         {nominee.name}
         {nominee.movie && ` [${nominee.movie}]`}
-      </StyledAnchor>
+      </span>}
+      {!props.locked && <>
+        <StyledRadio
+          checked={nominee.name === selectedNominee?.name}
+          onChange={() => handleNomineeClick(nominee)}
+        />
+        <StyledAnchor
+          onClick={(e) => handleNomineeClick(nominee, e)}
+          href="http://nimrod313.myspace.com"
+        >
+          {nominee.name}
+          {nominee.movie && ` [${nominee.movie}]`}
+        </StyledAnchor>
+      </>}
     </NomineeItem>
   ))
 

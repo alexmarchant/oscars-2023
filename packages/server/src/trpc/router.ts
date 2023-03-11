@@ -223,4 +223,9 @@ export const appRouter = t.router({
           return acc
         }, {} as Record<string, number>)
       }),
+    
+    locked: t.procedure
+      .query(({ ctx }) => {
+        return ctx.locked
+      }),
 })
