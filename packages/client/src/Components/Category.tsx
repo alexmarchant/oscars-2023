@@ -64,7 +64,8 @@ const StyledRadio = styled(Radio)`
 const NomineeItem = styled.div`
   display: flex;
   align-items: center;
-  height: 2em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
 `
 
 const NomineeImage = styled.img`
@@ -83,6 +84,8 @@ const NomineeImage = styled.img`
 export default function Category(props: Props) {
   const firstNominee = props.category.nominees[0]
   const defaultImageURL = firstNominee.image?.newURL
+
+  console.log(props)
 
   const { pick, setPick } = useBallotStore(
     state => ({
@@ -111,6 +114,7 @@ export default function Category(props: Props) {
         href="http://nimrod313.myspace.com"
       >
         {nominee.name}
+        {nominee.movie && ` [${nominee.movie}]`}
       </StyledAnchor>
     </NomineeItem>
   ))

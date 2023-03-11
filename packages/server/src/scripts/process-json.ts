@@ -18,6 +18,7 @@ export interface Category {
 
 export interface Nominee {
   name: string
+  movie?: string
   image?: NomineeImage
 }
 
@@ -30,10 +31,13 @@ export const OscarData: IOscarData = {
   categories: [],
 }
 
-function getEntityName(entity: any): string {
-  const nameId = entity.entities[0]
-  const nameEnt = entitiesById[nameId]
-  return nameEnt.data.content
+function getEntityProperty<T>(entity: any, prop: string): T | undefined {
+  for (const childId of entity.entities) {
+    const childEnt = entitiesById[childId]
+    if (childEnt?.data?.className === prop) {
+      return childEnt.data.content
+    }
+  }
 }
 
 function getNomineeListEnt(entity: any): any {
@@ -53,7 +57,7 @@ function getNomineeImage(nomineeEnt: any): NomineeImage | undefined {
 
   const crop = imageData.crops.find((crop: any) => crop.type === 'master495')
   const originalURL = `${imageData.host}${crop.content}`
-  const filename = basename(parse(crop.content).pathname!)
+  const filename = basename(parse(crop.content).pathname ?? '')
   const gifFilename = filename.replace('jpg', 'gif')
   const newURL = `/nominee-images/${gifFilename}`
 
@@ -85,7 +89,7 @@ for (const entityId of entitiesById['quiz-1'].entities) {
   let hasImages = false
 
   // Get name
-  const name = getEntityName(entity)
+  const categoryName = getEntityProperty<string>(entity, 'category-title')!
 
   // Noiminess
   const nominees: Nominee[] = []
@@ -95,7 +99,10 @@ for (const entityId of entitiesById['quiz-1'].entities) {
     if (nomineeEnt.type !== 'nominee') continue
 
     // Get name
-    const name = getEntityName(nomineeEnt)
+    const nomineeName = getEntityProperty<string>(nomineeEnt, 'nominee-name')!
+
+    // Get movie
+    const movie = getEntityProperty<string>(nomineeEnt, 'nominee-film')
 
     // Get imageURL
     const image = getNomineeImage(nomineeEnt)
@@ -104,14 +111,15 @@ for (const entityId of entitiesById['quiz-1'].entities) {
     }
     
     nominees.push({
-      name,
+      name: nomineeName,
+      movie,
       image,
     })
   }
 
 
   OscarData.categories.push({
-    name,
+    name: categoryName,
     hasImages,
     nominees,
   })

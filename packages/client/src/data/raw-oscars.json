@@ -82,6 +82,7 @@
       "nominees": [
         {
           "name": "Martin McDonagh",
+          "movie": "The Banshees of Inisherin",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-director-02-ztjc-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-02-ztjc/oscar-ballot-director-02-ztjc-master495.jpg"
@@ -89,6 +90,7 @@
         },
         {
           "name": "Daniel Kwan and Daniel Scheinert",
+          "movie": "Everything Everywhere All at Once",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-director-04-ztjc-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-04-ztjc/oscar-ballot-director-04-ztjc-master495.jpg"
@@ -96,6 +98,7 @@
         },
         {
           "name": "Steven Spielberg",
+          "movie": "The Fabelmans",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-director-01-ztjc-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-01-ztjc/oscar-ballot-director-01-ztjc-master495.jpg"
@@ -103,6 +106,7 @@
         },
         {
           "name": "Todd Field",
+          "movie": "Tár",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-director-03-ztjc-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-03-ztjc/oscar-ballot-director-03-ztjc-master495.jpg"
@@ -110,6 +114,7 @@
         },
         {
           "name": "Ruben Ostlund",
+          "movie": "Triangle of Sadness",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-director-05-ztjc-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-director-05-ztjc/oscar-ballot-director-05-ztjc-master495.jpg"
@@ -123,6 +128,7 @@
       "nominees": [
         {
           "name": "Austin Butler",
+          "movie": "Elvis",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actor-02-pvwb-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-02-pvwb/oscar-ballot-lead-actor-02-pvwb-master495.jpg"
@@ -130,6 +136,7 @@
         },
         {
           "name": "Colin Farrell",
+          "movie": "The Banshees of Inisherin",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actor-03-pvwb-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-03-pvwb/oscar-ballot-lead-actor-03-pvwb-master495.jpg"
@@ -137,6 +144,7 @@
         },
         {
           "name": "Brendan Fraser",
+          "movie": "The Whale",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actor-01-pvwb-master495-v2.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-01-pvwb/oscar-ballot-lead-actor-01-pvwb-master495-v2.jpg"
@@ -144,6 +152,7 @@
         },
         {
           "name": "Paul Mescal",
+          "movie": "Aftersun",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actor-06-pvwb-master495-v2.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-06-pvwb/oscar-ballot-lead-actor-06-pvwb-master495-v2.jpg"
@@ -151,6 +160,7 @@
         },
         {
           "name": "Bill Nighy",
+          "movie": "Living",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actor-05-pvwb-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actor-05-pvwb/oscar-ballot-lead-actor-05-pvwb-master495.jpg"
@@ -164,6 +174,7 @@
       "nominees": [
         {
           "name": "Cate Blanchett",
+          "movie": "Tár",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actress-07-jlfw-master495-v2.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-07-jlfw/oscar-ballot-lead-actress-07-jlfw-master495-v2.jpg"
@@ -171,6 +182,7 @@
         },
         {
           "name": "Ana de Armas",
+          "movie": "Blonde",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actress-03-jlfw-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-03-jlfw/oscar-ballot-lead-actress-03-jlfw-master495.jpg"
@@ -178,6 +190,7 @@
         },
         {
           "name": "Andrea Riseborough",
+          "movie": "To Leslie",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actress-06-jlfw-master495-v3.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-06-jlfw/oscar-ballot-lead-actress-06-jlfw-master495-v3.jpg"
@@ -185,6 +198,7 @@
         },
         {
           "name": "Michelle Williams",
+          "movie": "The Fabelmans",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actress-01-jlfw-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-01-jlfw/oscar-ballot-lead-actress-01-jlfw-master495.jpg"
@@ -192,6 +206,7 @@
         },
         {
           "name": "Michelle Yeoh",
+          "movie": "Everything Everywhere All at Once",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-lead-actress-04-jlfw-master495-v2.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-lead-actress-04-jlfw/oscar-ballot-lead-actress-04-jlfw-master495-v2.jpg"
@@ -205,6 +220,7 @@
       "nominees": [
         {
           "name": "Brendan Gleeson",
+          "movie": "The Banshees of Inisherin",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actor-01-jwbf-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actor-01-jwbf/oscar-ballot-supporting-actor-01-jwbf-master495.jpg"
@@ -212,6 +228,7 @@
         },
         {
           "name": "Brian Tyree Henry",
+          "movie": "Causeway",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actor-lvzf-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/31/multimedia/oscar-ballot-supporting-actor-lvzf/oscar-ballot-supporting-actor-lvzf-master495.jpg"
@@ -219,6 +236,7 @@
         },
         {
           "name": "Judd Hirsch",
+          "movie": "The Fabelmans",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actor-04-jwbf-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actor-04-jwbf/oscar-ballot-supporting-actor-04-jwbf-master495.jpg"
@@ -226,6 +244,7 @@
         },
         {
           "name": "Barry Keoghan",
+          "movie": "The Banshees of Inisherin",
           "image": {
             "newURL": "/nominee-images/keoghan1-tclm-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/02/03/multimedia/keoghan1-tclm/keoghan1-tclm-master495.jpg"
@@ -233,6 +252,7 @@
         },
         {
           "name": "Ke Huy Quan",
+          "movie": "Everything Everywhere All at Once",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actor-03-jwbf-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actor-03-jwbf/oscar-ballot-supporting-actor-03-jwbf-master495.jpg"
@@ -246,6 +266,7 @@
       "nominees": [
         {
           "name": "Angela Bassett",
+          "movie": "Black Panther: Wakanda Forever",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actress-05-tlqh-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-05-tlqh/oscar-ballot-supporting-actress-05-tlqh-master495.jpg"
@@ -253,6 +274,7 @@
         },
         {
           "name": "Hong Chau",
+          "movie": "The Whale",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actress-04-tlqh-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-04-tlqh/oscar-ballot-supporting-actress-04-tlqh-master495.jpg"
@@ -260,6 +282,7 @@
         },
         {
           "name": "Kerry Condon",
+          "movie": "The Banshees of Inisherin",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actress-02-tlqh-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-02-tlqh/oscar-ballot-supporting-actress-02-tlqh-master495.jpg"
@@ -267,6 +290,7 @@
         },
         {
           "name": "Jamie Lee Curtis",
+          "movie": "Everything Everywhere All at Once",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actress-01-tlqh-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-01-tlqh/oscar-ballot-supporting-actress-01-tlqh-master495.jpg"
@@ -274,6 +298,7 @@
         },
         {
           "name": "Stephanie Hsu",
+          "movie": "Everything Everywhere All at Once",
           "image": {
             "newURL": "/nominee-images/oscar-ballot-supporting-actress-03-tlqh-master495.gif",
             "originalURL": "https://static01.nyt.com/images/2023/01/27/multimedia/oscar-ballot-supporting-actress-03-tlqh/oscar-ballot-supporting-actress-03-tlqh-master495.jpg"
@@ -517,19 +542,24 @@
       "hasImages": false,
       "nominees": [
         {
-          "name": "“Applause”"
+          "name": "“Applause”",
+          "movie": "Tell It Like a Woman"
         },
         {
-          "name": "“Hold My Hand”"
+          "name": "“Hold My Hand”",
+          "movie": "Top Gun: Maverick"
         },
         {
-          "name": "“Lift Me Up”"
+          "name": "“Lift Me Up”",
+          "movie": "Black Panther: Wakanda Forever"
         },
         {
-          "name": "“Naatu Naatu”"
+          "name": "“Naatu Naatu”",
+          "movie": "RRR"
         },
         {
-          "name": "“This Is a Life”"
+          "name": "“This Is a Life”",
+          "movie": "Everything Everywhere All at Once"
         }
       ]
     },
