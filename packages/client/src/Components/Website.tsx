@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import oscarStatue from '../assets/oscar-small.gif'
 import { Button, ProgressBar } from 'react95'
 import { useBallotStore } from '../stores/ballot'
-import { MobileBreak } from './helpers'
+import { MobileBreak } from '../helpers'
 
 const Container = styled.div`
   padding: 1em 1.3em;

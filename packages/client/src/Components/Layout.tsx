@@ -7,7 +7,7 @@ import ms_sans_serif_bold from 'react95/dist/fonts/ms_sans_serif_bold.woff2'
 import ms_serif from '../assets/pixelated-times-new-roman.woff2'
 import { Outlet } from 'react-router-dom'
 import '@react95/icons/icons.css'
-import { MobileBreak } from './helpers'
+import { MobileBreak } from '../helpers'
 
 const GlobalStyles = createGlobalStyle`
   ${styleReset}

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Anchor, Radio } from 'react95'
 import { useBallotStore } from '../stores/ballot'
 import { shallow } from 'zustand/shallow'
-import { MobileBreak } from './helpers'
+import { MobileBreak, CategoryPoints } from '../helpers'
 
 interface Props {
   category: ICategory
@@ -85,8 +85,6 @@ export default function Category(props: Props) {
   const firstNominee = props.category.nominees[0]
   const defaultImageURL = firstNominee.image?.newURL
 
-  console.log(props)
-
   const { pick, setPick } = useBallotStore(
     state => ({
       pick: state.ballot[props.category.name] as string | undefined,
@@ -123,7 +121,7 @@ export default function Category(props: Props) {
     <div className={props.className}>
       <Content>
         <NomineesSection>
-          <h2>{props.category.name}</h2>
+          <h2>{props.category.name} [{CategoryPoints[props.category.name]} Points]</h2>
           {Nominees}
         </NomineesSection>
         <ImageSection>

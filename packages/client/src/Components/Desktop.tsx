@@ -7,7 +7,7 @@ import Website from './Website'
 import { useBallotStore } from '../stores/ballot'
 import { useAuthStore } from '../stores/auth'
 import { Explorer100 } from '@react95/icons'
-import { MobileBreak } from './helpers'
+import { MobileBreak } from '../helpers'
 
 const Container = styled.div`
   display: flex;

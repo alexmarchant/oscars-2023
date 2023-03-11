@@ -5,7 +5,7 @@ import {
   WindowHeader,
   WindowContent,
 } from 'react95'
-import { MobileBreak } from './helpers'
+import { MobileBreak } from '../helpers'
 
 const Container = styled.div`
   width: 100%;
