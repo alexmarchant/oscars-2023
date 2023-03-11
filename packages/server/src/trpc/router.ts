@@ -9,6 +9,7 @@ import {
 import type { Context } from './context'
 import { createTokenForUser } from '../auth'
 import * as bcrypt from 'bcrypt'
+import { makeWinnerMap, userScore } from '../helpers'
 
 export type AppRouter = typeof appRouter
 
@@ -126,10 +127,7 @@ export const appRouter = t.router({
     winners: t.procedure
       .query(async ({ ctx }) => {
         const winners = await ctx.db.winner.findMany()
-        return winners.reduce((acc, winner) => {
-          acc[winner.category] = winner.nominee
-          return acc
-        }, {} as Record<string, string>)
+        return makeWinnerMap(winners)
       }),
 
     setWinner: t.procedure
@@ -189,5 +187,28 @@ export const appRouter = t.router({
             category: input.category,
           },
         })
+      }),
+
+    leaderboard: t.procedure
+      .query(async ({ ctx, input }) => {
+        const { currentUser } = ctx
+        if (!currentUser) {
+          throw new TRPCError({
+            code: 'BAD_REQUEST',
+            message: 'Not logged in',
+          })
+        }
+
+        const [users, winners] = await Promise.all([
+          ctx.db.user.findMany({ include: { picks: true } }),
+          ctx.db.winner.findMany(),
+        ])
+
+        const winnerMap = makeWinnerMap(winners)
+
+        return users.reduce((acc, user) => {
+          acc[user.username] = userScore(user, winnerMap)
+          return acc
+        }, {} as Record<string, number>)
       }),
 })

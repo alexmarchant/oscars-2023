@@ -53,7 +53,7 @@ const SaveRow = styled.div`
   display: flex;
 `
 
-export default function Website(props: { className?: string }) {
+export default function BallotSite(props: { className?: string }) {
   const [timer, setTimer] = useState<any>(null)
   const [saving, setSaving] = useState(false)
   const [saveProgress, setSaveProgress] = useState<number>(0)

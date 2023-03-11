@@ -11,7 +11,7 @@ export default defineConfig({
   },
   build: {
     commonjsOptions: {
-      include: [/shared/, /node_modules/],
+      include: [/@am-oscar-2023/, /node_modules/],
     },
   },
 })

@@ -21,7 +21,7 @@ export const useWinnersStore = create<WinnersStore>((set, get) => ({
       set({ loading: false, winners })
       return winners
     } catch(e) {
-      alert('Sorry, error loading the winning the winning :( Maybe refresh and try again')
+      alert('Sorry, error loading the winning nominees :( Maybe refresh and try again')
       console.error(e)
     }
   },

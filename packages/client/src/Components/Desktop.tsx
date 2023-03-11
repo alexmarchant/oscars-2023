@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react'
+import React, { useState } from 'react'
 import { useNavigate, useLoaderData, redirect } from 'react-router-dom'
 import styled from 'styled-components'
 import IEWindow from './IEWindow'
 import StartMenu from './StartMenu'
-import Website from './Website'
+import BallotSite from './BallotSite'
+import LeaderboardSite from './LeaderboardSite'
 import { useBallotStore } from '../stores/ballot'
 import { useAuthStore } from '../stores/auth'
 import { Explorer100 } from '@react95/icons'
@@ -20,15 +21,30 @@ const Content = styled.div`
   flex-shrink: 1;
   height: 100%;
   min-height: 0;
+  position: relative;
 `
 
 const IEWindowContainer = styled.div`
   width: 100%;
   height: 100%;
-  padding: 50px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+`
+
+const PoolWindowContainer = styled(IEWindowContainer)`
+  padding: 50px 80px 80px 50px;
+
+  @media (max-width: ${MobileBreak}) {
+    padding: 0;
+  }
+`
+
+const LeaderboardWindowContainer = styled(IEWindowContainer)`
+  padding: 80px 50px 50px 80px;
 
   @media (max-width: ${MobileBreak}) {
     padding: 0;
@@ -66,17 +82,15 @@ export async function desktopLoader() {
 
 export default function Desktop () {
   useLoaderData()
-  const loadingBallot = useBallotStore(state => state.loading)
   const session = useAuthStore(state => state.session)
   const loadingSession = useAuthStore(state => state.loading)
   const navigate = useNavigate()
+  const [activeWindow, setActiveWindow] = useState('Oscar Pool')
 
   // Handle logout
-  useEffect(() => {
-    if (!session && !loadingSession) {
-      navigate('/login')
-    }
-  }, [session, navigate, loadingSession])
+  if (!session && !loadingSession) {
+    navigate('/login')
+  }
 
   return (
     <Container>
@@ -87,16 +101,34 @@ export default function Desktop () {
             My Computer
           </span>
         </DesktopIcon>
-        <IEWindowContainer>
-          <StyledIEWindow header="Oscar Pool">
-            {!loadingBallot && 
-              <Website />
-            }
+        <PoolWindowContainer
+          style={{ zIndex: activeWindow === 'Oscar Pool' ? 1000 : 1 }}
+        >
+          <StyledIEWindow
+            header="Oscar Pool"
+            url="https://oscars.alexmarchant.com/ballot"
+            onClick={() => setActiveWindow('Oscar Pool')}
+          >
+            <BallotSite />
           </StyledIEWindow>
-        </IEWindowContainer>
-
+        </PoolWindowContainer>
+        <LeaderboardWindowContainer
+          style={{ zIndex: activeWindow === 'Leaderboard' ? 1000 : 1 }}
+        >
+          <StyledIEWindow
+            header="Leaderboard"
+            url="https://oscars.alexmarchant.com/leaderboard"
+            onClick={() => setActiveWindow('Leaderboard')}
+          >
+            <LeaderboardSite />
+          </StyledIEWindow>
+        </LeaderboardWindowContainer>
       </Content>
-      <StartMenu />
+      <StartMenu
+        activeWindow={activeWindow}
+        setActiveWindow={(activeWindow: string) => setActiveWindow(activeWindow)}
+        style={{ zIndex: 1001 }}
+      />
     </Container>
   )
 }

@@ -22,6 +22,7 @@ import {
 } from '@react95/icons'
 import styled from 'styled-components'
 import windows95Image from '../assets/windows95.png'
+import { MobileBreak } from '../helpers'
 
 const FramePadding = 3
 
@@ -89,14 +90,26 @@ const CloseIcon = styled.span`
   }
 `
 
+const URLFrame = styled(Frame)`
+  width: 100%;
+  padding-left: 0;
+  flex-shrink: 1;
+
+  @media (max-width: ${MobileBreak}) {
+    max-width: 267px;
+  }
+`
+
 interface Props {
   header: string
+  url: string
   className?: string
+  onClick?: React.MouseEventHandler<HTMLDivElement>
 }
 
 export default function IEWindow(props: React.PropsWithChildren<Props>) {
   return (
-      <StyledWindow className={props.className}>
+      <StyledWindow className={props.className} onClick={props.onClick}>
         <WindowHeader style={{ display: 'flex', justifyContent: 'space-between' }}>
           <div>
             <Mshtml32528 variant="16x16_4" />
@@ -162,11 +175,11 @@ export default function IEWindow(props: React.PropsWithChildren<Props>) {
               <span className="hidden-mobile" style={{ marginRight: 7 }}>
                 Address:
               </span>
-              <Frame variant="field" style={{ width: '100%', paddingLeft: 0, flexShrink: 1 }}>
-                <div style={{ padding: '3px 8px 1px', textOverflow: 'ellipsis' }}>
-                  https://oscars.alexmarchant.com
+              <URLFrame variant="field" >
+                <div style={{ padding: '3px 8px 1px', textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap' }}>
+                  {props.url}
                 </div>
-              </Frame>
+              </URLFrame>
             </Toolbar>
           </div>
           <Frame variant="field" style={{ flexGrow: 0, flexShrink: 0, width: 88, height: 88 }}>

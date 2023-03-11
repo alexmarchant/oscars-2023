@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import { Anchor, Radio } from 'react95'
 import { useBallotStore } from '../stores/ballot'
 import { shallow } from 'zustand/shallow'
-import { MobileBreak, CategoryPoints } from '../helpers'
+import { MobileBreak } from '../helpers'
+import { CategoryPoints } from '@am-oscar-2023/shared'
 
 interface Props {
   category: ICategory
