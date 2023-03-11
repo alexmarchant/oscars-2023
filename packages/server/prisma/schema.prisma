@@ -16,6 +16,7 @@ model User {
   username String @unique
   hashedPassword String
   admin Boolean @default(false)
+  paid Boolean @default(false)
   picks Pick[]
 }
 
