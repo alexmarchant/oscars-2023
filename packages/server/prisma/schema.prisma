@@ -27,6 +27,7 @@ model Pick {
   category String
   nominee String
   @@unique([userId, category], name: "userCategoryPick")
+  @@index([userId])
 }
 
 model Winner {

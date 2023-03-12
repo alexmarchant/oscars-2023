@@ -212,7 +212,10 @@ export const appRouter = t.router({
         }
 
         const [users, winners] = await Promise.all([
-          ctx.db.user.findMany({ include: { picks: true } }),
+          ctx.db.user.findMany({
+            where: { paid: true },
+            include: { picks: true },
+          }),
           ctx.db.winner.findMany(),
         ])
 
