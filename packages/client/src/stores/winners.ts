@@ -16,14 +16,9 @@ export const useWinnersStore = create<WinnersStore>((set, get) => ({
   loading: false,
   async getWinners() {
     set({ loading: true })
-    try {
-      const winners = await client.winners.query()
-      set({ loading: false, winners })
-      return winners
-    } catch(e) {
-      alert('Sorry, error loading the winning nominees :( Maybe refresh and try again')
-      console.error(e)
-    }
+    const winners = await client.winners.query()
+    set({ loading: false, winners })
+    return winners
   },
   async setWinner(category: string, nominee: string) {
     const winners = get().winners

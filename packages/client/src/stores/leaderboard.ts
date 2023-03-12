@@ -14,13 +14,8 @@ export const useLeaderboardStore = create<LeaderboardStore>((set, get) => ({
   loading: false,
   async getLeaderboard() {
     set({ loading: true })
-    try {
-      const leaderboard = await client.leaderboard.query()
-      set({ loading: false, leaderboard })
-      return leaderboard
-    } catch(e) {
-      alert('Sorry, error loading the leaderboard :( Maybe refresh and try again')
-      console.error(e)
-    }
+    const leaderboard = await client.leaderboard.query()
+    set({ loading: false, leaderboard })
+    return leaderboard
   },
 }))
