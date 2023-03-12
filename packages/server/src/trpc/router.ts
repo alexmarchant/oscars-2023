@@ -24,7 +24,7 @@ export const appRouter = t.router({
       const { email, password } = input
       const user = await ctx.db.user.findFirstOrThrow({
         where: {
-          email,
+          email: email.toLowerCase().trim(),
         },
       })
       const match = await bcrypt.compare(password, user.hashedPassword)
@@ -58,8 +58,8 @@ export const appRouter = t.router({
       const hashedPassword = await bcrypt.hash(password, 10)
       const user = await ctx.db.user.create({
         data: {
-          email,
-          username,
+          email: email.toLowerCase().trim(),
+          username: username.trim(),
           hashedPassword,
         },
       })
